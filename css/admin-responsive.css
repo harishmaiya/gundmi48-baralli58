@@ -1,0 +1,56 @@
+
+
+@media screen and (max-width:1024px){
+
+.login_form label, .login_opt_link li, .login_opt_link a{
+	color: #fff;
+}
+
+
+}
+
+
+@media screen and (max-width:736px){
+
+
+.login_container {
+    margin: 0 auto;
+    width: 100%;
+}
+#login_page{
+	position: relative;
+	background: url("images/logo/Lighthouse.jpg") repeat scroll 0 0 #000;
+}
+.login_btn, .forgot_btn{
+	float: none !important;
+	margin-bottom: 15px;
+}
+body {
+    line-height: 1;
+    overflow-x: hidden;
+}
+
+
+}
+
+@media screen and (max-width:414px){
+
+.logo_small{
+	width: 85%;
+}
+.logo_small img {
+    width: 100%;
+}
+.login_form label{
+	width: 100%;
+}
+#login_page{
+	height: 680px;
+}
+
+
+
+
+
+}
+

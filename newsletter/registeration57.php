@@ -1,0 +1,1 @@
+<?php $message .= '<p>fdgdfg</p>';  ?>

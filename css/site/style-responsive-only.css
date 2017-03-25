@@ -1,0 +1,5372 @@
+    /* ============================= 1024px ====================== */
+
+    @media (min-width: 1400px) {
+
+.map-areas .similar-listing li {
+    margin: 0 10px;
+    width: 365px;
+}
+
+.map-areas .similar-listing li:nth-child(2n+1){ margin: 0 10px;}
+    }
+
+
+ /* ============================= 1024px ====================== */
+
+
+
+
+
+
+
+
+    /** Responsive CSS **/
+
+
+
+    /* ============================= 1024px ====================== */
+
+    @media (max-width: 1240px) {
+
+        .searching-section{width: 100%}
+
+        .col-md-12.text-center {
+    float: left;
+    text-align: center;
+    width: 100%;
+}
+
+        .brows-loop .browse{position: relative;}
+
+        .checkin-details-right {
+    float: left;
+    width: 100%;
+}
+
+.showlist2.useclas{right: 0}
+
+.checkin-details-left {
+    float: left;
+    width: 100%;
+}
+
+    .icon.icon-question-sign{
+
+        display: none;
+
+    }
+
+    .review-section-area{display: none;}
+
+    .header{position: relative;}
+
+    .calender_comments.map-right{display: none;}
+
+    .photo-pile .matte-media-box{width: 28%;}	
+
+
+
+    .animation-bar{
+
+    	right:35px !important;
+
+    }
+
+    body{
+
+    	overflow-x: hidden;
+
+    }
+
+    li .filter-primary-item input[type="checkbox"]{
+
+    	margin: 32px 0 0;
+
+    }
+
+    .filter-primary-item h5{
+
+    	text-align: left;
+
+    }
+
+    .calender_comments{
+
+    	width: 67%;
+
+    	padding-left: 20px;
+
+    }
+
+.header .container2 .col-md-5 {
+    display: inline-block;
+    float: right;
+    margin: 0;
+    text-align: center;
+width: auto;
+}
+
+    .header .container2 .col-md-7 {float: left; width: auto;}
+    .brows-loop{width: auto;}
+
+
+    .logo {
+        float: left;
+        width: 100%;
+        text-align: center;
+        margin: 0;
+    }
+
+    .logo a img {
+        float: left;
+        margin: 0;
+     width: 200px;
+    }
+
+    .logo a{
+        display: inline-block;
+        float: none;
+         width: 140px;
+    }
+
+        .host-list {
+        padding: 6px 0 6px 20px;
+    }
+
+    .searching-section .container #property_search_form{    width: 93%;}
+.bottom-phone-bg img {
+    float: left;
+    width: 100%;
+}
+.banner-container-bg{display: none;}
+.filters.filters-collapse li.intro-filter h6.linedpads2 {
+    margin: 0;
+    padding: 8px 0 0;
+    width: 100%;
+}
+.clearfix.room-type-group.intro-filter.showlist5 .right-arel {
+    float: left;
+    width: 100%;
+}
+
+.right-arel label span {
+    width: 140px;
+}
+.sliderholder {
+    float: left;
+    margin: 20px 0 0 10px;
+    width: 100%;
+}
+
+.span2.filter-label.left-widt {
+    margin: 0 0 0 19px;
+    width: 100%;
+}
+.sidebar .right-arel {
+    float: left;
+    margin: 0 0 0 20px;
+    width: 100%;
+}
+
+.img-bottom{
+	text-align: left;
+}
+
+
+    }
+
+
+
+
+    /* ============================= 980px ====================== */
+        @media (max-width: 980px) {
+.banner-container-bg{display: none;}
+
+            .listyourspace .home_type label {
+    margin: 0 0 0 23px;
+    text-align: left;
+}
+
+
+
+.tips-text {
+    color: #9c9c9c;
+    float: left;
+
+    width: 68%;
+    padding: 0 0 0 11px;
+}
+            .profile-edit div.notification_section label {
+    color: #565a5c;
+    float: left;
+    font-family: Circular,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    padding: 8px 10px 0;
+    text-align: left;
+    width: 97%;
+}
+
+#profile_settings_form ul li{text-align: left;}
+
+            .map-footer , .footer-toggle{display: none;}
+.container2.renter22 .col-md-6.rightlog {
+    float: left;
+    padding: 0;
+    width: 53%;
+}
+
+.container2.renter22 .col-md-6.leftlog {
+    float: left;
+    padding: 0;
+    width: 47%;
+}
+
+        .host-section .col-md-4{float: none; display: inline-block;  width: 46%; margin-bottom: 20px;}
+
+.host-section{float: none; display: inline-block; text-align: center;}
+
+
+.searching-section input.where {
+    width: 30%;
+}
+
+select.home_select{width: 98px;}
+.searching-section input.fom-subm{/* float: right; */ width: 110px}
+.searching-section .container #property_search_form{width: 100%;}
+
+.searching-section input.where {
+    width: 35%;
+}
+
+
+        }
+
+    /* ============================= 768px ====================== */
+
+
+
+    @media (max-width: 768px){
+
+
+
+        #account input.updatepaswd {
+    margin: 10px 0 0 9px;
+}
+
+        .about-titl .list-paging{width: 100%;}
+        a.request-trip{margin: 10px 0 0 0}
+    .map-search {
+        border-top: 1px solid #d0d0d0;
+        bottom: 0;
+        float: left;
+        left: 0;
+        position: static;
+        right: 0;
+        top: 58px;
+        width: 100%;
+    }
+
+    .left_side_bottom a{float: left;}
+
+    .container {    width: 100%;}
+
+.header .container2 .col-md-7 {
+    display: inline-block;
+    float: left;
+    text-align: center;
+   /*  width: 100%; */
+}
+
+.logo-container {
+    display: inline-block;
+    float: left;
+    text-align: center;
+    width: 100%;
+}
+
+
+    .text-center {
+
+        display: inline-block;
+
+        float: left;
+
+        text-align: center;
+
+        width: 100%;
+
+    }
+
+
+
+    .host-list {
+
+        display: inline-block;
+
+        float: none;
+
+        margin: 0 30%;
+
+        padding: 6px 0;
+
+        text-align: center;
+
+        width: auto;
+
+    }
+
+    .devlop-link {
+
+
+
+        padding: 1px 0 30px;
+
+        width: 100%;
+
+    }
+
+
+
+    .footer-bg .col-md-4.inputfoot{
+
+        float: left;
+
+        width: 33%;
+
+    }
+
+    .footer-bg .col-md-3{
+
+        float: left;
+
+        width: 23%;
+
+    }
+
+
+
+    .footer-bg .col-md-2{
+
+        float: left;
+
+        width: 20%;
+
+    }
+
+
+
+
+
+
+
+
+
+    .dashboard_links li{    margin-left: 30px;}
+
+    .home_type_field{ width: 95%;}
+
+    .listyourspace .home_type label{text-align: left; margin: 0 0 0 23px;}
+
+    .listyourspace .city_type label{text-align: left; margin: 0 0 0 23px;}
+
+    .dashboard .box .middle {
+
+        float: left;
+
+        width: 97%;
+
+    }
+
+
+
+    .dashboard .box {
+
+        float: left;
+
+        width: 97%;
+
+    }
+
+    .profile-edit #account select.mnths {
+
+        float: left;
+
+        width: 100px;
+
+    }
+
+
+
+.phone-number-verify-widget {
+    margin: 10px 15px 20px;
+    float: left;
+}
+
+    .left-img-container img {
+
+        border-radius: 0;
+
+        width: 100%;
+
+    }
+
+
+
+    .showlist2.useclas{ right: -25px;}
+
+    .browsefriendsbannner .main-text {
+
+        top: 5%;
+
+    }
+
+
+
+    .photo-pile .matte-media-box {
+
+        margin: 23px 28px;
+
+        width: 42%;
+
+    }
+
+
+
+    #dashboard #left{   width: 30%;}
+
+    .dash-home #dashboard #main{ width: 69%;}
+
+
+
+    .map {
+
+        border-right: 1px solid #d0d0d0;
+
+        bottom: 0;
+
+        display: block ;
+
+        float: left;
+
+        left: 0;
+
+        position: inherit;
+
+        top: 98px;
+
+        width: 100% ;
+
+    }
+
+
+
+    .host-list {
+
+        margin: 0 10%;
+
+        padding: 6px 0;
+
+        width: auto;
+
+    }
+
+
+
+    .host-list li{   margin: 0;
+
+        padding: 0 0 0 13px;}
+
+
+
+    .host-section .col-md-4 {
+
+          float: left;
+
+        width: 33.3333%;
+
+    }
+
+
+
+    .home_type_field_btn li{  padding: 20px 8px 12px;}
+
+    .listyourspace .accommodates_type label{   padding: 0 0 0 20px; text-align:left;}
+
+
+
+    .header .container2 .col-md-5{padding: 0}
+
+    .popular-listing .figures-cobnt{  height: 237px;}
+
+    .navbar .navbar-inner{
+
+        padding: 6px 0;
+
+    }
+
+    .photo-pile .matte-media-box {
+
+        width: 42%;
+
+    }
+
+    ._pm_container a.upload-photo span{font-size: 12px;}
+
+    #listings-container{ padding: 26px 10px 0;}
+
+    ul.listings .listing .listing-info{ width: 41%;}
+
+    .left_side{width:30%;}
+
+    .right_side{width:70%;}
+
+    .manage_listing-right .calender_bottom_block .calender_detail {
+
+        padding: 0;
+
+    }
+
+    .calender_detail li{
+
+        float: none;
+
+        margin-right: 2px;
+
+        padding-left: 0;
+
+        padding-right: 0;
+
+        width: 48%;
+
+    }
+
+    .dashboard_price_right{width:100%;}
+
+    .right_side.nsd {    width: 70%;}
+
+    .widget_content li{ width: 45%;}
+
+    .right_side.address-left + .calender_comments{display: none;}
+
+    .address-left .dashboard_price .dashboard_price_left {
+
+        float: left;
+
+        padding: 0 0 20px;
+
+        width: 100%;
+
+    }
+
+    .profile-edit #account textarea{   width: 60% !important;}
+
+    .left-notic {width: 100%;}
+
+    #account input.conect{ width: 160px !important;}
+
+    .account #privacy { width: 73%;}
+
+    #account div.buttons, #requirements div.buttons {
+
+        float: right;
+
+        padding: 10px;
+
+        text-align: right;
+
+    }
+
+    .ui-dialog.ui-widget.ui-widget-content.ui-corner-all {
+
+        display: block;
+
+        height: auto;
+
+        left: 14% !important;
+
+        position: absolute;
+
+        top: 15% !important;
+
+        width: 70% !important;
+
+        z-index: 1001;
+
+    }
+
+
+
+
+
+    /* ============================= New ====================== */
+
+
+
+    .hme-container li{
+
+    	padding: 0;
+
+    	width: 100%;
+
+    }
+
+    .overlay-text{
+
+    	width: 99%;
+
+    }
+
+    /* ============================= photo-video ====================== */
+
+
+
+
+
+    #account input.blu-btn {
+
+        float: none;
+
+        margin-left: 0 !important;
+
+    }
+
+    #profile_settings_form {
+
+        display: inline-block;
+
+        float: none;
+
+        text-align: center;
+
+        width: 100%;
+
+    }
+
+
+
+
+
+    /* ============================= show ====================== */
+
+
+
+    .confirms{
+
+    	width: 100%;
+
+    	padding: 7px 0 0;
+
+    }
+
+
+
+    .top-bar .span6 {
+
+        width: 67% !important;
+
+    }
+
+
+
+    .priced-rowd {
+
+        float: left;
+
+        width: 46%;
+
+    }
+
+
+
+
+
+
+
+    .map{
+
+    	display: none;
+
+    }
+
+    .sidebar{
+
+    	overflow-y: inherit;
+
+        position: relative;
+
+        right: 0;
+
+        top: 0;
+
+        width: 100%;
+
+    }
+
+    .filter-reald{
+
+    	 text-align: center;
+
+    }
+
+    .filter-btn{
+
+    	display: inline-block;
+
+        float: none;
+
+    }
+
+.map-areas .similar-listing li {
+    float: left;
+    width: 48%;
+}
+input.auto-tet[type="text"] {
+    width: 93%;
+}
+
+.animation-container {
+    position: static;
+}
+
+
+    /* ============================= Detail-page ====================== */
+
+
+
+
+
+
+
+    .banner-container #carousel-example-generic.slide{
+
+    	height: auto ;
+
+    }
+
+    .detail-pgaes.banner-container #carousel-example-generic.slide{height: 400px;}
+
+    .animation-bar {
+
+        display: inline-block;
+
+        float: left;
+
+        left: 0 !important;
+
+        margin: 0;
+
+        position: static !important;
+
+        right: inherit !important;
+
+        top: 0 !important;
+
+        width: 100% !important;
+
+         z-index: -1 !important;
+
+    }
+
+    .listing-menu-left {
+
+        float: left;
+
+        width: 100%;
+
+    }
+
+    .review-section-area .container .center{
+
+    	width: 100% !important;
+
+    }
+
+    .review-section-area .container .slides #side_bar{
+
+    	width: 100% !important;
+
+    }
+
+    .fized-hei-area{
+
+    	height: auto;
+
+    }
+
+    .about-listing{
+
+    	 margin: 0;
+
+    }
+
+    #side_bar ul{
+
+    
+
+    	 width: 100% !important;
+		 
+		 margin: 0px !important;
+
+    }
+
+    .detail-middle .col-md-4{
+
+    	float: none;
+
+        width: auto;
+
+    }
+
+
+
+    .popular-listing .img-bottom{
+
+    	width:100%;
+
+    }
+
+.brows-loop{display: none;}
+
+.inpt-head-place {
+    display: inline-block;
+    float: none;
+    width: 90%;
+}
+
+.navbar-inner .brows-loop {
+    display: inline-block;
+    float: none;
+    margin: 0;
+    padding: 6px 0 0 10px;
+}
+
+.nav-collapse .nav > li {
+    display: inline-block;
+    float: none;
+}
+
+.navbar .nav {
+    float: right;
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+}
+
+.brows-loop .browse {
+    display: inline-block;
+    float: none;
+}
+
+.listing-menu-left {
+    float: right;
+    width: 72%;
+}
+    .listing-menu-right {
+        float: left;
+        width: auto;
+    }
+
+    .left-img-container {
+        background: #ccc none repeat scroll 0 0;
+        float: left;
+        width: 93%;
+    }
+
+    .left_side_bottom {
+        float: left;
+        width: 100%;
+    }
+
+    .left_side_bottom a {
+        margin: 10px 0 10px 21px;
+        padding: 11px 35px;
+    }
+
+    div.sort-header #listings-filter {    padding: 15px 10px;}
+.propety-feature li{float: none;}
+
+
+#trips .section.notification_section .notification_area {
+    border: medium none;
+    margin: 0;
+    overflow: auto;
+    padding-left: 30px;
+    width: 100%;
+}
+
+
+
+.fb-sect{text-align: center;}
+
+
+.fb-sect label {
+    color: #605f5f;
+    float: none;
+    font-family: Circular,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    display: inline-block;
+    font-size: 14px;
+    padding: 0;
+}
+
+.fbids {
+    float: none;
+    width: 90px;
+    display: inline-block;
+    margin: 0px 0 -5px 0;}
+	
+	
+.over-view-details-left {
+    height: auto;
+    width: 27%;
+}
+	
+#Bookingno{
+	display: inline-block;
+    padding-top: 3px;
+    text-align: left;
+    width: 50% !important;
+}
+
+.facility_listed li {
+    float: left;
+    width: 100%;
+}
+
+
+header {
+    background: #acaba9 none repeat scroll 0 0;
+    position: static;
+    z-index: 999;
+}
+
+
+a.control_prev, a.control_next {
+    display: none !important;
+}
+
+.map-areas .headlined a{
+	 line-height: 18px;
+}
+
+
+
+
+    }
+
+   /* ============================= 767px (for menu))====================== */
+
+
+    @media (max-width: 767px) {
+
+
+        .bottom-phone-content {
+    margin-left: 0;
+    padding: 30px 0 40px;
+    width: 100%;
+}
+.bottom-phone-bg {
+    display: none;
+    float: left;
+}
+
+.bottom-phone-content-main{position: static;}
+
+        .navbar-inner {
+    float: left;
+    width: 100%;
+}
+
+
+
+.searching-section input.sbt-btn{}
+
+
+.searching-section input.sbt-btn {
+    background: #ff5a5f none repeat scroll 0 0;
+    border: medium none;
+    color: #fff;
+    display: inline-block;
+    float: none;
+    font-size: 16px;
+    height: 43px;
+    margin: 0 0 0 -10px;
+    width: 14%;
+}
+
+input.search-text {
+    display: inline-block;
+    float: none;
+    height: 43px;
+    width: 70%;
+}
+
+.searching-section input.where[type="text"]{
+    width: 100%;
+    float: left;
+       border-bottom: 1px solid #ccc;
+}
+
+.searching-section input.chek {
+    background-position: 90% 20px;
+    border-bottom: 1px solid #ccc;
+    width: 100%;
+}
+.searching-section input.chek-in{width: 100%;    background-position: 90% 20px;
+    border-bottom: 1px solid #ccc;}
+select.home_select{width: 100%}
+.searching-section input.fom-subm{float: none; display: inline-block; width: 200px;}
+
+.mobilform select.home_select {
+    border-bottom: 1px solid #ccc;
+    width: 100%;
+}
+
+.searching-section .container #property_search_form{border-radius: 0}
+
+.searching-section input.chek{   text-indent: 0;}
+.searching-section input.chek-in{   text-indent: 0;}
+
+        header {
+    background: #acaba9;
+    position: static;
+    z-index: 999;
+}
+
+        .navbar .navbar-inner {
+    display: inline-block;
+    padding: 0;
+    text-align: center;
+}
+
+.container2.renter22 .col-md-6.leftlog{width: 100%;}
+        .container2.renter22 .col-md-6.rightlog{width: 100%;}
+
+
+    .nav #broswe_box1 #showlist_test{   margin: -14px 5px 0 !important;}
+
+        .nav-collapse.navbar-collapse .nav{float: left; width: 100%}
+
+        .navbar-collapse.my-nav #broswe_box1{float: left; width: 100%} 
+
+        .browse_di {
+
+        float: left;
+
+        margin: 0;
+
+        padding: 10px 0;
+
+        text-align: left;
+
+        width: 100%;
+
+    }
+
+    .nav > li:last-child {
+
+        float: left;
+
+        margin: 0 0 0 17px;
+
+        width: 100%;
+
+    }
+
+
+
+    .showlist3 {
+
+        position: relative;}
+
+
+
+    .showlist3 {
+
+        display: block !important;
+
+        left: -70px;
+
+        position: inherit;
+
+        right: auto;
+
+    }
+
+    .header .container2 .col-md-7 {
+
+        float: left;
+
+        width: 100%;
+
+    }
+
+    .nav > li:last-child{margin: 0}
+
+    .navbar .nav > li > a.request-trip{width: 72%;
+
+    }
+
+
+
+    .header .container2 .col-md-5 {
+
+        display: inline-block;
+
+        float: left;
+
+        padding: 0;
+
+        text-align: center;
+
+        width: 100%;
+
+    }
+
+    .nav #broswe_box1 #showlist_test{border: 1px solid}
+
+    .header .container2 .col-md-5 .navbar{
+
+        display: inline-block;
+
+        margin: 0;
+
+        width: 90%;
+
+    }
+
+
+
+    #broswe_box1 a {
+
+        float: left;
+
+        height: auto !important;
+
+        overflow: hidden;
+
+        padding: 17px 0 0;
+
+        width: 95%;
+
+    }
+
+
+
+    .navbar .btn-navbar {
+
+        background: none repeat scroll 0 0 #565a5c;
+
+        border-radius: 1px !important;
+
+        box-shadow: 0 0 13px 0 #262a2c inset;
+
+        display: inline-block;
+
+        float: none;
+
+        text-align: left;
+
+        width: 240px;
+
+    }
+
+    .navbar .btn-navbar span{
+
+        float: left;
+
+        font-size: 15px;
+
+        font-weight: normal;
+
+    }
+
+
+
+    .resp-menu{
+
+        background: url("../../images/menu.png") no-repeat scroll 0 0 / 100% auto rgba(0, 0, 0, 0);
+
+        float: right;
+
+        height: 15px;
+
+        width: 20px;
+
+    }
+
+
+
+    .navbar .btn-navbar:hover{    background: none repeat scroll 0 0 rgba(0, 0, 0, 0.8);}
+
+    .brows-loop .browse {
+        position: relative;
+
+        float: right;}
+
+    .showlist3 {
+
+        display: block !important;
+
+        float: left;
+
+        left: auto;
+
+        position: inherit;
+
+        right: 0;
+
+        text-align: left;
+
+        top: 10px;
+
+        width: 103%;
+
+    }
+
+    .navbar-collapse.my-nav .nav{
+
+        border: 1px solid #ccc;
+
+        float: left;
+
+        margin: 10px 0 0;
+
+        padding: 10px;
+
+        width: 100%;
+
+    }
+
+    .nav-collapse .nav > li{
+
+        float: left;
+
+        text-align: left;
+
+        width: 100%;
+
+    }
+
+    .nwsd.ard{
+
+        position: absolute;
+
+        right: 60px;
+
+        top: 11px;
+
+        z-index: 999;
+
+    }
+
+    .navbar .nav > li > a{    color: #131313 !important;}
+
+    .navbar .nav > li > a.request-trip{color: #fff !important}
+
+    .navbar-collapse.my-nav{position: relative;}
+
+    #broswe_box1 .caret {
+
+        float: right;
+
+        margin: 14px 3px 8px;
+
+    }
+
+    .brows-loop {
+
+        color: #131313;
+
+        float: left;
+
+        font-size: 13px;
+
+        margin: 0;
+
+        padding: 8px 0 0;
+
+        position: relative;
+
+        text-align: left;
+
+        width: 90%;
+
+    }
+
+  .brows-loop .browse {
+    float: left;
+    padding: 0 0 6px 4px;
+    position: relative;
+    width: 100%;
+    color: #404040;
+}
+
+    .lins-ares{float: left;}
+
+    .showlist2.useclas {
+
+        display: block;
+
+        float: left;
+
+        margin: 10px 0 0;
+
+        position: static;
+
+        width: 100%;
+
+    }
+
+    .relative-holder .searching-section{overflow: visible;}
+
+    .nav-collapse .browse .caret {
+
+        margin: 9px 25px 0 8px;
+
+    }
+
+    .logo-container .brows-loop{display: none;}
+
+    .inpt-head-place{float: right;}
+
+    .row > .span1, .row > .span2, .row > .span3, .row > .span4, .row > .span5, .row > .span6, .row > .span7, .row > .span8, .row > .span9, .row > .span10, .row > .span11, .row > .span12{margin-left: 0}
+
+    .top-bar .top-right-container {
+
+        float: left;
+
+        padding: 38px 30px 0 28px;
+
+        width: auto;
+
+    }
+
+        .navbar .btn-navbar .icon-bar{
+
+        float: right !important;
+
+        background:url('../../images/menu-bar.png') no-repeat !important;
+
+        width:28px !important;
+
+        height:20px !important;
+
+        border:none !important;
+
+        box-shadow:none !important;
+
+    }
+
+    .banner-container-bg{height: auto;}
+
+
+.searching-section .container #property_search_form{width: 100%}
+.banerpop .modal-body {
+    display: inline-block;
+    width: 100%;
+}
+
+.mobile-selecbox{display: block;}
+
+
+#property_search_form.webform{
+    display: none;
+}
+
+.carousel-control.left{left: 0;  z-index: 100; font-size: 28px;}
+.carousel-control.right{right: 10px;  z-index: 100; font-size: 28px;}
+
+
+
+
+    }
+
+
+    /* ============================= 736px ====================== */
+
+
+
+    @media (max-width: 736px){
+
+.animation-container {
+    position: static;
+}
+.popular-listing{padding: 0}
+.login-list-cont li input{float: left; width: 53% }
+
+
+#credit_card_form .login-list-cont li textarea{float: left; width: 53% !important}
+
+        .profile .tabbable-line > .nav-tabs > li:first-child {
+        margin: 0 30px 0 0;
+    }   
+
+    .edit a{font-size: 10px;}
+
+
+    .photo-pile .matte-media-box {    margin: 23px 4%;}
+
+    .learn-more-about-hosting-page .how-it-box .how-top-box {
+
+        padding: 0 10px;
+
+    }
+
+
+
+    .adva-icon {    text-align: left;}
+
+    .bok-area span{width: 100%}
+
+    input.cnt-bx[type="text"]{width: 100%}
+
+
+
+    #dashboard #left {
+
+        clear: both;
+
+        float: none;
+
+        margin: 0 auto;
+
+        width: 50%;
+
+    }
+
+
+
+    .dash-home #dashboard #main {
+
+        width: 100%;
+
+    }
+
+
+
+    #dashboard #main.dashboard-right .middle{width: 100%}
+
+    div.notification_section .notification_area{ width: 99%;}
+
+    #account input.conect {
+
+        width: 150px !important;
+
+    } 
+
+
+
+
+
+    /* ============================= New ====================== */
+
+
+
+    #carousel-example-generic{
+
+    	height: 250px ;
+
+    }
+
+    #carousel-example-generic .carousel-inner .item{	
+
+    	height: 250px ;
+
+    }
+
+    #carousel-example-generic .carousel-inner .item .content-section{
+
+    	height: 250px;
+
+    }
+
+    .banner-container .col-md-12{
+
+    	padding:0px;
+
+    }
+
+    .navbar .btn-navbar {
+
+    	width:99%;
+
+    }
+
+    .hidden-xs{
+
+    	display: block !important;
+
+    }
+
+    .main-text{
+
+    	 top: 26%;
+
+    }
+
+   .searching-section {
+    bottom: 0;
+    margin: 0 auto;
+    padding: 25px 0;
+    position: absolute;
+    top: auto;
+}
+    #property_search_form{
+
+    	padding:0px;
+
+    }
+
+    select.home_select{
+
+    	width: 119px;
+
+    }
+
+    .navbar-inner .brows-loop{display: block;}
+
+    .logo-container .brows-loop{display: none;}
+
+    #dashboard #left{
+
+    	width: 100%;
+
+    }
+
+
+
+    /* ============================= photo-video ====================== */
+
+
+
+
+
+    #account input.blu-btn {
+
+        float: none;
+
+        margin-left: 0 !important;
+
+    }
+
+    #profile_settings_form {
+
+        display: inline-block;
+
+        float: none;
+
+        text-align: center;
+
+        width: 100%;
+
+    }
+
+
+
+
+
+    .top-bar .span6 {
+
+        width: 96% !important;
+
+    }
+
+    .wishlist-header-badge.one-line {
+
+        display: inline-block;
+
+        float: none;
+
+        padding: 0;
+
+        text-align: center;
+
+        width: 100%;
+
+    }
+
+    .wishlist-header-badge h1{
+
+    	width:100%
+
+    }
+
+    h1.users-counts{
+
+    	padding: 10px 0;
+
+        width: 100%;
+
+    }
+
+    .top-bar .top-right-container{
+
+    	text-align: center;
+
+        width: auto;
+
+    }
+
+    .position-right {
+
+        float: none;
+
+    }
+
+
+
+    li .filter-primary-item input[type="checkbox"]{
+
+    	margin: 32px 0 0;
+
+    }
+
+    .right-arel {
+
+        float: right;
+
+        width: 100%;
+
+    }
+
+    .filter-primary-item h5{
+
+    	text-align: left;
+
+    }
+
+    .detail-middle .col-md-8{
+
+    	width:100% !important;
+
+    }
+
+
+
+
+    .searching-section input.where[type="text"] {
+        font-size: 14px;
+            text-overflow: ellipsis;
+    }
+
+    .hme-container li a{height: auto;}
+
+    .host-section .col-md-4 {
+        float: none;
+      width: 300px;
+        display: inline-block;
+    }
+
+
+    .host-section {
+        float: left;
+        width: 100%;
+        display: inline-block;
+        text-align: center;
+    }
+
+    .host-list li { padding: 0 0 0 53px;}
+    .devlop-link {
+        padding: 1px 0 30px;
+        width: 100% !important;
+        background: none;
+    }
+
+    .image-shadow{background-size: 100% auto;   top: 2px;}
+    .bottom-section{display: none;}
+
+    .sidebar .right-arel {
+        float: left;
+        padding: 0 0 0 20px;
+        width: 100%;
+    }
+
+    .fraet-exp-section ul > li {
+    margin-bottom: 43px;
+    padding: 0;
+}
+
+.inpt-head-place {
+    float: right;
+    text-align: center;
+    width: 100%;
+}
+
+input.auto-tet[type="text"] {
+    color: #000;
+    display: inline-block;
+    float: none;
+}
+
+.navbar .btn-navbar {
+    margin: 9px 0;
+    width: 98%;
+}
+
+.searching-section input.where[type="text"]{
+	border-top:1px solid #ccc;
+	border-right:1px solid #ccc;
+	border-left:1px solid #ccc;
+	border-bottom:none;
+}
+.searching-section input.chek{
+	border-top:1px solid #ccc;
+	border-right:1px solid #ccc;
+	border-left:1px solid #ccc;
+	border-bottom:none;
+}
+.searching-section input.chek-in{
+	border-top:1px solid #ccc;
+	border-right:1px solid #ccc;
+	border-left:1px solid #ccc;
+	border-bottom:none;
+}
+.mobilform select.home_select{
+	border:1px solid #ccc;
+}
+
+
+.payoutprefer .modal-content{
+	height: 250px;
+	overflow: auto;
+}
+
+
+
+    }
+
+
+
+
+
+    /* ============================= 667px ====================== */
+
+
+
+
+
+    @media (max-width: 667px){
+
+.per_amount_scroll {
+    margin: 0 0 0 4px;
+}
+
+        .footer-bg .col-md-4.inputfoot {
+
+        float: left;
+
+        width: 46%;
+
+    }
+
+    .footer-bg .col-md-3 {
+
+        float: left;
+
+        padding-bottom: 22px;
+
+        padding-top: 4px;
+
+        width: 46%;
+
+    }
+
+    .popular-listing { padding: 0;}
+
+    .animation-bar {
+
+        float: left;
+
+        margin: 0;
+
+        position: static !important;
+
+        right: 0 !important;
+
+        width: 353px;
+
+        z-index: 99;
+
+    }
+
+
+
+    .fized-hei-area { height: auto;}
+
+    .tips-text {
+
+        color: #9c9c9c;
+
+        float: right;
+
+        font-family: opensansregular;
+
+        font-size: 13px;
+
+        line-height: 20px;
+
+        margin: 0 25px 10px 20px;
+
+        width: 92%;
+
+    }
+
+    #account input.blu-btn{
+
+        margin-left: 0 !important;
+
+    }
+
+    .verify-left {
+
+        float: left;
+
+        width: 97%;
+
+    }
+
+    .left-sided {
+
+        float: left;
+
+        width: 97%;
+
+    }
+
+    .left-sided + .unstyled {
+
+        float: left;
+
+        width: 94%;
+
+    }
+
+    .section.notification_section .notification_area {
+
+        padding-left: 5px;
+
+    }
+
+    .listyourspace .apart_hide{width: 100%}
+
+    .price-listing .dashboard_price .dashboard_price_left {
+
+        float: left;
+
+        width: 100%;
+
+    }
+
+
+
+    .dashboard_price #pricelist {
+
+        float: left;
+
+        width: 98%;
+
+    }
+
+    .calender_comments{
+
+    	padding-left: 20px;
+
+        width: 97%;
+
+    	display: block;
+
+    }
+
+    .lisdt-area form input[type="file"] {
+
+        cursor: pointer;
+
+        left: 155px;
+
+        opacity: 0;
+
+        position: absolute;
+
+        top: 13px;
+
+        width: 120px;
+
+    }
+
+    .right_side.space-listing .dashboard_price .dashboard_price_left {
+
+        float: left;
+
+        padding: 0;
+
+        width: 96%;
+
+    }
+
+    .right_side.space-listing .dashboard_price_right {
+
+        float: left;
+
+        margin-left: 0;
+
+        padding-left: 0;
+
+        padding-right: 12px;
+
+        width: 100%;
+
+    }
+
+
+
+    /* ============================= New ====================== */
+
+
+
+    .host-section .col-md-4{
+
+    	text-align: center;
+
+    	width: 100%;
+
+    }
+
+    .host-list li{
+
+    	background:none;
+
+    	text-align: center;
+
+    }
+
+    .footer-bg .col-md-4.inputfoot {
+
+        float: left;
+
+        text-align: center;
+
+        width: 100%;
+
+    	padding:0px;
+
+    }
+
+    .country-lop {
+
+        display: inline-block;
+
+        position: relative;
+
+        text-align: center;
+
+        width: 210px;
+
+    }
+
+    .dropdn{
+
+    	width: 99%;
+
+    	left: 0;
+
+    }
+
+    .footer-bg .col-md-3{
+
+    	padding: 15px 0;
+
+        text-align: center;
+
+        width: 100%;
+
+    }
+
+    .footer-list li a{
+
+    	display: inline-block;
+
+    	float:none;
+
+    }
+
+    .footer-bg .col-md-2 {
+
+        float: left;
+
+        width: 100%;
+
+    	text-align: center;
+
+    }
+
+    .copy-txt p{
+
+    	padding: 25px 0 0;
+
+        text-align: center;
+
+    }
+
+
+
+    .navbar .nav > li > a.request-trip {
+
+        width: 100%;
+
+    }
+
+    .dashboard_links li{
+
+    	 width: 100%;
+
+    	 margin: 10px 0 !important;
+
+    }
+
+
+
+
+
+    /* ============================= List your space ====================== */
+
+
+
+
+
+    .aparthide_right{
+
+    	width: 67%;
+
+    }
+
+    .listyourspace .aparthide_left{
+
+    	padding: 17px 13px 17px 0;
+
+    }
+
+    .listyourspace .aparthide_right strong{
+
+    	width: 95%;
+
+    	line-height: 18px;
+
+    }
+
+    .aparthide_right1 {
+    height: auto;
+    width: 100%;
+}
+
+.listyourspace .apart_hide#citylist1 {
+    width: 93.3%;
+}
+
+    .hme-container li{
+
+    	padding: 0;
+
+    	width: 100%;
+
+    }
+
+    .overlay-text{
+
+    	width: 99%;
+
+    }
+
+    .listyourspace .apart_hide .aparthide_right1 span {
+
+        padding: 11px 0 0 28px;
+
+        width: 100%;
+
+    }
+
+    .left_side {
+
+        width: 100%;
+
+    }
+
+    .left_side_bottom{
+
+    	padding:0px;
+
+    }
+
+    .right_side {
+
+        width: 100%;
+
+    }
+
+    .for_auto_ser ul{
+
+    	 width: 66%;
+
+    }
+
+    .right_side.nsd {
+
+        width: 100%;
+
+    }
+
+
+
+
+
+    /* ============================= dashboard ====================== */
+
+
+
+
+
+    #example-two .list-wrap{
+
+    	width: 100%;
+
+    }
+
+    .dashboard .box{
+
+    	width: 100%;
+
+    }
+
+    .dashboard .box .middle {
+
+        float: left;
+
+        width: 100%;
+
+    }
+
+    .yourlistinghome .dashboard-sidemenu {
+
+        float: left;
+
+        padding: 0 15px;
+
+        width: 100%;
+
+    }
+
+    .yourlistinghome .listiong-areas {
+
+        float: left;
+
+        width: 97%;
+
+    }
+
+    .dashboard-leftmenu {
+
+        float: left;
+
+        padding: 0 15px;
+
+        width: 100%;
+
+    }
+
+    .dashboard-rightmenu {
+
+        float: left;
+
+        width: 97%;
+
+    }
+
+    .trip .subnav{
+
+    	padding: 0 15px;
+
+        width: 100%;
+
+    }
+
+    .current_trips {
+
+        float: left;
+
+        width: 97%;
+
+    }
+
+    .profile-edit .dashboard-sidemenu {
+
+        float: left;
+
+        width: 100%;
+
+    }
+
+    .subnav a.invitefrds{
+
+    	width: 97%;
+
+    }
+
+    .profile-edit .listiong-areas {
+
+        width: 97%;
+
+    }
+
+    .photos .dashboard-sidemenu {
+
+        width: 100%;
+
+    }
+
+    .listiong-areas {
+
+        width: 97%;
+
+    }
+
+    .dashboard-sidemenu {
+
+        float: left;
+
+        width: 100%;
+
+    }
+
+    .emailverify .subnav a.invitefrds {
+
+        width: 97%;
+
+    }
+
+    .account .subnav {
+
+        width: 100%;
+
+    	padding: 0 15px;
+
+    }
+
+    .account #account {
+
+        width: 97%;
+
+    }
+
+    .account #transaction_history {
+
+        width: 96%;
+
+    }
+
+    #productListTable {
+
+        float: left;
+
+        margin: 0;
+
+        width: 100%;
+
+    }
+
+    #productListTable td.paddgns{
+
+    	line-height: 19px;
+
+    }
+
+    .account #privacy {
+
+        width: 97%;
+
+    }
+
+    .subnav li{
+
+    	text-align: center;
+
+    }
+
+
+
+
+
+    .text-center h1.listing-text{
+
+    	line-height: 43px;
+
+    	font-size: 30px;
+
+    }
+
+    #dashboard #left{
+
+    	width: 100%;
+
+    }
+
+
+
+
+
+    /* ============================= learn-more-about-hosting ====================== */
+
+
+
+    .adva-icon, .adva-text h2 {
+
+        text-align: center;
+
+    }
+
+    .advantages-list li{
+
+    	text-align: center;
+
+    }
+
+    .learn-more-about-hosting-page .how-it-box h2 {
+
+        display: inline-block;
+
+        float: none;
+
+    }
+
+    .adva-text p{
+
+    	float: none;
+
+    	text-align: center;
+
+    }
+
+    #content_text li{
+
+    	float: none;
+
+        padding: 10px 36px 10px 0;
+
+        text-align: center;
+
+    }
+
+    #content_text h3{
+
+    	line-height: 28px;
+
+    }
+
+    .contact-space{
+
+    	padding: 0;
+
+    }
+
+    .address-section{
+
+    	padding: 0 0 50px;
+
+    }
+
+    .banner-container.businessbannner{
+
+    	height: 250px;
+
+    }
+
+    .center-space-area{
+
+    	text-align:center;
+
+    }
+
+
+
+
+
+
+
+    /* ============================= Payment Page ====================== */
+
+
+
+    .payment_user{
+
+    	width: 100%;
+
+    }
+
+    .payment_left{
+
+    	width: 100%;
+
+    	padding: 0 0 20px 30px;
+
+    }
+
+    .payment_right{
+
+    	width: 100%;
+
+    	padding: 30px 0 0 30px;
+
+    }
+
+    .TabbedPanelsContentGroup{
+
+    	display: inline-block;
+
+    }
+
+    .dashboard_links {
+
+        float: left;
+
+        margin: 0;
+
+        padding: 40px 25px;
+
+        width: 100%;
+
+    }
+
+    .currency_alert{
+
+    	width:100%;
+
+    }
+
+
+
+
+
+    /* ============================= booking ====================== */
+
+
+
+
+
+    .payment-section1{
+
+    	width: 100%;
+
+    }
+
+
+
+    .namd-space{
+
+    	width:100%;
+
+    }
+
+    .listig-areasli li{
+
+    	margin: 0 26px 40px 0;
+
+    }
+
+    .listig-areasli li img {
+
+        height: auto;
+
+        width: 100%;
+
+    }
+
+    .top-posd{
+
+    	width: 100%;
+
+    }
+
+    .top-posd span {
+
+        float: left;
+
+        width: 100%;
+
+    }
+
+    .listd-right p{
+
+    	text-align: center;
+
+    }
+
+    .adva-icon {
+
+        text-align: center;
+
+    }
+
+
+
+
+
+
+
+    /* ============================= List page ====================== */
+
+
+
+
+
+    .span2.filter-label.linedpad3 {
+
+        display: inline-block;
+
+        margin-bottom: 15px !important;
+
+        width: 100%;
+
+    }
+
+    #amount_pricefilter{
+
+    	width: 100% !important;
+
+    }
+
+    .similar-listing{
+
+    	padding: 0;
+
+    }
+
+    .map-areas .similar-listing li {
+
+        float: left;
+
+        width: 45%;
+
+    	margin: 0 15px 0 10px;
+
+    }
+
+    #side_bar .img-top {
+
+        width: 100% !important;
+
+    }
+
+    .figures-cobnt{
+
+    	width: 100%;
+
+    }
+
+    .figures-cobnt img {
+
+        width: 100%;
+
+    }
+
+    li .filter-primary-item input[type="checkbox"]{
+
+    	margin: 32px 0 0;
+
+    }
+
+    .right-arel {
+
+        float: right;
+
+        width: 100%;
+
+    }
+
+    .filter-primary-item h5{
+
+    	text-align: left;
+
+    }
+
+
+
+    .detail-middle .col-md-8{
+
+    	width:100% !important;
+
+    }
+
+
+    .host-list {
+        margin: 0px;
+        padding: 0;
+        width: 100%;
+        float: left;
+    }
+
+    .host-list li {
+        padding: 0;
+    }
+
+    .devlop-link {
+        background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+        padding: 20px 0 0 0;
+        width: 100% !important;
+        color: #0196E7;
+    }
+
+    .cenralize{  margin: 0 0 20px 0;}
+
+    .payment_right {
+        padding: 40px 30px;
+    }
+    .payment_right > select#cardType {
+        width: 211px !important;
+    }
+	.facility_listed li {
+    float: left;
+    width: 100%;
+}
+	
+.dashboard_apart {
+    float: left;
+    margin-right: 15px;
+    width: 100%;
+}
+
+.payoutprefer .modal-content{
+	height: 218px;
+	overflow: auto;
+}
+
+#inline_reg button.btn.btn-block.btn-primary.large{
+	text-indent: 0;
+}
+
+#inline_reg .banner_signup .popup_facebook{	
+	padding: 5px 16px 12px 35px;
+}
+
+
+
+
+	
+
+    }
+
+
+
+    /* ============================= 600px ====================== */
+
+
+
+
+
+
+
+@media screen and (max-width:600px){
+
+    .modal.wisthlistpopup {
+    width: 60%;
+}
+
+.unread-icon{ right: auto;
+    text-align: center;
+    top: 0;
+    z-index: 9999;
+}
+
+.heading.copncode .span1{display: none;}
+
+.pniw-number-container.clearfix {
+    float: left;
+    margin: 0 8px 0 10px;
+    width: 100%;
+}
+
+#phone_number {
+    width: 70% !important;
+}
+
+.phone-number-input-widget .pniw-number-container .pniw-number-prefix {
+    width: 22%;
+}
+#account h2{padding-left: 8px;}
+
+        .cancelation-text label {
+    width: auto;
+}
+
+.cancelation-text span.WebRupee {
+    float: left;
+    margin: -2px 7px 0 10px;
+}
+
+.payment_right {
+    margin: 20px 0 0;
+    padding: 40px 0 0;
+    width: 100%;
+}
+
+.payment_right input#cardNumber {
+    width: 100% !important;
+}
+
+.payment_right > input#payment-card-security{width: 100% !important}
+
+
+    .tips-text{
+
+    	width: 92%;
+
+    }
+
+    .listing-menu-left {
+
+        float: left;
+
+        width: 100%;
+
+    }
+
+    .pep-name{
+
+    	 width: 100%;
+
+    }
+
+    .listing-pep{
+
+    	float: none;
+
+    }
+
+    .listing-menu-right {
+
+        display: inline-block;
+
+        float: none;
+
+        text-align: center;
+
+        width: 100%;
+
+    }
+
+    .footer-bg .col-md-4{
+
+    	text-align: center;
+
+        width: 100%;
+
+    }
+
+
+
+
+
+    .filters.filters-collapse li.intro-filter h6.linedpads2{float: left; width: 100%}
+    .clearfix.room-type-group.intro-filter.showlist5 .right-arel{float: left; width: 100%}
+    .price_slider {
+        float: left;
+        margin: 0;
+        width: 100%;
+    }
+
+    .clearfix.intro-filter.pricefil > input#amount_pricefilter2 {
+        float: right;
+        text-align: right !important;
+    }
+
+    .ui-slider-horizontal{width: 95% !important}
+ 
+    .payment_right {
+        padding: 40px 30px;
+    }
+    .payment_right > select#cardType, .payment_right input#cardNumber, .payment_right > input#payment-card-security {
+        width: 211px !important;
+    }
+
+
+.profile-edit #account input#phone_number {
+    width: 77% !important;
+}
+
+    }
+
+
+
+    /* ============================= 568px ====================== */
+
+
+
+    @media screen and (max-width: 568px){
+
+        .drop4btn {
+    right: 20px !important;
+}
+        .modal.wisthlistpopup {
+    left: 0;
+    margin: 0;
+    right: 0;
+    width: 99%;
+}
+
+        .detail-pgaes.banner-container #carousel-example-generic.slide {
+    height: 310px;
+}
+
+        .fraet-exp-section ul > li{width: 100%}
+
+
+
+    .home_type_field_btn li img{
+
+    	display:none;
+
+    }
+
+    .listyourspace .home_type_field_btn li span{
+
+    	padding: 0;
+
+    }
+
+    .home_type_field_btn li {
+
+        padding: 20px 8px;
+
+    }
+
+    select.other-opt{
+
+    	padding: 15px 6px;
+
+    	height: 56px !important;
+
+    }
+
+    .accommodates_type_field .appa_icon, .city_type_field .appa_icon{
+
+    	display:none
+
+    }
+
+    .home_type_field_btn  .aparthide_left .appa_icon{
+
+    	display:none
+
+    }
+
+    .listyourspace .aparthide_left {
+
+        padding: 17px 13px;
+
+    }
+
+    .home_type label{
+
+    	width: 95%;
+
+    }
+
+    .home_type_field{
+
+    	margin-left: 10px;
+
+    }
+
+    .listyourspace .apart_hide span{
+
+    	padding:0px;
+
+    }
+
+    .listyourspace .home_type label {
+
+        margin: 0 0 0 13px;
+
+        text-align: left;
+
+    }
+
+    .home_type_field_btn li{
+
+    	 width: 99%;
+
+    }
+
+    .tools{
+
+    	left: -2px;
+
+    }
+
+    select.other-opt{
+
+    	width: 99%;
+		
+		padding: 18px 6px !important;
+
+    }
+
+    .accommodates_type_field {
+
+        float: left;
+
+        margin-left: 10px;
+
+        width: 94%;
+
+    }
+
+    .accommodates_type label{
+
+    	width: 98%;
+
+    }
+
+    select.select-bor{
+
+    	width: 98%;
+
+    }
+
+    .listyourspace .city_type label{
+
+    	 margin: 0 0 0 18px;
+
+    }
+
+    .city_type_field {
+
+        float: left;
+
+        margin-left: 10px;
+
+        width: 93%;
+
+    }
+
+    .listyourspace .city_type_field_btn li{
+
+    	width: 100%;
+
+    }
+
+    .city_type_field .city_type_field_btn li .appa_icon.icon-10 + span {
+
+        float: left;
+
+        width: 100%;
+
+    }
+
+    #cityser{
+
+    	width: 100% !important;
+
+    }
+
+    .aparthide_right {
+
+        background: none repeat scroll 0 0 #fff;
+
+        width: 100%;
+
+        z-index: 9999;
+
+    }
+
+    .listyourspace .aparthide_left {
+
+        border-right: medium none navy;
+
+        padding: 17px 13px;
+
+        width: 100%;
+
+    }
+
+    .aparthide_left_arrow{
+
+    	display:none
+
+    }
+
+    .listyourspace .apart_hide{
+
+    	height: auto;
+
+    }
+
+    .home_type_field_btn li a{
+
+    	 display: inline-block;
+
+        width: 100%;
+
+    }
+
+    .home_type_field_btn{
+
+    	position:relative;
+
+    }
+
+    #homelist8{
+
+    	 top: 62px;
+
+    }
+
+    #homelist9{
+
+    	top: 124px;
+
+    }
+
+    #homelist11{
+
+    	top: 62px;
+
+    }
+
+    .listyourspace .accommodates_type_field_btn li{
+
+    	width: 100%;
+
+    }
+
+
+
+
+
+
+
+    .intro-filter.clearfix .control-group input[type="text"]{
+
+    	width: 30%;
+
+    }
+
+    .filter-primary-item.span2 {
+
+        margin-left: 0;
+
+        width: 30%;
+
+    }
+
+
+
+    .banner_signup .popup_facebook{	
+
+    	font-size: 13px;
+
+    }
+
+    .popup_google{
+
+    	background: url("../../images/fb1.png") no-repeat scroll 19px 5px #ff6a6f !important;
+
+    	font-size: 13px;
+
+    }
+
+    .banner_signup .popup_stay{
+
+    	font-size: 12px;
+
+    }
+
+    .filter-primary-item h5{
+
+    	text-align: left;
+
+    }
+
+    li .filter-primary-item input[type="checkbox"]{
+
+    	margin: 32px 0 0;
+
+    }
+
+    .right-arel {
+
+        float: right;
+
+        width: 100%;
+
+    }
+.modal.wisthlistpopup{width: 90%}
+
+.profile-edit #account .box {
+    margin-top: 0;
+    overflow: hidden;
+}
+
+.phone-number-input-widget label{    padding: 0 0 6px !important;}
+
+.pniw-number-container.clearfix{margin: 0}
+.phone-number-input-widget .pniw-number-container .pniw-number-prefix {
+    margin-top: 0;
+}
+.profile-edit #account input#phone_number{margin: 0}
+
+#inbox #productListTable {
+    background: #fff none repeat scroll 0 0;
+    max-width: inherit;
+    width: 580px;
+}
+
+.dashboard #inbox.box {
+
+    overflow: auto;
+
+}
+
+.map-areas .similar-listing li{width: 100%;}
+.figures-cobnt {
+    height: auto;
+}
+
+
+
+    }
+
+
+
+    /* ============================= 480px ====================== */
+
+
+
+
+
+    @media  (max-width: 480px) {
+
+        .newstaynest .image-wrapper{width: 100%;}
+
+        .newstaynest .item-categories{width: 100%;}
+.popup_linkedin {
+    background-position:11px 5px;}
+.popup_linkedin{width: 100%;}
+.popup_google{width: 100%;}
+
+
+#myModal-host.myModal-host-new .chekin-list li {
+    width: 91%;
+}
+
+#myModal-host.myModal-host-new  .chekin-list select{width: 100% !important}
+#myModal-host.myModal-host-new .checkout.ui-datepicker-target.hasDatepicker {
+    width: 100%;
+}
+
+#myModal-host .msg-host-form label{padding: 0}
+#myModal-host textarea {
+    width: 90%;
+}
+
+.home_type_field_btn li {
+    width: 100.2%;
+}
+
+
+    }
+
+
+
+    /* ============================= 414px ====================== */
+
+
+
+
+
+
+
+    @media screen and (max-width: 414px){
+	
+	.lisdt-area span {
+    color: #515456;
+    display: inline-block;
+    font-size: 14px;
+    line-height: 21px;
+    margin-bottom: 30px;
+	padding:0px;
+	width:100%;
+}
+	
+	.drop4btn {
+    right: 20px !important;
+}
+	 .banner-container #carousel-example-generic.slide{
+
+    	height: 190px ;
+
+    }
+	
+	.searching-section input.sbt-btn{
+		    margin: 0;
+	}
+
+        .detail-pgaes.banner-container #carousel-example-generic.slide {
+    height: 230px;
+}
+
+        #account .notification_section{
+            padding-bottom: 20px;
+        }
+
+        .profile-edit #account .box {
+    margin-top: 0;
+    overflow: hidden;
+}
+
+        .modal.wisthlistpopup{width: 90%}
+
+        #account input, #account select, #account textarea {
+    margin: 10px 8px 0 0;
+}
+
+#account input[type="checkbox"]{float: left;  margin: 2px 8px 0 9px;}
+div.notification_section .unstyled label{float: left;}
+
+        .next {
+    right: 10px; top: 40%;
+}
+
+.prev {
+    left: 10px; top: 40%;
+}
+
+.banner-container.detail-pgaes  #carousel-example-generic  {
+    height: 190px ;
+}
+
+    .map-areas .similar-listing li {
+      float: left;
+      margin: 0 15px 0 10px;
+      width: 98%;
+    }
+    .figures-cobnt{height: auto;}
+
+    .detail-middle{float: left; width: 100%}
+
+    .main-text {
+
+        top: 15%;
+
+    }
+
+    .text-center h1, .text-center h3{
+
+    	display:none;
+
+    }
+
+
+
+    .main-text {
+
+        top: 0;
+
+    }
+
+    .hme-container li a{
+
+    	height: auto;
+
+    }
+
+    .overlay-text{
+
+    	padding: 89px 0 0;
+
+    }
+
+
+
+    .payment_method_paypal{
+
+    	padding-left: 0;
+
+    	padding-top: 40px;
+
+    }
+
+    .payment_agree .btn.green{
+
+    	float: left !important;
+
+    }
+
+
+
+    /* ============================= booking ====================== */
+
+
+
+
+
+    .payment-section1{
+
+    	width: 100%;
+
+    }
+
+.over-view-details-left {
+    display: inline-block;
+    float: none;
+    width: 68%;
+	height: 182px;
+}
+.over-view-details{
+	text-align: center;
+}
+.over-view-details-right{
+	padding: 2px 0;
+}
+.over-view-details-left > img {
+    float: none;
+    height: 100%;
+    width: 100%;
+}
+
+.over-view-details-right {
+    text-align: left;
+    width: 100%;
+}
+
+
+    .login-list-cont li span{
+
+    	width: 97%;
+
+    }
+
+    .login-list-cont li input{
+
+    	width: 91%;
+
+    }
+
+    .login-list-cont li select{
+
+    	width: 91%;
+
+    }
+
+    .login-list-cont li.caling-area input {
+
+        width: 73%;
+
+    }
+
+
+
+
+
+
+
+    /* ============================= dashboard ====================== */
+
+
+
+
+
+
+
+    #dashboard #left {
+
+    	width: 100%;
+
+    }
+
+    .yourlisting .top-listing-head #nav li{
+
+    	text-align: center;
+
+        width: 100%;
+
+    }
+
+    .yourlisting .top-listing-head #nav li a{
+
+    	display: inline-block;
+
+    	padding: 8px 2px;
+
+    	float:none;
+
+    }
+
+    ._pm_container a.upload-photo span{
+
+    	float:none;
+
+    	display: inline-block;
+
+    }
+
+    ._pm_container a.upload-photo i{
+
+    	float:none;
+
+    	display: inline-block;
+
+    }
+
+    ._pm_container a.upload-photo{
+
+    	padding: 13px 0;
+
+    	display: inline-block;
+
+        float: none;
+
+        text-align: center;
+
+    }
+
+    .dash-home #dashboard #main {
+
+        width: 100%;
+
+    	margin-left: 0;
+
+    }
+
+
+
+
+
+    /* ============================= listing ====================== */
+
+
+
+
+
+    #listings-container .image{
+
+    	height: auto;
+
+        overflow: hidden;
+
+        width: 100%;
+
+    }
+
+    ul.listings .listing .image img{
+
+    	 height: auto;
+
+        padding: 3px;
+
+        width: 100%;
+
+    }
+
+    ul.listings .listing .listing-info {
+
+        margin: 0;
+
+        text-align: center;
+
+        width: 100%;
+
+    }
+
+    .activation-notification {
+
+        display: inline-block;
+
+        float: none;
+
+        text-align: center;
+
+        width: 100%;
+
+    }
+
+    #listings-container .listing-criteria-header-message {
+
+        margin-top: 13px;
+
+        text-align: center;
+
+    }
+
+
+
+    /* ============================= listing-reservation ====================== */
+
+
+
+
+
+    .resrev #productListTable{
+
+    	margin:0px;
+
+    }
+
+    .dashboard .box {
+
+        overflow: auto;
+
+        width: 100%;
+
+    }
+
+    .dashboard-rightmenu{
+
+    	width: 100%;
+
+    }
+
+    .dashboard .box .middle{
+
+    	margin: 0;
+
+    }
+
+    #productListTable{
+
+    	background: none repeat scroll 0 0 #ffffff;
+
+        border: 1px solid #dcdcdc;
+
+    }
+
+    .resrev #productListTable {
+
+        margin: 0;
+
+    }
+
+    .save-social{
+
+    	float:none;
+
+    }
+
+    .resr-req .panel-footer{
+
+    	text-align: center;
+
+    }
+
+    #trips .section.notification_section .notification_area{
+
+    	padding-left: 10px;
+		text-align: center;
+    width: 98%;
+
+    }
+
+    #account input, #account select, #account textarea {
+
+        margin: 10px 0 0;
+
+    }
+
+    #trips .notification_area input[type="text"]{
+
+    	width: 97%;
+
+    }
+
+
+
+
+
+    /* ============================= Profile-page ====================== */
+
+
+
+
+
+    #account .box{
+
+    	margin-top: 20px !important;
+
+    }
+
+    .profile-edit .listiong-areas {
+
+        width: 99%;
+
+    }
+
+    #profile_settings_form {
+
+        float: left;
+
+        width: 100%;
+
+    }
+
+    #div-form ul li {
+
+        float: left;
+
+        padding: 0 15px;
+
+        width: 100%;
+
+    }
+
+    .profile-edit div.notification_section label{
+
+    	text-align: left;
+
+        width: 100%;
+
+    }
+
+    .profile-edit #account input, .profile-edit #account select, .profile-edit #account textarea{
+
+    	margin-left: 0;
+
+    }
+
+    .tips-text {
+
+        float: left;
+
+        margin: 0;
+
+        text-align: left;
+
+        width: 99%;
+
+    }
+
+    .profile-edit #account input, .profile-edit #account select, .profile-edit #account textarea{
+
+    	width: 99% !important;
+
+    }
+
+    .profile-edit #account select.gends {
+
+        width: 99%;
+
+    }
+
+    .profile-edit #account select.mnths{	
+
+    	margin-right: 10px;
+
+    }
+
+    .profile-edit #account select.mnths2{
+
+    	 margin-right: 10px;
+
+    }
+
+    .phone-number-verify-widget {
+
+        margin: 10px 0;
+
+        width: 100%;
+
+    }
+
+    .phone-number-input-widget {
+
+        float: left;
+
+        width: 100%;
+
+    }
+
+    .profile-edit #account select#phone_country {
+
+        margin: 0 0 9px;
+
+        width: 100%;
+
+    	height: 39px;
+
+    }
+
+    .phone-number-input-widget label{
+
+    	width: 100% !important;
+
+    }
+
+    .phone-number-input-widget .pniw-number-container .pniw-number-prefix{
+
+    	margin-top:10px;
+
+    }
+
+    .profile-edit #account input#phone_number{
+
+    	width: 75% !important;
+
+    }
+
+    .profile-edit #account textarea{
+
+    	width:100% !important;
+
+    }
+
+    span.no-numbr{
+
+    	padding: 7px 0 0;
+
+        width: 100%;
+
+    }
+
+    .profile-edit #account select.mnths {
+
+        float: left;
+
+        width: 88px;
+
+    }
+
+    .inner_language{
+
+    	width: 100%;
+
+    }
+
+
+
+
+
+
+
+    /* ============================= photo-video ====================== */
+
+
+
+
+
+    #account input.blu-btn {
+
+        float: none;
+
+        margin-left: 0 !important;
+
+    }
+
+    #profile_settings_form {
+
+        display: inline-block;
+
+        float: none;
+
+        text-align: center;
+
+        width: 100%;
+
+    }
+
+    .img-left-section {
+
+        display: inline-block;
+
+        float: none;
+
+        margin: 10px 0;
+
+        width: 100%;
+
+    }
+
+    .img-right-section {
+
+        display: inline-block;
+
+        float: none;
+
+        text-align: center;
+
+        width: 100%;
+
+    }
+
+
+
+
+
+    /* ============================= profile page ====================== */
+
+
+
+
+
+    .namd-space{
+
+    	width: 100%;
+
+    }
+
+    .listig-areasli li{
+
+    	margin: 10px 0;
+
+    	width: 100%;
+
+    }
+
+    .listig-areasli li img {
+
+        height: auto;
+
+        width: 100%;
+
+    }
+
+    .listig-areasli .view-texts {
+
+        margin: 0 0 20px;
+
+    }
+
+    .reviwprofile .reviw-count{
+
+    	text-align: left;
+
+    }
+
+    .summar-text{
+
+    	width: 100%;
+
+    }
+
+    .reviwprofile .peps{
+
+    	width: 100%;
+
+    }
+
+    .reviwprofile .listd-right {
+
+        float: left;
+
+        padding: 12px 0 0;
+
+        width: 100%;
+
+    }
+
+    .reviwprofile .review-summary .listd-right p{
+
+    	text-align: center;
+
+    }
+
+    .view-texts{
+
+    	text-align: center;
+
+    }
+
+
+
+    /* ============================= account ====================== */
+
+
+
+
+
+    .notification_area .sideg p{
+
+    	width: 100%;
+
+    }
+
+    .right-acnt{
+
+    	width: 100%;
+
+    }
+
+    #account input, #account select, #account textarea {
+
+        margin: 10px 8px 0 9px;
+
+    }
+
+    div.notification_section .right-acnt label{
+
+    	padding: 0;
+
+    }
+
+
+
+    /* ============================= account-security ====================== */
+
+
+
+    .password-fields td input{
+
+    	width: 170px !important;
+
+    }
+
+
+
+
+
+    /* ============================= account-setting ====================== */
+
+
+
+    #country{
+
+    	width:225px !important;
+
+    }
+
+    .top-posd{
+
+    	top: 63px;
+
+        width: 100%;
+
+    }
+
+
+
+
+
+
+
+    /* ============================= popular ====================== */
+
+
+
+    .popular-listing li {
+
+        float: left;
+
+        width: 100%;
+
+    }
+
+    .popular-listing .figures-cobnt {
+
+        height: 190px;
+
+    }
+
+
+
+    .photo-pile .matte-media-box {
+
+        margin: 8px 0;
+
+    	width: 100%;
+
+    }
+
+    .top-bar .span6 {
+
+        width: 96% !important;
+
+    }
+
+    .wishlist-header-badge.one-line {
+
+        display: inline-block;
+
+        float: none;
+
+        padding: 0;
+
+        text-align: center;
+
+        width: 100%;
+
+    }
+
+    .wishlists-container .matte-media-box {
+
+        float: none;
+
+        margin: 10px 0;
+
+        position: relative;
+
+    }
+
+    .wishlist-header-badge h1{
+
+    	width:100%
+
+    }
+
+    h1.users-counts{
+
+    	padding: 10px 0;
+
+        width: 100%;
+
+    }
+
+    .top-bar .top-right-container{
+
+    	text-align: center;
+
+        width: auto;
+
+    }
+
+    .position-right {
+
+        float: none;
+
+    }
+
+    .wist-tiles{
+
+    	float: none;
+
+    }
+
+    .wish-area-right {
+
+        display: inline-block;
+
+        float: none;
+
+        text-align: center;
+
+        width: 100%;
+
+    }
+
+    .wish-area-top{
+
+    	text-align: center;
+
+    }
+
+    .mobile-stater span, .mobile-stater strong, .mobile-stater i, .mobile-stater a{
+
+    	float: none;
+
+    }
+
+    .mobile-stater{
+
+    	float: none;
+
+    }
+
+    .wishlists_span7 {
+
+        float: left;
+
+        text-align: center;
+
+        width: 100%;
+
+    }
+
+    .spaced li{
+
+    	 float: none;
+
+    }
+
+    .priced-rowd {
+
+        float: left;
+
+        margin-top: 15px;
+
+        text-align: center;
+
+        width: 100%;
+
+    }
+
+    .newbts1{
+
+    	float: none;
+
+    }
+
+    .newbts2{
+
+    	float: none;
+
+    	border-left:1px solid #ccc;
+
+    }
+
+
+
+
+
+
+
+    /* ============================= price_listing ====================== */
+
+    	
+
+
+
+    .manage_listing-right .calender_box_main {
+
+        padding: 0;
+
+    }
+
+    .calender_bottom {
+
+        padding: 40px 10px;
+
+    }
+
+    .calender_hide{
+
+    	width: 100%;
+
+    	margin: 0 0 0 -10px;
+
+    }
+
+    .sub_header_left li.write_title{
+
+    	font-size: 13px;
+
+    }
+
+    .overview.right_side .dashboard_price_main{
+
+    	padding: 25px 10px 0;
+
+    }
+
+    .dashboard_price .dashboard_price_left {
+
+        float: left;
+
+        width: 100%;
+
+    }
+
+    .right_side.price-listing .dashboard_price_main{
+
+    	padding: 13px 9px 30px;
+
+    }
+
+    .right_side.nsd .dashboard_price_main {
+
+        padding: 26px 10px 38px 7px;
+
+        width: 100%;
+
+    }
+
+    .right_side .dashboard_price_main{
+
+    	padding: 10px 10px 20px;
+
+    }
+
+    .rooms_select {
+
+        width: 100%;
+
+    }
+
+    input, textarea, select, .uneditable-input{
+
+    	width: 100%;
+
+    }
+
+    .address-left .dashboard_price_right {
+
+        float: left;
+
+        margin-left: 20px;
+
+        padding-left: 12px;
+
+        padding-right: 12px;
+
+        width: 88%;
+
+    }
+
+    .cancelation-text{
+
+    	padding: 20px 0 0 14px;
+
+    	width: 98%;
+
+    }
+
+    .transition-timer-carousel{width: 100%}
+
+.cancelation-text label {
+    padding: 4px 5px 5px 0;
+    width: auto;
+}
+
+
+
+    .cancelation-text span.WebRupee{
+
+    	margin: 2px 7px 0 0;
+
+    }
+
+    .cancelation-text select {
+
+        margin: 0 6px 20px 0;
+
+    }
+
+    .newline-btn{
+
+    	margin: 8px 15px;
+
+    	float: none;
+
+    }
+
+    .widget_content li {
+
+        width: 97%;
+
+    }
+
+    .dashboard_price_main div.img-holds{
+
+    	height: auto;
+
+    }
+
+    textarea.phtdetl{
+
+    	width: 95%;
+
+    }
+
+
+
+
+
+    /* ============================= Cms page ====================== */
+
+
+
+
+
+    #content_text li img{	
+
+    	float:none !important;
+
+    }
+
+    #content_text li h3{
+
+    	float: none !important;
+
+    	padding: 0 !important;
+
+    	width:100% !important;
+
+    }
+
+    #content_text li p{
+
+    	float: none !important;
+
+    	padding: 0 !important;
+
+    	text-align:center !important;
+
+    	width:100% !important;
+
+    }
+
+    #content_text p{
+
+    	float: none !important;
+
+    	padding: 0 !important;
+
+    	text-align:center !important;
+
+    	width:100% !important;
+
+    }
+
+    #content_text li {
+
+        float: none;
+
+        padding: 10px 0;
+
+        text-align: center;
+
+    }
+
+    .advantages h1{
+
+    	font-size: 16px;
+
+    }
+
+
+
+    /* ============================= Contact Page ====================== */
+
+
+
+    .contact-space #form{
+
+    	width: 100% !important;
+
+    }
+
+    .businessbannner .searching-section{
+
+    	top: -50px !important;
+
+    }
+
+
+
+
+
+    /* ============================= Booking Page ====================== */
+
+
+
+    .pay-head a{
+
+    	padding: 10px 0 0;
+
+    }
+
+.pay-head {
+    border-bottom: 1px solid #ccc;
+    display: inline-block;
+    margin-bottom: 10px;
+    padding: 14px 6px 16px;
+    text-align: center;
+    width: 100%;
+}
+
+    .checkin-details-left {
+
+        float: left;
+
+        width: 100%;
+
+    }
+
+    .cheks-status li label{
+
+    	display: inline-block;
+
+        font-size: 13px;
+
+        line-height: 25px;
+
+        width: 50%;
+
+    }
+
+    .cheks-status li span{
+
+    	width: 46%;
+
+    	display: inline-block;
+
+    }
+
+    .checkin-details-right {
+
+        float: left;
+
+        width: 100%;
+
+    }
+
+    .notification_area{
+
+    	overflow: auto !important;
+
+    }
+
+
+
+    /* ============================= confirmbooking ====================== */
+
+
+
+
+
+    .payment_right label{
+
+    	clear: both;
+
+    }
+
+    #card{
+
+    	 padding: 13px 30px !important;
+
+    }
+
+
+
+
+
+    /* ============================= List page ====================== */
+
+
+
+    .intro-filter.clearfix .control-group input[type="text"] {
+
+        margin: 10px 0;
+
+        width: 100%;
+
+    }
+
+    .control-group #datepicker1 {
+
+        margin: 0 !important;
+
+    }
+
+    .filter-list .input-medium {
+
+        width: 100% !important;
+
+    }
+
+    .right-arel {
+
+        float: right;
+
+        width: 100%;
+
+    }
+
+    .filter-primary-item.span2 {
+
+        margin: 0;
+
+        width: 45%;
+
+    }
+
+    .filter-primary-item h5{
+
+    	text-align: left;
+
+    }
+
+    li .filter-primary-item input[type="checkbox"]{
+
+    	margin: 32px 0 0;
+
+    }
+
+    .price_slider {
+
+        float: left;
+
+        margin: -3px 0 0;
+
+        width: 93%;
+
+    }
+
+    .ui-slider-horizontal{
+
+    	 width: 100% !important;
+
+    }
+
+    .map-areas .similar-listing li {
+
+        float: left;
+
+        margin: 0 15px 0 10px;
+
+        width: 98%;
+
+    }
+
+
+
+
+
+
+
+    /* ============================= Detail ====================== */
+
+
+
+
+
+    .propety-feature li {
+
+        display: inline-block;
+
+        float: none;
+
+        margin: 10px 0 !important;
+
+        text-align: center;
+
+        width: 32% !important;
+
+    }
+
+    .propety-feature span{
+
+    	font-size: 11px;
+
+    }
+
+    .right-space {
+
+        float: left;
+
+        width: 100%;
+
+    }
+
+    .left-space{
+
+    	font-weight: bold;
+
+        padding: 3px 0 10px;
+
+        text-align: center;
+
+        width: 100%;
+
+    }
+
+    .page-bar li a{
+
+    	margin: 0 10px;
+
+    	font-size: 11px;
+
+    }
+
+    .right-space li{
+
+    	width: 100%;
+
+    }
+
+    .right-space li.exttra-area li {
+
+        float: left;
+
+        width: 100%;
+
+    }
+
+    .descri-section {
+
+        border-top: 1px solid #dcdcdc;
+
+        display: inline-block;
+
+        float: none;
+
+        margin: 0;
+
+        padding: 20px 0;
+
+        text-align: center;
+
+        width: 100%;
+
+    }
+
+    .descri-section img {
+
+        display: inline-block;
+
+        text-align: center;
+
+    }
+
+    .abt-host-text {
+
+        padding: 0 0 0 14px;
+
+        text-align: center;
+
+    }
+
+    .about-titl .list-paging{
+
+    	width: 100%;
+
+    	 padding: 0;
+
+    }
+
+    .list-paging li{
+
+    	width: 100%;
+
+    }
+
+    .peps {
+
+        display: inline-block;
+
+        float: none;
+
+        text-align: center;
+
+        width: 100%;
+
+    }
+
+    .peps-area{
+
+    	 float: none;
+
+    	 display: inline-block;
+
+    }
+
+    .listd-right {
+
+        float: left;
+
+        width: 100%;
+
+    }
+
+    a.moretag{	
+
+    	display: inline-block;
+
+        float: none;
+
+        font-family: opensansbold;
+
+        font-size: 14px;
+
+        margin: 6px 0 0;
+
+        text-align: center;
+
+        width: 100%;
+
+    }
+
+    .trudt-text{
+
+    	float: none;
+
+    }
+
+    .listd-right span{
+
+    	text-align: center;
+
+    }
+
+    .listd-right{
+
+    	text-align: center;
+
+    }
+
+    .listd-right a{
+
+    	 display: inline-block;
+
+        float: none;
+
+    }
+
+    .listd-right img{
+
+    	 display: inline-block;
+
+        float: none;
+
+    }
+
+    .listd-right span.reviews-mark{
+
+    	 display: inline-block;
+
+        float: none;
+    text-align: center;
+    }
+
+    .review-section-area .listings {
+
+        padding: 25px 0;
+
+        text-align: center;
+
+    }
+
+
+
+    .cenralize{
+
+    	margin-bottom:20px;
+
+    }
+
+    .footer-bg .col-md-4{
+
+    	text-align: center;
+
+        width: 100%;
+
+    }
+
+    .footer-bottom{
+
+    	padding: 15px 0 !important;
+
+    }
+
+
+
+    .right-arel label{
+
+    	width: 100%;
+
+    }
+
+.pay-head span {
+    display: inline-block;
+    font-size: 16px;
+    width: 100%;
+}
+.pay-head a.bak-tooffer{
+	margin: 16px 0 0;
+	display: inline-block;
+    float: none;
+}
+
+    #phone_number{
+
+    	width: 138px !important;
+
+    }
+
+    .facility_listed li {
+
+        float: left;
+
+        width: 99%;
+
+    }
+
+
+
+    .intro-filter.clearfix .control-group input[type="text"]{margin:5px 0px;}
+
+.control-group #guests{margin:5px 0px !important;}
+.right-space.amenities-type li label {
+    width: 170px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: block;
+    white-space: nowrap;
+    text-align: left;
+}
+
+
+    .control-group #datepicker1 {
+        margin: 6px 0 !important;
+    }
+
+    .clearfix.room-type-group.intro-filter.showlist5 .right-arel{padding:0;}
+
+    .listd-right a.view-prof{text-align: center;}
+    .list-paging li:first-child .peps {
+      margin: 0;
+    }
+    .heart-list a{width: 90%}
+ .chekin-list li{ padding: 7px 2px;}
+ .chekin-list li:first-child {
+    margin: 0 0 0 3px;
+}
+#number_of_guests {    margin: 3px 0 0 !important;}
+.detail-middle .col-md-4{padding: 0}
+.chekin-list li input{font-size: 10px;}
+
+.dashboard_apart {
+    float: left;
+    margin-right: 15px;
+    width: 100%;
+}
+
+
+.left_side_bottom a{float: left;}
+
+
+div.notification_section .unstyled label {
+    float: left;
+    width: 83%;
+}
+
+.datepicker.datepicker-dropdown.dropdown-menu{
+    display: block;
+    left: auto !important;
+    top: 307.283px;
+    right: 3% !important;
+}
+
+
+.main_2 .right_side.price-listing #monthly {
+    border: medium none;
+    padding: 27px 10px;
+}
+
+.checking-area #social_recommend + span {
+    float: left;
+    padding: 0 0 0 9px;
+    width: 90%;
+}
+
+.searching-section input.sbt-btn{width: 20%}
+
+.nav-collapse.navbar-collapse.my-nav.in {
+    float: left;
+    height: auto;
+    overflow: visible;
+    width: 100%;
+}
+.navbar-collapse.my-nav .nav{background: #fff}
+
+.col-md-6 .navbar .nav > li > a {
+    color: #4C4B49;
+}
+
+
+.wish-areas .matte-media-box {
+    float: left;
+    margin: 0;
+    padding: 13px 0 0;
+    width: 100%;
+    text-align: center;
+}
+
+.wish-area-top a {
+    float: none;
+    display: inline-block;
+}
+
+
+.phone-number-input-widget label{    padding: 0 0 6px !important;}
+
+.pniw-number-container.clearfix{margin: 0}
+.phone-number-input-widget .pniw-number-container .pniw-number-prefix {
+    margin-top: 0;
+}
+.profile-edit #account input#phone_number{margin: 0}
+
+
+.mobile-stater i{
+	/* display:none; */
+}
+
+.pattern-overlay iframe {
+    margin: -76px 0 0 !important;
+}
+
+
+.searching-section input.where[type="text"]{
+	border-top:1px solid #ccc;
+	border-right:1px solid #ccc;
+	border-left:1px solid #ccc;
+	border-bottom:none;
+}
+.searching-section input.chek{
+	border-top:1px solid #ccc;
+	border-right:1px solid #ccc;
+	border-left:1px solid #ccc;
+	border-bottom:none;
+}
+.searching-section input.chek-in{
+	border-top:1px solid #ccc;
+	border-right:1px solid #ccc;
+	border-left:1px solid #ccc;
+	border-bottom:none;
+}
+.mobilform select.home_select{
+	border:1px solid #ccc;
+}
+.searching-section input.fom-subm{
+	margin: 7px 3px 7px 0;
+}
+
+
+.wish-main-img {
+    height: 326px;
+    width: 100%;
+}
+
+
+.payoutprefer .modal-content{
+	height: 357px;
+	overflow: auto;
+}
+
+#credit_card_form .login-list-cont li textarea {
+    float: left;
+    margin-bottom: 10px !important;
+    width: 100% !important;
+}
+
+article.pay-head span:last-child{
+	font-size: 0.7em;
+}
+
+.thanks-main{
+	width:100% !important;
+}
+
+#form {
+    width: 255px !important;
+}
+#list_name{
+	width: 89% !important;
+}
+
+
+.grid-step1 p{
+	font-size: 12px !important;
+}
+
+
+/*
+#productListTable td {
+    float: left;
+    text-align: left;
+    width: 100%;
+}
+#tab_default_2 #productListTable td.paddgns a{
+	text-align: left;
+}
+#tab_default_2 #productListTable td.paddgns{
+	text-align: left;
+}
+.transaction_inner_table td{
+	width:auto !important;
+}
+#productListTable td:first-child {
+    font-weight: bold;
+    text-align: left;
+}
+#tab_default_2 #productListTable td.paddgns.newtees {
+    padding: 0 0 0 10px;
+}
+#tab_default_2 #productListTable td.paddgns.newtees:before{
+	content:"Details";
+	display:inline-block;
+	width:100%;
+	border-bottom:1px solid #ddd;
+	padding:10px;
+}
+*/
+
+
+.img-bottom .headlined{
+	width: 218px;
+}
+
+
+.text-areads textarea{	
+	width:86%;
+}
+
+
+
+}
+
+
+
+
+
+
+
+    /* ============================= 384px ====================== */
+
+
+
+
+
+    @media screen and (max-width: 384px){
+
+    .heart-list a{width: 90%}
+
+    .fb-sect label{
+
+    	padding: 4px 0 0 39px;
+
+    }
+
+    #number_of_guests {
+
+    	margin:0px;
+
+    }
+
+    .chekin-list li:last-child label {
+
+        padding: 16px 0 1px 6px;
+
+    }
+
+
+
+    .page-bar li a {
+
+        font-size: 11px;
+
+        margin: 0 5px;
+
+    }
+
+
+    .list-paging a.request-trip{float: none;}
+
+    .notify-profile{display: none;}
+    .login-list-cont li textarea{
+        margin: 10px 0 0;
+        width: 90% !important;
+    }
+
+    .slide .item.col-md-6 {
+        float: left;
+        height: 220px;
+        margin: 0 1%;
+        padding: 0;
+        width: 48%;
+    }
+
+    .slide .item.col-md-4 {
+        float: left;
+        height: 136px;
+        margin: 14px 1%;
+        padding: 0;
+        width: 31.333%;
+    }
+    .slide .item.col-md-6  img{width: 100%; height: 100%;}
+
+    .slide .item.col-md-4 img{width: 100%; height: 100%;}
+
+    .pay-head a{float: left;}
+    #myModal-host.modal.fade.in {
+        left: 1% !important;
+        right: 1% !important;
+        top: 20px;
+        width: 97% !important;
+    }
+
+    .password-fields td{text-align: left;}
+
+    .dash-home #quick_links .middle h3{  padding: 0 0 0 16px;}
+
+    input.search-text{width: 70%}
+    .searching-section input.sbt-btn{width: 24%;}
+    .searching-section input.fom-subm{width: 100px;}
+
+    .edit a {
+    font-size: 10px;
+    background-color: inherit;
+    color: #000 !important;
+    text-align: center !important;
+    padding: 0;
+}
+
+
+
+
+    }
+
+
+
+
+
+
+
+    /* ============================= 375px ====================== */
+
+
+
+
+
+    @media screen and (max-width: 375px){
+    .slide .item.col-md-4{
+        float: left;
+        margin: 4px 0;
+        padding: 0;
+        width: 100%;
+    }
+
+    #carousel-example-generic {
+        height: 190px ;
+    }
+
+    .carousel-control.left{left: 10px}
+    .carousel-control.right{right: 10px}
+
+    .space-descri-area a.viwe-text{float: left;}
+    .slide .item.col-md-6{
+        float: left;
+        margin: 4px 0;
+        padding: 0;
+        width: 100%;
+    }
+    .heart-list a{width: 87%}
+
+
+
+    .profile-edit #account input#phone_number {
+    width: 70% !important;
+}
+
+    .profile-edit #account select.dob21 {
+
+        float: left;
+        width: 83px;
+
+    }
+
+    .profile-edit #account select.mnths {
+
+        float: left;
+
+        width: 71px;
+
+    }
+
+
+    a.control_prev, a.control_next {
+        height: 50px !important;
+        padding: 0 !important;
+        top: 40% !important;
+    }
+
+
+    .extra-type a {
+        float: left;
+        margin: 1px 0 0;
+    }
+
+    .edit a {
+    font-size: 10px;
+    background-color: inherit;
+    color: #000 !important;
+    text-align: center !important;
+    padding: 0;
+}
+
+
+.middle .nav-tabs > li a{font-size: 13px}
+.middle .tabbable-line > .nav-tabs > li {margin: 0 7px; width: 95%;}
+
+.payment_agree input[type="checkbox"], .payment_agree input[type="radio"]{
+    width: auto!important;
+    margin-right: 5px;s
+}
+.payment_right > select#CCExpDay, select#CCExpMnth {
+   width: 211px !important;
+}
+
+
+    }
+
+    /* ============================= 320px ====================== */
+
+
+
+
+
+    @media screen and (max-width: 320px){
+
+
+.profile-edit #account input#phone_number {
+    width: 76% !important;
+}
+
+
+    /* ============================= Payment Page ====================== */
+
+
+
+    .payment_left{
+
+    	 padding: 20px 0 20px 14px;
+
+    }
+
+    .payment_right{
+
+    	padding: 30px 0 0 15px;
+
+    	background:url("../../images/credit_card.png") no-repeat scroll 8px 0 rgba(0, 0, 0, 0);
+
+    }
+
+    .TabbedPanelsTab{
+
+    	width: 102px;
+
+    }
+
+    .sidebar{
+
+    	top: 0;
+
+    }
+
+
+
+
+
+    .chekin-list li:first-child {
+
+        margin: 0;
+
+    }
+
+    .chekin-list li {
+
+        float: left;
+
+        padding: 0 10px;
+
+        width: 100%;
+
+    }
+
+    .chekin-list li:last-child {
+
+        width: 100%;
+
+    }
+
+    #number_of_guests {
+      margin: 5px 0 1px 4px !important;
+      width: 97%;
+    }
+
+    .heart-list a{
+
+    	width: 90%;
+
+    }
+
+    .top-page-bar{
+
+    	display:none;
+
+    }
+
+    .space-descri-area a.viwe-text {
+
+        display: inline-block;
+
+        float: none;
+
+        font-family: opensansregular;
+
+        margin: 0;
+
+        text-decoration: underline;
+
+    }
+
+.payment_right {
+    padding: 40px 10px;
+}
+
+.facility_listed li span{
+	font-size: 12px;
+}
+
+
+    }
+
+
+
+@media screen and (max-width:767px){
+
+.pattern-overlay iframe {
+    margin: 0px 0 0;
+}
+#carousel-example-generic .content-section.video-section {
+    height: 347px !important;
+}
+
+/*----------------Booking-Success------------------*/
+
+
+.booking h1{
+	font-size: 18px !important;
+}
+.booking-success{
+	margin: 0 !important;
+    width: auto !important;
+	padding-bottom: 10px !important;
+}
+.grid-step1 p{
+	margin-bottom: 10px !important;
+    margin-right: 0 !important;
+    width: 100% !important;
+}
+.grid-step1 p:last-child {
+    margin-bottom: 0 !important;
+    margin-left: 0 !important;
+    margin-right: 0;
+}
+.grid-step1{
+	margin: 10px 0 0 !important;
+}
+
+}
+@media screen and (max-width:567px){
+/*     .intro-filter.clearfix .control-group input[type="text"]{margin:5px 0px;}
+
+.control-group #guests{margin:5px 0px !important;} */
+.right-space.amenities-type li label {
+    width: 170px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: block;
+    white-space: nowrap;
+    text-align: left;
+}
+#carousel-example-generic .content-section.video-section {
+    height: 264px !important;
+}
+#carousel-example-generic ul li {
+    height: 429px !important;
+}
+
+}

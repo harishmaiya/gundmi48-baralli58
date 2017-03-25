@@ -1,0 +1,8 @@
+09-01-2015
+--------------------------------------------------------------------------------------
+
+mysql_query("ALTER TABLE  `fc_inbox_reply` ADD  `msg_read` ENUM(  'no',  'yes' )") or die(mysql_error());
+mysql_query("ALTER TABLE  `fc_admin_settings` ADD  `slider` ENUM('on','off' )") or die(mysql_error()); 
+mysql_query("UPDATE  fc_currency SET  default_currency ='Yes' WHERE currency_type ='USD'") or die(mysql_error());
+mysql_query("UPDATE fc_currency SET  default_currency = 'No' WHERE  currency_type ='MYR'") or die(mysql_error());
+mysql_query("ALTER TABLE fc_users ADD login_hit INT( 11 ) NOT NULL");

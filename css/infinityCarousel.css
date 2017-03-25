@@ -1,0 +1,115 @@
+
+.infinity-carousel {
+  text-transform: uppercase;
+  letter-spacing: 0.025em;
+}
+
+.infinity-carousel .nav {
+ color: rgb(0, 116, 217);
+font-weight: bold;
+font-size: 2em;
+background-color: rgba(0, 116, 217, 0);
+}
+.infinity-carousel .nav.prev{
+left: 0 !important;
+}
+.infinity-carousel .nav.next{
+right:0 !important;
+}
+.infinity-carousel .nav.prev:before { content: '<'; }
+
+.infinity-carousel .nav.next:before { content: '>'; }
+
+.infinity-carousel .slides > * { outline: 1px solid #ddd; }
+
+.infinity-carousel .img-wrap {
+  background-color: #aaa;
+  border-radius: 50%;
+}
+
+.infinity-carousel .slides > *:nth-child(odd) .img-wrap { background-color: #ddd; }
+
+.infinity-carousel {
+  position: relative;
+  overflow: hidden;
+}
+
+.infinity-carousel .no-transition { transition: none!important; }
+
+.infinity-carousel .nav {
+  position: absolute;
+  display: block;
+  width: 40px;
+  height: 45px;
+  top: 102.5px;
+  z-index: 50;
+  opacity: 0.5;
+  border: 0;
+  cursor: pointer;
+  -webkit-apperance: none;
+}
+.infinity-carousel .nav:before, .infinity-carousel .nav:after {
+display: block;
+}
+.infinity-carousel .nav:hover { opacity: 1; }
+
+.infinity-carousel .nav.next { right: 0; }
+
+.infinity-carousel .center {
+  position: relative;
+  width: 180px;
+  height: 300px;
+}
+.map-areas .img-bottom {
+width: 150px;
+display: block;
+}
+.map-areas .similar-listing .headlined{
+text-align:left;
+}
+.infinity-carousel .text {
+  position: relative;
+  width: 180px;
+  height: 75px;
+  margin: 0 auto;
+  text-align: center;
+  opacity: 0.1;
+  transition: opacity 0.4s linear;
+}
+
+.infinity-carousel .active .text { opacity: 1; }
+
+.infinity-carousel .slides {
+  position: absolute;
+  width: 100000px;
+  height: 100%;
+  transition: all 0.4s;
+}
+
+.infinity-carousel .slides > * {
+  position: relative;
+  float: left;
+  width: 180px;
+  height: 100%;
+  text-align: center;
+  overflow: hidden;
+}
+
+.infinity-carousel .img-wrap {
+  width: 144px;
+  height: 144px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.infinity-carousel img { height: 100%; }
+.listings{margin:10px 0px ; font-size:20px}
+.infinity-carousel .nav:focus{
+border:none;
+}
+
+.infinity-carousel .similar-listing li {
+float: left;
+width: 320px !important;
+margin: 0 0 0 24px;
+}

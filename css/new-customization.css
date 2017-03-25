@@ -1,0 +1,38 @@
+
+header {
+    position: absolute;
+    z-index: 999;
+}
+.header{
+	background:none;
+	border:none;
+}
+.browse{
+	color: #000;
+}
+.navbar .nav > li > a{
+	color: #000;
+	font-weight: bold;
+	font-size: 14px;
+}
+.brows-loop .browse{
+	font-weight: bold;
+	font-size: 14px;
+}
+.navbar .nav > li > a:focus, .navbar .nav > li > a:hover {
+    color: #000;
+}
+.brows-loop .caret{
+	 border-top: 4px solid #000 !important;
+}
+.header {
+	position: relative;
+}
+.logo a img {
+    float: left;
+    margin: -16px 6px 0 0;
+    width: 90%;
+}
+.profile-page{
+	padding:77px 0 20px;
+}

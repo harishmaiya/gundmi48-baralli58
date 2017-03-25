@@ -1,0 +1,97 @@
+#pre_approve_accept .service-copmity ul li {
+    border: 1px solid #ccc;
+    float: left;
+    margin: 5px 0 5px 13px !important;
+    padding: 0;
+    width: 90% !important;
+}
+#myModal-host .chekin-list #offer_message_contact1 {
+    width: 434px;
+	margin-left: 0 !important;
+}
+#myModal-host .booking-btn {
+    cursor: pointer;
+    float: left;
+    margin: 0 0 0 14px;
+    width: 90%;
+}
+.profilepage .panel-footer{
+	display: inline-block;
+    padding: 20px 15px;
+    width: 100%;
+}
+.profilepage .panel-footer a{
+	background: none repeat scroll 0 0 #ff5a5f;
+    border: medium none;
+    color: #fff;
+    margin: 0;
+    text-shadow: none;
+	padding:11px 15px;
+}
+.reviwprofile .listd-right a.bedrom-flat{
+	color: #fff;
+}
+.searching-section input.where {
+	width: 34%;
+}
+.show_view #transition-timer-carousel .carousel-inner .item{
+	height: 100px !important;
+    overflow: hidden;
+}
+#content_text ul{
+	padding-left: 15px !important;
+}
+/*#content_text li{
+	list-style-type: disc !important;
+    list-style-position: outside !important;
+    list-style-image: none !important;
+}*/
+#content_text h1{
+	margin-bottom: 15px;
+}
+
+
+/*--------------------datepicker----------------------*/
+
+.datepicker.datepicker-dropdown.dropdown-menu {
+    border-radius: 0;
+    min-height: 305px;
+    overflow: hidden !important;
+    padding: 4px 0 0 8px;
+    width: 289px !important;
+}
+div.datepicker.datepicker-dropdown.dropdown-menu {
+    padding: 18px 0 0 15px;
+}
+.datepicker-days {
+    height: 100% !important;
+    overflow: visible !important;
+    width: 256px;
+}
+table.table-condensed {
+    background-color: transparent;
+    float: left;
+    max-width: 100%;
+    width: 95%;
+}
+
+.datepicker.datepicker-dropdown.dropdown-menu{
+        min-height: 310px !important;
+}
+.table-condensed > thead > tr > th, .table-condensed > tbody > tr > th, .table-condensed > tfoot > tr > th, .table-condensed > thead > tr > td, .table-condensed > tbody > tr > td, .table-condensed > tfoot > tr > td{
+    padding: 5px 5px !important;
+height: auto !important;
+}
+.home_type_field_btn span {
+    float: left;
+}
+.home_type_field_btn select.other-opt{
+padding: 22px 6px;
+line-height: 60px;
+}
+.btn.footer-toggle{
+    padding: 2px 5px;
+}
+.btn.footer-toggle span{
+    font-size: 9px;
+}

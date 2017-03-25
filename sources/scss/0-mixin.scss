@@ -1,0 +1,25 @@
+@mixin translateXY() {
+				-webkit-transform: translate(-50%, -50%); // Chrome, Safari, Opera
+			-ms-transform: translate(-50%, -50%); // IE 9
+	transform: translate(-50%, -50%);
+	position: absolute;
+	top: 50%;
+	left: 50%;
+}
+@mixin translateY() {
+				-webkit-transform: translateY(-50%); // Chrome, Safari, Opera
+			-ms-transform: translateY(-50%); // IE 9
+	transform: translateY(-50%);
+	position: absolute;
+	top: 50%;
+}
+@mixin translateX() {
+				-webkit-transform: translateX(-50%); // Chrome, Safari, Opera
+			-ms-transform: translateX(-50%); // IE 9
+	transform: translateX(-50%);
+	position: absolute;
+	left: 50%;
+}
+@mixin transition($sec : 0.3s, $type : ease, $what: all){
+				transition: $sec $type $what;
+}

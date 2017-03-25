@@ -1,0 +1,1 @@
+<?php $message .= '<p>hai user...check this out.</p>';  ?>

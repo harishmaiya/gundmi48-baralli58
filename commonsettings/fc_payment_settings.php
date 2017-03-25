@@ -1,0 +1,4 @@
+<?php 
+$config['payment_0'] = 'a:4:{s:2:"id";s:1:"1";s:12:"gateway_name";s:10:"Paypal IPN";s:8:"settings";s:96:"a:2:{s:4:"mode";s:7:"sandbox";s:14:"merchant_email";s:35:"vinubusiness1-facilitator@gmail.com";}";s:6:"status";s:6:"Enable";}'; 
+$config['payment_1'] = 'a:4:{s:2:"id";s:1:"3";s:12:"gateway_name";s:6:"Stripe";s:8:"settings";s:152:"a:3:{s:4:"mode";s:7:"sandbox";s:10:"secret_key";s:32:"sk_test_MQSQGKl7uUImfiIjfcA5mtS2";s:15:"publishable_key";s:32:"pk_test_D0EGvAFR9stcHL57p1AXt2tc";}";s:6:"status";s:6:"Enable";}'; 
+$config['payment_2'] = 'a:4:{s:2:"id";s:1:"4";s:12:"gateway_name";s:11:"Credit Card";s:8:"settings";s:110:"a:3:{s:4:"mode";s:7:"sandbox";s:12:"merchantcode";s:9:"3um6xA6Y4";s:11:"merchantkey";s:16:"3LTjyhC22T3g346P";}";s:6:"status";s:6:"Enable";}';  ?>

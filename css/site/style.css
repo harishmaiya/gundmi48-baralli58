@@ -1,0 +1,307 @@
+html, body, div, span, object, iframe,
+
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+
+abbr, address, cite, code,
+
+del, dfn, em, img, ins, kbd, q, samp,
+
+small, strong, sub, sup, var,
+
+b, i,
+
+dl, dt, dd, ol, ul, li,
+
+fieldset, form, label, legend,
+
+table, caption, tbody, tfoot, thead, tr, th, td,
+
+article, aside, canvas, details, figcaption, figure, 
+
+footer, header, hgroup, menu, nav, section, summary,
+
+time, mark, audio, video {
+
+    margin:0;
+
+    padding:0;
+
+    border:0;
+
+    outline:0;
+
+    font-size:100%;
+
+    vertical-align:baseline;
+
+    background:transparent;
+
+}
+
+
+
+body {
+
+    line-height:1;
+
+	 font-family: Circular,"Helvetica Neue",Helvetica,Arial,sans-serif;
+
+}
+
+
+
+article,aside,details,figcaption,figure,
+
+footer,header,hgroup,menu,nav,section { 
+
+	display:block;
+
+}
+
+
+
+nav ul {
+
+    list-style:none;
+
+}
+
+
+
+li{list-style:none}
+
+blockquote, q {
+
+    quotes:none;
+
+}
+
+
+
+blockquote:before, blockquote:after,
+
+q:before, q:after {
+
+    content:'';
+
+    content:none;
+
+}
+
+
+
+a {
+
+    margin:0;
+
+    padding:0;
+
+    font-size:100%;
+
+    vertical-align:baseline;
+
+    background:transparent;
+
+}
+
+
+
+/* change colours to suit your needs */
+
+ins {
+
+    background-color:#ff9;
+
+    color:#000;
+
+    text-decoration:none;
+
+}
+
+
+
+/* change colours to suit your needs */
+
+mark {
+
+    background-color:#ff9;
+
+    color:#000; 
+
+    font-style:italic;
+
+    font-weight:bold;
+
+}
+
+
+
+del {
+
+    text-decoration: line-through;
+
+}
+
+
+
+abbr[title], dfn[title] {
+
+    border-bottom:1px dotted;
+
+    cursor:help;
+
+}
+
+
+
+table {
+
+    border-collapse:collapse;
+
+    border-spacing:0;
+
+}
+
+
+
+/* change border colour to suit your needs */
+
+hr {
+
+    display:block;
+
+    height:1px;
+
+    border:0;   
+
+    border-top:1px solid #cccccc;
+
+    margin:1em 0;
+
+    padding:0;
+
+}
+
+
+
+input, select {
+
+    vertical-align:middle;
+
+}
+
+
+
+
+
+
+
+textarea:focus, input[type="text"]:focus, input[type="password"]:focus, input[type="datetime"]:focus, input[type="datetime-local"]:focus, input[type="date"]:focus, input[type="month"]:focus, input[type="time"]:focus, input[type="week"]:focus, input[type="number"]:focus, input[type="email"]:focus, input[type="url"]:focus, input[type="search"]:focus, input[type="tel"]:focus, input[type="color"]:focus, .uneditable-input:focus{
+
+    border-color: inherit;
+
+       box-shadow: 0 0 3px 0 #404040;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@font-face {
+
+    font-family: 'OpenSansBold';
+
+    src: url('../fonts/opensans-bold.eot');
+
+    src: url('../fonts/opensans-bold.eot') format('embedded-opentype'),
+
+         url('../fonts/opensans-bold.woff') format('woff'),
+
+         url('../fonts/opensans-bold.ttf') format('truetype'),
+
+         url('../fonts/opensans-bold.svg#OpenSansBold') format('svg');
+
+}
+
+
+
+
+
+
+
+/*-------------------------------------------------------------------------------------------------
+
+---------------------menu section----------------------------------------------------------------------*/
+
+
+
+        .main-text
+
+{
+
+    position: absolute;
+
+top: 48%;
+
+    width: 96.66666666666666%;
+
+    color: #FFF;
+
+}
+
+.btn-min-block
+
+{
+
+    min-width: 170px;
+
+    line-height: 26px;
+
+}
+
+.btn-clear
+
+{
+
+    color: #FFF;
+
+    background-color: transparent;
+
+    border-color: #FFF;
+
+    margin-right: 15px;
+
+}
+
+.btn-clear:hover
+
+{
+
+    color: #000;
+
+    background-color: #FFF;
+
+}
+
+
+
+
+
+.banner-container{float:left; width: 100%}
+
+
+
+
+
+.carousel{margin-bottom: 0}
+
+
+

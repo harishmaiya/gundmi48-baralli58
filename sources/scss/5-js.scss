@@ -1,0 +1,77 @@
+/** --- = IMPORT --- */
+
+/** @subsection js.scss */
+
+@import "0-mixin";
+
+img[data-gallery] { cursor: pointer; }
+.overlay {
+	background: rgba(0, 0, 0, 7/10);
+	display: none;
+	height:100%;
+	position: fixed;
+	width: 100%;
+	top: 0; // Without this, overlay get the wrapper's margin-top
+	z-index: 999; // Over everything but the content of the gallery
+}
+.imgActive {
+	img {
+		@include translateXY();
+		max-width:100%;
+		max-height: 90%;
+	}
+}
+
+// Buttons controls
+.prev,
+.next,
+.close {
+	@include transition();
+	display: inline-block;
+	color:white;
+	font-size: 6rem;
+	opacity: 0.2;
+	z-index: 1000;
+	&:hover {
+		cursor:pointer;
+		opacity: 1;
+	}
+}
+.prev,
+.next { @include translateY(); }
+.prev { left: 100px; }
+.next { right: 100px; }
+.close {
+	font-size: 4rem;
+	position: absolute;
+	top: 20px;
+	right: 20px;
+}
+
+// Thumbnails for the gallery
+.coverImgOverlay {
+	bottom: 20px;
+	height: 100px;
+	left: 50%;
+	overflow: hidden;
+	position: absolute;
+	width: 3000%; // Force a bigger size to make the thumbnails on one line.
+	z-index: 1000;
+	span {
+		display: inline-block;
+		height: 100px;
+		margin: 5px;
+		overflow: hidden;
+		position: relative;
+		width: 100px;
+	}
+	img {
+		@include transition(0.3s);
+		@include translateXY();
+		max-height: 100%;
+		min-width: 100%;
+		opacity: 0.2;
+		width: auto;
+		&:hover { opacity: 1 !important; }
+	}
+}

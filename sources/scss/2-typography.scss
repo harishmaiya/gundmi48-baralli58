@@ -1,0 +1,18 @@
+	/** --- = IMPORT --- */
+	/** @subsection typography.scss */
+@import "0-mixin";
+
+body { font-family: 'Handlee', cursive; }
+h1 {
+	font-size: 2rem;
+	padding: 40px 0;
+	text-align: center;
+}
+p, h2 { font-family: 'PT Sans', sans-serif; }
+h2 {	font-size: 1.5rem; }
+p { line-height: 1.4rem; }
+pre { font: 0.8rem/1.2rem "Courier New", sans-serif; }
+a {
+	color: #333;
+	font-weight: bold;
+}

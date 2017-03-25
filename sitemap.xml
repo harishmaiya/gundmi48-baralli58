@@ -1,0 +1,1207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+		<urlset
+			  xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+			  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+			  xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+					http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+		<url>
+<loc>http://192.168.1.253/ramasamy/rentals/bookmarklet/display_bookmarklet/</loc>
+<lastmod>2014/05/09 05:48:35</lastmod>
+<changefreq>weekly</changefreq>
+<priority>1.0 </priority>
+</url>
+<url>
+<loc>http://192.168.1.253/ramasamy/rentals/bookmarklet/add_bookmarklet_product/</loc>
+<lastmod>2014/05/09 05:48:35</lastmod>
+<changefreq>weekly</changefreq>
+<priority>1.0 </priority>
+</url>
+<url>
+<loc>http://192.168.1.253/ramasamy/rentals/bookmarklet/check_product_id/</loc>
+<lastmod>2014/05/09 05:48:35</lastmod>
+<changefreq>weekly</changefreq>
+<priority>1.0 </priority>
+</url>
+<url>
+<loc>http://192.168.1.253/ramasamy/rentals/bookmarklet/checklogin/</loc>
+<lastmod>2014/05/09 05:48:35</lastmod>
+<changefreq>weekly</changefreq>
+<priority>1.0 </priority>
+</url>
+<url>
+<loc>http://192.168.1.253/ramasamy/rentals/bookmarklet/seterrormessage/</loc>
+<lastmod>2014/05/09 05:48:35</lastmod>
+<changefreq>weekly</changefreq>
+<priority>1.0 </priority>
+</url>
+<url>
+<loc>http://192.168.1.253/ramasamy/rentals/bookmarklet/checkprivileges/</loc>
+<lastmod>2014/05/09 05:48:35</lastmod>
+<changefreq>weekly</changefreq>
+<priority>1.0 </priority>
+</url>
+<url>
+<loc>http://192.168.1.253/ramasamy/rentals/bookmarklet/get_rand_str/</loc>
+<lastmod>2014/05/09 05:48:35</lastmod>
+<changefreq>weekly</changefreq>
+<priority>1.0 </priority>
+</url>
+<url>
+<loc>http://192.168.1.253/ramasamy/rentals/bookmarklet/setpictureproducts/</loc>
+<lastmod>2014/05/09 05:48:35</lastmod>
+<changefreq>weekly</changefreq>
+<priority>1.0 </priority>
+</url>
+<url>
+<loc>http://192.168.1.253/ramasamy/rentals/bookmarklet/imageresizewithspace/</loc>
+<lastmod>2014/05/09 05:48:35</lastmod>
+<changefreq>weekly</changefreq>
+<priority>1.0 </priority>
+</url>
+<url>
+<loc>http://192.168.1.253/ramasamy/rentals/bookmarklet/imageresizewithspaceold/</loc>
+<lastmod>2014/05/09 05:48:35</lastmod>
+<changefreq>weekly</changefreq>
+<priority>1.0 </priority>
+</url>
+<url>
+<loc>http://192.168.1.253/ramasamy/rentals/bookmarklet/imageresizewithspacecity/</loc>
+<lastmod>2014/05/09 05:48:35</lastmod>
+<changefreq>weekly</changefreq>
+<priority>1.0 </priority>
+</url>
+<url>
+<loc>http://192.168.1.253/ramasamy/rentals/cart/inserteditcart/</loc>
+<lastmod>2014/05/09 05:48:35</lastmod>
+<changefreq>weekly</changefreq>
+<priority>1.0 </priority>
+</url>
+<url>
+<loc>http://192.168.1.253/ramasamy/rentals/cart/cartadd/</loc>
+<lastmod>2014/05/09 05:48:35</lastmod>
+<changefreq>weekly</changefreq>
+<priority>1.0 </priority>
+</url>
+<url>
+<loc>http://192.168.1.253/ramasamy/rentals/cart/ajaxupdate/</loc>
+<lastmod>2014/05/09 05:48:35</lastmod>
+<changefreq>weekly</changefreq>
+<priority>1.0 </priority>
+</url>
+<url>
+<loc>http://192.168.1.253/ramasamy/rentals/cart/ajaxdelete/</loc>
+<lastmod>2014/05/09 05:48:35</lastmod>
+<changefreq>weekly</changefreq>
+<priority>1.0 </priority>
+</url>
+<url>
+<loc>http://192.168.1.253/ramasamy/rentals/cart/checkcode/</loc>
+<lastmod>2014/05/09 05:48:35</lastmod>
+<changefreq>weekly</changefreq>
+<priority>1.0 </priority>
+</url>
+<url>
+<loc>http://192.168.1.253/ramasamy/rentals/cart/checkcodesuccess/</loc>
+<lastmod>2014/05/09 05:48:35</lastmod>
+<changefreq>weekly</changefreq>
+<priority>1.0 </priority>
+</url>
+<url>
+<loc>http://192.168.1.253/ramasamy/rentals/cart/ajaxchangeaddress/</loc>
+<lastmod>2014/05/09 05:48:35</lastmod>
+<changefreq>weekly</changefreq>
+<priority>1.0 </priority>
+</url>
+<url>
+<loc>http://192.168.1.253/ramasamy/rentals/cart/ajaxsubscribeaddress/</loc>
+<lastmod>2014/05/09 05:48:35</lastmod>
+<changefreq>weekly</changefreq>
+<priority>1.0 </priority>
+</url>
+<url>
+<loc>http://192.168.1.253/ramasamy/rentals/cart/ajaxdeleteaddress/</loc>
+<lastmod>2014/05/09 05:48:35</lastmod>
+<changefreq>weekly</changefreq>
+<priority>1.0 </priority>
+</url>
+<url>
+<loc>http://192.168.1.253/ramasamy/rentals/cart/insert_shipping_address/</loc>
+<lastmod>2014/05/09 05:48:35</lastmod>
+<changefreq>weekly</changefreq>
+<priority>1.0 </priority>
+</url>
+<url>
+<loc>http://192.168.1.253/ramasamy/rentals/cart/cartcheckout/</loc>
+<lastmod>2014/05/09 05:48:35</lastmod>
+<changefreq>weekly</changefreq>
+<priority>1.0 </priority>
+</url>
+<url>
+<loc>http://192.168.1.253/ramasamy/rentals/cart/subscribecheckout/</loc>
+<lastmod>2014/05/09 05:48:35</lastmod>
+<changefreq>weekly</changefreq>
+<priority>1.0 </priority>
+</url>
+<url>
+<loc>http://192.168.1.253/ramasamy/rentals/cart/checklogin/</loc>
+<lastmod>2014/05/09 05:48:35</lastmod>
+<changefreq>weekly</changefreq>
+<priority>1.0 </priority>
+</url>
+<url>
+<loc>http://192.168.1.253/ramasamy/rentals/cart/seterrormessage/</loc>
+<lastmod>2014/05/09 05:48:35</lastmod>
+<changefreq>weekly</changefreq>
+<priority>1.0 </priority>
+</url>
+<url>
+<loc>http://192.168.1.253/ramasamy/rentals/cart/checkprivileges/</loc>
+<lastmod>2014/05/09 05:48:35</lastmod>
+<changefreq>weekly</changefreq>
+<priority>1.0 </priority>
+</url>
+<url>
+<loc>http://192.168.1.253/ramasamy/rentals/cart/get_rand_str/</loc>
+<lastmod>2014/05/09 05:48:35</lastmod>
+<changefreq>weekly</changefreq>
+<priority>1.0 </priority>
+</url>
+<url>
+<loc>http://192.168.1.253/ramasamy/rentals/cart/setpictureproducts/</loc>
+<lastmod>2014/05/09 05:48:35</lastmod>
+<changefreq>weekly</changefreq>
+<priority>1.0 </priority>
+</url>
+<url>
+<loc>http://192.168.1.253/ramasamy/rentals/cart/imageresizewithspace/</loc>
+<lastmod>2014/05/09 05:48:35</lastmod>
+<changefreq>weekly</changefreq>
+<priority>1.0 </priority>
+</url>
+<url>
+<loc>http://192.168.1.253/ramasamy/rentals/cart/imageresizewithspaceold/</loc>
+<lastmod>2014/05/09 05:48:35</lastmod>
+<changefreq>weekly</changefreq>
+<priority>1.0 </priority>
+</url>
+<url>
+<loc>http://192.168.1.253/ramasamy/rentals/cart/imageresizewithspacecity/</loc>
+<lastmod>2014/05/09 05:48:35</lastmod>
+<changefreq>weekly</changefreq>
+<priority>1.0 </priority>
+</url>
+<url>
+<loc>http://192.168.1.253/ramasamy/rentals/checkout/paymentprocess/</loc>
+<lastmod>2014/05/09 05:48:35</lastmod>
+<changefreq>weekly</changefreq>
+<priority>1.0 </priority>
+</url>
+<url>
+<loc>http://192.168.1.253/ramasamy/rentals/checkout/paymentcredit/</loc>
+<lastmod>2014/05/09 05:48:35</lastmod>
+<changefreq>weekly</changefreq>
+<priority>1.0 </priority>
+</url>
+<url>
+<loc>http://192.168.1.253/ramasamy/rentals/checkout/paymentprocessgift/</loc>
+<lastmod>2014/05/09 05:48:35</lastmod>
+<changefreq>weekly</changefreq>
+<priority>1.0 </priority>
+</url>
+<url>
+<loc>http://192.168.1.253/ramasamy/rentals/checkout/paymentcreditgift/</loc>
+<lastmod>2014/05/09 05:48:35</lastmod>
+<changefreq>weekly</changefreq>
+<priority>1.0 </priority>
+</url>
+<url>
+<loc>http://192.168.1.253/ramasamy/rentals/checkout/paymentcreditsubscribe/</loc>
+<lastmod>2014/05/09 05:48:35</lastmod>
+<changefreq>weekly</changefreq>
+<priority>1.0 </priority>
+</url>
+<url>
+<loc>http://192.168.1.253/ramasamy/rentals/checkout/paymentgiftfree/</loc>
+<lastmod>2014/05/09 05:48:35</lastmod>
+<changefreq>weekly</changefreq>
+<priority>1.0 </priority>
+</url>
+<url>
+<loc>http://192.168.1.253/ramasamy/rentals/checkout/checklogin/</loc>
+<lastmod>2014/05/09 05:48:35</lastmod>
+<changefreq>weekly</changefreq>
+<priority>1.0 </priority>
+</url>
+<url>
+<loc>http://192.168.1.253/ramasamy/rentals/checkout/seterrormessage/</loc>
+<lastmod>2014/05/09 05:48:35</lastmod>
+<changefreq>weekly</changefreq>
+<priority>1.0 </priority>
+</url>
+<url>
+<loc>http://192.168.1.253/ramasamy/rentals/checkout/checkprivileges/</loc>
+<lastmod>2014/05/09 05:48:35</lastmod>
+<changefreq>weekly</changefreq>
+<priority>1.0 </priority>
+</url>
+<url>
+<loc>http://192.168.1.253/ramasamy/rentals/checkout/get_rand_str/</loc>
+<lastmod>2014/05/09 05:48:35</lastmod>
+<changefreq>weekly</changefreq>
+<priority>1.0 </priority>
+</url>
+<url>
+<loc>http://192.168.1.253/ramasamy/rentals/checkout/setpictureproducts/</loc>
+<lastmod>2014/05/09 05:48:35</lastmod>
+<changefreq>weekly</changefreq>
+<priority>1.0 </priority>
+</url>
+<url>
+<loc>http://192.168.1.253/ramasamy/rentals/checkout/imageresizewithspace/</loc>
+<lastmod>2014/05/09 05:48:35</lastmod>
+<changefreq>weekly</changefreq>
+<priority>1.0 </priority>
+</url>
+<url>
+<loc>http://192.168.1.253/ramasamy/rentals/checkout/imageresizewithspaceold/</loc>
+<lastmod>2014/05/09 05:48:35</lastmod>
+<changefreq>weekly</changefreq>
+<priority>1.0 </priority>
+</url>
+<url>
+<loc>http://192.168.1.253/ramasamy/rentals/checkout/imageresizewithspacecity/</loc>
+<lastmod>2014/05/09 05:48:35</lastmod>
+<changefreq>weekly</changefreq>
+<priority>1.0 </priority>
+</url>
+<url>
+<loc>http://192.168.1.253/ramasamy/rentals/cms/page_by_id/</loc>
+<lastmod>2014/05/09 05:48:35</lastmod>
+<changefreq>weekly</changefreq>
+<priority>1.0 </priority>
+</url>
+<url>
+<loc>http://192.168.1.253/ramasamy/rentals/cms/dashboard_account/</loc>
+<lastmod>2014/05/09 05:48:35</lastmod>
+<changefreq>weekly</changefreq>
+<priority>1.0 </priority>
+</url>
+<url>
+<loc>http://192.168.1.253/ramasamy/rentals/cms/dashboard_account_payout/</loc>
+<lastmod>2014/05/09 05:48:35</lastmod>
+<changefreq>weekly</changefreq>
+<priority>1.0 </priority>
+</url>
+<url>
+<loc>http://192.168.1.253/ramasamy/rentals/cms/dashboard_account_trans/</loc>
+<lastmod>2014/05/09 05:48:35</lastmod>
+<changefreq>weekly</changefreq>
+<priority>1.0 </priority>
+</url>
+<url>
+<loc>http://192.168.1.253/ramasamy/rentals/cms/dashboard_account_privacy/</loc>
+<lastmod>2014/05/09 05:48:35</lastmod>
+<changefreq>weekly</changefreq>
+<priority>1.0 </priority>
+</url>
+<url>
+<loc>http://192.168.1.253/ramasamy/rentals/cms/dashboard_account_settings/</loc>
+<lastmod>2014/05/09 05:48:35</lastmod>
+<changefreq>weekly</changefreq>
+<priority>1.0 </priority>
+</url>
+<url>
+<loc>http://192.168.1.253/ramasamy/rentals/cms/dashboard_inbox/</loc>
+<lastmod>2014/05/09 05:48:35</lastmod>
+<changefreq>weekly</changefreq>
+<priority>1.0 </priority>
+</url>
+<url>
+<loc>http://192.168.1.253/ramasamy/rentals/cms/dashboard_listing/</loc>
+<lastmod>2014/05/09 05:48:35</lastmod>
+<changefreq>weekly</changefreq>
+<priority>1.0 </priority>
+</url>
+<url>
+<loc>http://192.168.1.253/ramasamy/rentals/cms/rental_detail_count/</loc>
+<lastmod>2014/05/09 05:48:35</lastmod>
+<changefreq>weekly</changefreq>
+<priority>1.0 </priority>
+</url>
+<url>
+<loc>http://192.168.1.253/ramasamy/rentals/cms/dashboard_listing_reservation/</loc>
+<lastmod>2014/05/09 05:48:35</lastmod>
+<changefreq>weekly</changefreq>
+<priority>1.0 </priority>
+</url>
+<url>
+<loc>http://192.168.1.253/ramasamy/rentals/cms/dashboard_listing_requirement/</loc>
+<lastmod>2014/05/09 05:48:35</lastmod>
+<changefreq>weekly</changefreq>
+<priority>1.0 </priority>
+</url>
+<url>
+<loc>http://192.168.1.253/ramasamy/rentals/cms/dashboard_trips/</loc>
+<lastmod>2014/05/09 05:48:35</lastmod>
+<changefreq>weekly</changefreq>
+<priority>1.0 </priority>
+</url>
+<url>
+<loc>http://192.168.1.253/ramasamy/rentals/cms/dashboard_trips_prve/</loc>
+<lastmod>2014/05/09 05:48:35</lastmod>
+<changefreq>weekly</changefreq>
+<priority>1.0 </priority>
+</url>
+<url>
+<loc>http://192.168.1.253/ramasamy/rentals/cms/checklogin/</loc>
+<lastmod>2014/05/09 05:48:35</lastmod>
+<changefreq>weekly</changefreq>
+<priority>1.0 </priority>
+</url>
+<url>
+<loc>http://192.168.1.253/ramasamy/rentals/cms/seterrormessage/</loc>
+<lastmod>2014/05/09 05:48:35</lastmod>
+<changefreq>weekly</changefreq>
+<priority>1.0 </priority>
+</url>
+<url>
+<loc>http://192.168.1.253/ramasamy/rentals/cms/checkprivileges/</loc>
+<lastmod>2014/05/09 05:48:35</lastmod>
+<changefreq>weekly</changefreq>
+<priority>1.0 </priority>
+</url>
+<url>
+<loc>http://192.168.1.253/ramasamy/rentals/cms/get_rand_str/</loc>
+<lastmod>2014/05/09 05:48:35</lastmod>
+<changefreq>weekly</changefreq>
+<priority>1.0 </priority>
+</url>
+<url>
+<loc>http://192.168.1.253/ramasamy/rentals/cms/setpictureproducts/</loc>
+<lastmod>2014/05/09 05:48:35</lastmod>
+<changefreq>weekly</changefreq>
+<priority>1.0 </priority>
+</url>
+<url>
+<loc>http://192.168.1.253/ramasamy/rentals/cms/imageresizewithspace/</loc>
+<lastmod>2014/05/09 05:48:35</lastmod>
+<changefreq>weekly</changefreq>
+<priority>1.0 </priority>
+</url>
+<url>
+<loc>http://192.168.1.253/ramasamy/rentals/cms/imageresizewithspaceold/</loc>
+<lastmod>2014/05/09 05:48:35</lastmod>
+<changefreq>weekly</changefreq>
+<priority>1.0 </priority>
+</url>
+<url>
+<loc>http://192.168.1.253/ramasamy/rentals/cms/imageresizewithspacecity/</loc>
+<lastmod>2014/05/09 05:48:35</lastmod>
+<changefreq>weekly</changefreq>
+<priority>1.0 </priority>
+</url>
+<url>
+<loc>http://192.168.1.253/ramasamy/rentals/feed/feeds/</loc>
+<lastmod>2014/05/09 05:48:35</lastmod>
+<changefreq>weekly</changefreq>
+<priority>1.0 </priority>
+</url>
+<url>
+<loc>http://192.168.1.253/ramasamy/rentals/feed/user/</loc>
+<lastmod>2014/05/09 05:48:35</lastmod>
+<changefreq>weekly</changefreq>
+<priority>1.0 </priority>
+</url>
+<url>
+<loc>http://192.168.1.253/ramasamy/rentals/feed/store/</loc>
+<lastmod>2014/05/09 05:48:35</lastmod>
+<changefreq>weekly</changefreq>
+<priority>1.0 </priority>
+</url>
+<url>
+<loc>http://192.168.1.253/ramasamy/rentals/feed/checklogin/</loc>
+<lastmod>2014/05/09 05:48:35</lastmod>
+<changefreq>weekly</changefreq>
+<priority>1.0 </priority>
+</url>
+<url>
+<loc>http://192.168.1.253/ramasamy/rentals/feed/seterrormessage/</loc>
+<lastmod>2014/05/09 05:48:35</lastmod>
+<changefreq>weekly</changefreq>
+<priority>1.0 </priority>
+</url>
+<url>
+<loc>http://192.168.1.253/ramasamy/rentals/feed/checkprivileges/</loc>
+<lastmod>2014/05/09 05:48:35</lastmod>
+<changefreq>weekly</changefreq>
+<priority>1.0 </priority>
+</url>
+<url>
+<loc>http://192.168.1.253/ramasamy/rentals/feed/get_rand_str/</loc>
+<lastmod>2014/05/09 05:48:35</lastmod>
+<changefreq>weekly</changefreq>
+<priority>1.0 </priority>
+</url>
+<url>
+<loc>http://192.168.1.253/ramasamy/rentals/feed/setpictureproducts/</loc>
+<lastmod>2014/05/09 05:48:35</lastmod>
+<changefreq>weekly</changefreq>
+<priority>1.0 </priority>
+</url>
+<url>
+<loc>http://192.168.1.253/ramasamy/rentals/feed/imageresizewithspace/</loc>
+<lastmod>2014/05/09 05:48:35</lastmod>
+<changefreq>weekly</changefreq>
+<priority>1.0 </priority>
+</url>
+<url>
+<loc>http://192.168.1.253/ramasamy/rentals/feed/imageresizewithspaceold/</loc>
+<lastmod>2014/05/09 05:48:35</lastmod>
+<changefreq>weekly</changefreq>
+<priority>1.0 </priority>
+</url>
+<url>
+<loc>http://192.168.1.253/ramasamy/rentals/feed/imageresizewithspacecity/</loc>
+<lastmod>2014/05/09 05:48:35</lastmod>
+<changefreq>weekly</changefreq>
+<priority>1.0 </priority>
+</url>
+<url>
+<loc>http://192.168.1.253/ramasamy/rentals/giftcard/inserteditgiftcard/</loc>
+<lastmod>2014/05/09 05:48:35</lastmod>
+<changefreq>weekly</changefreq>
+<priority>1.0 </priority>
+</url>
+<url>
+<loc>http://192.168.1.253/ramasamy/rentals/giftcard/checklogin/</loc>
+<lastmod>2014/05/09 05:48:35</lastmod>
+<changefreq>weekly</changefreq>
+<priority>1.0 </priority>
+</url>
+<url>
+<loc>http://192.168.1.253/ramasamy/rentals/giftcard/seterrormessage/</loc>
+<lastmod>2014/05/09 05:48:35</lastmod>
+<changefreq>weekly</changefreq>
+<priority>1.0 </priority>
+</url>
+<url>
+<loc>http://192.168.1.253/ramasamy/rentals/giftcard/checkprivileges/</loc>
+<lastmod>2014/05/09 05:48:35</lastmod>
+<changefreq>weekly</changefreq>
+<priority>1.0 </priority>
+</url>
+<url>
+<loc>http://192.168.1.253/ramasamy/rentals/giftcard/get_rand_str/</loc>
+<lastmod>2014/05/09 05:48:35</lastmod>
+<changefreq>weekly</changefreq>
+<priority>1.0 </priority>
+</url>
+<url>
+<loc>http://192.168.1.253/ramasamy/rentals/giftcard/setpictureproducts/</loc>
+<lastmod>2014/05/09 05:48:35</lastmod>
+<changefreq>weekly</changefreq>
+<priority>1.0 </priority>
+</url>
+<url>
+<loc>http://192.168.1.253/ramasamy/rentals/giftcard/imageresizewithspace/</loc>
+<lastmod>2014/05/09 05:48:35</lastmod>
+<changefreq>weekly</changefreq>
+<priority>1.0 </priority>
+</url>
+<url>
+<loc>http://192.168.1.253/ramasamy/rentals/giftcard/imageresizewithspaceold/</loc>
+<lastmod>2014/05/09 05:48:35</lastmod>
+<changefreq>weekly</changefreq>
+<priority>1.0 </priority>
+</url>
+<url>
+<loc>http://192.168.1.253/ramasamy/rentals/giftcard/imageresizewithspacecity/</loc>
+<lastmod>2014/05/09 05:48:35</lastmod>
+<changefreq>weekly</changefreq>
+<priority>1.0 </priority>
+</url>
+<url>
+<loc>http://192.168.1.253/ramasamy/rentals/landing/home_search_auto/</loc>
+<lastmod>2014/05/09 05:48:35</lastmod>
+<changefreq>weekly</changefreq>
+<priority>1.0 </priority>
+</url>
+<url>
+<loc>http://192.168.1.253/ramasamy/rentals/landing/ajax_load_more/</loc>
+<lastmod>2014/05/09 05:48:35</lastmod>
+<changefreq>weekly</changefreq>
+<priority>1.0 </priority>
+</url>
+<url>
+<loc>http://192.168.1.253/ramasamy/rentals/landing/display_product_detail/</loc>
+<lastmod>2014/05/09 05:48:35</lastmod>
+<changefreq>weekly</changefreq>
+<priority>1.0 </priority>
+</url>
+<url>
+<loc>http://192.168.1.253/ramasamy/rentals/landing/checklogin/</loc>
+<lastmod>2014/05/09 05:48:35</lastmod>
+<changefreq>weekly</changefreq>
+<priority>1.0 </priority>
+</url>
+<url>
+<loc>http://192.168.1.253/ramasamy/rentals/landing/seterrormessage/</loc>
+<lastmod>2014/05/09 05:48:35</lastmod>
+<changefreq>weekly</changefreq>
+<priority>1.0 </priority>
+</url>
+<url>
+<loc>http://192.168.1.253/ramasamy/rentals/landing/checkprivileges/</loc>
+<lastmod>2014/05/09 05:48:35</lastmod>
+<changefreq>weekly</changefreq>
+<priority>1.0 </priority>
+</url>
+<url>
+<loc>http://192.168.1.253/ramasamy/rentals/landing/get_rand_str/</loc>
+<lastmod>2014/05/09 05:48:35</lastmod>
+<changefreq>weekly</changefreq>
+<priority>1.0 </priority>
+</url>
+<url>
+<loc>http://192.168.1.253/ramasamy/rentals/landing/setpictureproducts/</loc>
+<lastmod>2014/05/09 05:48:35</lastmod>
+<changefreq>weekly</changefreq>
+<priority>1.0 </priority>
+</url>
+<url>
+<loc>http://192.168.1.253/ramasamy/rentals/landing/imageresizewithspace/</loc>
+<lastmod>2014/05/09 05:48:35</lastmod>
+<changefreq>weekly</changefreq>
+<priority>1.0 </priority>
+</url>
+<url>
+<loc>http://192.168.1.253/ramasamy/rentals/landing/imageresizewithspaceold/</loc>
+<lastmod>2014/05/09 05:48:35</lastmod>
+<changefreq>weekly</changefreq>
+<priority>1.0 </priority>
+</url>
+<url>
+<loc>http://192.168.1.253/ramasamy/rentals/landing/imageresizewithspacecity/</loc>
+<lastmod>2014/05/09 05:48:35</lastmod>
+<changefreq>weekly</changefreq>
+<priority>1.0 </priority>
+</url>
+<url>
+<loc>http://192.168.1.253/ramasamy/rentals/membership/display_membership/</loc>
+<lastmod>2014/05/09 05:48:35</lastmod>
+<changefreq>weekly</changefreq>
+<priority>1.0 </priority>
+</url>
+<url>
+<loc>http://192.168.1.253/ramasamy/rentals/membership/cartsubscribe/</loc>
+<lastmod>2014/05/09 05:48:35</lastmod>
+<changefreq>weekly</changefreq>
+<priority>1.0 </priority>
+</url>
+<url>
+<loc>http://192.168.1.253/ramasamy/rentals/membership/language_change/</loc>
+<lastmod>2014/05/09 05:48:35</lastmod>
+<changefreq>weekly</changefreq>
+<priority>1.0 </priority>
+</url>
+<url>
+<loc>http://192.168.1.253/ramasamy/rentals/membership/checklogin/</loc>
+<lastmod>2014/05/09 05:48:35</lastmod>
+<changefreq>weekly</changefreq>
+<priority>1.0 </priority>
+</url>
+<url>
+<loc>http://192.168.1.253/ramasamy/rentals/membership/seterrormessage/</loc>
+<lastmod>2014/05/09 05:48:35</lastmod>
+<changefreq>weekly</changefreq>
+<priority>1.0 </priority>
+</url>
+<url>
+<loc>http://192.168.1.253/ramasamy/rentals/membership/checkprivileges/</loc>
+<lastmod>2014/05/09 05:48:35</lastmod>
+<changefreq>weekly</changefreq>
+<priority>1.0 </priority>
+</url>
+<url>
+<loc>http://192.168.1.253/ramasamy/rentals/membership/get_rand_str/</loc>
+<lastmod>2014/05/09 05:48:35</lastmod>
+<changefreq>weekly</changefreq>
+<priority>1.0 </priority>
+</url>
+<url>
+<loc>http://192.168.1.253/ramasamy/rentals/membership/setpictureproducts/</loc>
+<lastmod>2014/05/09 05:48:35</lastmod>
+<changefreq>weekly</changefreq>
+<priority>1.0 </priority>
+</url>
+<url>
+<loc>http://192.168.1.253/ramasamy/rentals/membership/imageresizewithspace/</loc>
+<lastmod>2014/05/09 05:48:35</lastmod>
+<changefreq>weekly</changefreq>
+<priority>1.0 </priority>
+</url>
+<url>
+<loc>http://192.168.1.253/ramasamy/rentals/membership/imageresizewithspaceold/</loc>
+<lastmod>2014/05/09 05:48:35</lastmod>
+<changefreq>weekly</changefreq>
+<priority>1.0 </priority>
+</url>
+<url>
+<loc>http://192.168.1.253/ramasamy/rentals/membership/imageresizewithspacecity/</loc>
+<lastmod>2014/05/09 05:48:35</lastmod>
+<changefreq>weekly</changefreq>
+<priority>1.0 </priority>
+</url>
+<url>
+<loc>http://192.168.1.253/ramasamy/rentals/neighborhood/display_neighborhood/</loc>
+<lastmod>2014/05/09 05:48:35</lastmod>
+<changefreq>weekly</changefreq>
+<priority>1.0 </priority>
+</url>
+<url>
+<loc>http://192.168.1.253/ramasamy/rentals/neighborhood/display_city_all_neighborhoods/</loc>
+<lastmod>2014/05/09 05:48:35</lastmod>
+<changefreq>weekly</changefreq>
+<priority>1.0 </priority>
+</url>
+<url>
+<loc>http://192.168.1.253/ramasamy/rentals/neighborhood/display_city_neighborhood/</loc>
+<lastmod>2014/05/09 05:48:35</lastmod>
+<changefreq>weekly</changefreq>
+<priority>1.0 </priority>
+</url>
+<url>
+<loc>http://192.168.1.253/ramasamy/rentals/neighborhood/checklogin/</loc>
+<lastmod>2014/05/09 05:48:35</lastmod>
+<changefreq>weekly</changefreq>
+<priority>1.0 </priority>
+</url>
+<url>
+<loc>http://192.168.1.253/ramasamy/rentals/neighborhood/seterrormessage/</loc>
+<lastmod>2014/05/09 05:48:35</lastmod>
+<changefreq>weekly</changefreq>
+<priority>1.0 </priority>
+</url>
+<url>
+<loc>http://192.168.1.253/ramasamy/rentals/neighborhood/checkprivileges/</loc>
+<lastmod>2014/05/09 05:48:35</lastmod>
+<changefreq>weekly</changefreq>
+<priority>1.0 </priority>
+</url>
+<url>
+<loc>http://192.168.1.253/ramasamy/rentals/neighborhood/get_rand_str/</loc>
+<lastmod>2014/05/09 05:48:35</lastmod>
+<changefreq>weekly</changefreq>
+<priority>1.0 </priority>
+</url>
+<url>
+<loc>http://192.168.1.253/ramasamy/rentals/neighborhood/setpictureproducts/</loc>
+<lastmod>2014/05/09 05:48:35</lastmod>
+<changefreq>weekly</changefreq>
+<priority>1.0 </priority>
+</url>
+<url>
+<loc>http://192.168.1.253/ramasamy/rentals/neighborhood/imageresizewithspace/</loc>
+<lastmod>2014/05/09 05:48:35</lastmod>
+<changefreq>weekly</changefreq>
+<priority>1.0 </priority>
+</url>
+<url>
+<loc>http://192.168.1.253/ramasamy/rentals/neighborhood/imageresizewithspaceold/</loc>
+<lastmod>2014/05/09 05:48:35</lastmod>
+<changefreq>weekly</changefreq>
+<priority>1.0 </priority>
+</url>
+<url>
+<loc>http://192.168.1.253/ramasamy/rentals/neighborhood/imageresizewithspacecity/</loc>
+<lastmod>2014/05/09 05:48:35</lastmod>
+<changefreq>weekly</changefreq>
+<priority>1.0 </priority>
+</url>
+<url>
+<loc>http://192.168.1.253/ramasamy/rentals/notify/getlatest/</loc>
+<lastmod>2014/05/09 05:48:35</lastmod>
+<changefreq>weekly</changefreq>
+<priority>1.0 </priority>
+</url>
+<url>
+<loc>http://192.168.1.253/ramasamy/rentals/notify/display_notifications/</loc>
+<lastmod>2014/05/09 05:48:35</lastmod>
+<changefreq>weekly</changefreq>
+<priority>1.0 </priority>
+</url>
+<url>
+<loc>http://192.168.1.253/ramasamy/rentals/notify/checklogin/</loc>
+<lastmod>2014/05/09 05:48:35</lastmod>
+<changefreq>weekly</changefreq>
+<priority>1.0 </priority>
+</url>
+<url>
+<loc>http://192.168.1.253/ramasamy/rentals/notify/seterrormessage/</loc>
+<lastmod>2014/05/09 05:48:35</lastmod>
+<changefreq>weekly</changefreq>
+<priority>1.0 </priority>
+</url>
+<url>
+<loc>http://192.168.1.253/ramasamy/rentals/notify/checkprivileges/</loc>
+<lastmod>2014/05/09 05:48:35</lastmod>
+<changefreq>weekly</changefreq>
+<priority>1.0 </priority>
+</url>
+<url>
+<loc>http://192.168.1.253/ramasamy/rentals/notify/get_rand_str/</loc>
+<lastmod>2014/05/09 05:48:35</lastmod>
+<changefreq>weekly</changefreq>
+<priority>1.0 </priority>
+</url>
+<url>
+<loc>http://192.168.1.253/ramasamy/rentals/notify/setpictureproducts/</loc>
+<lastmod>2014/05/09 05:48:35</lastmod>
+<changefreq>weekly</changefreq>
+<priority>1.0 </priority>
+</url>
+<url>
+<loc>http://192.168.1.253/ramasamy/rentals/notify/imageresizewithspace/</loc>
+<lastmod>2014/05/09 05:48:35</lastmod>
+<changefreq>weekly</changefreq>
+<priority>1.0 </priority>
+</url>
+<url>
+<loc>http://192.168.1.253/ramasamy/rentals/notify/imageresizewithspaceold/</loc>
+<lastmod>2014/05/09 05:48:35</lastmod>
+<changefreq>weekly</changefreq>
+<priority>1.0 </priority>
+</url>
+<url>
+<loc>http://192.168.1.253/ramasamy/rentals/notify/imageresizewithspacecity/</loc>
+<lastmod>2014/05/09 05:48:35</lastmod>
+<changefreq>weekly</changefreq>
+<priority>1.0 </priority>
+</url>
+<url>
+<loc>http://192.168.1.253/ramasamy/rentals/order/ipnpayment/</loc>
+<lastmod>2014/05/09 05:48:35</lastmod>
+<changefreq>weekly</changefreq>
+<priority>1.0 </priority>
+</url>
+<url>
+<loc>http://192.168.1.253/ramasamy/rentals/order/insert_product_comment/</loc>
+<lastmod>2014/05/09 05:48:35</lastmod>
+<changefreq>weekly</changefreq>
+<priority>1.0 </priority>
+</url>
+<url>
+<loc>http://192.168.1.253/ramasamy/rentals/order/send_comment_noty_mail/</loc>
+<lastmod>2014/05/09 05:48:35</lastmod>
+<changefreq>weekly</changefreq>
+<priority>1.0 </priority>
+</url>
+<url>
+<loc>http://192.168.1.253/ramasamy/rentals/order/checklogin/</loc>
+<lastmod>2014/05/09 05:48:35</lastmod>
+<changefreq>weekly</changefreq>
+<priority>1.0 </priority>
+</url>
+<url>
+<loc>http://192.168.1.253/ramasamy/rentals/order/seterrormessage/</loc>
+<lastmod>2014/05/09 05:48:35</lastmod>
+<changefreq>weekly</changefreq>
+<priority>1.0 </priority>
+</url>
+<url>
+<loc>http://192.168.1.253/ramasamy/rentals/order/checkprivileges/</loc>
+<lastmod>2014/05/09 05:48:35</lastmod>
+<changefreq>weekly</changefreq>
+<priority>1.0 </priority>
+</url>
+<url>
+<loc>http://192.168.1.253/ramasamy/rentals/order/get_rand_str/</loc>
+<lastmod>2014/05/09 05:48:35</lastmod>
+<changefreq>weekly</changefreq>
+<priority>1.0 </priority>
+</url>
+<url>
+<loc>http://192.168.1.253/ramasamy/rentals/order/setpictureproducts/</loc>
+<lastmod>2014/05/09 05:48:35</lastmod>
+<changefreq>weekly</changefreq>
+<priority>1.0 </priority>
+</url>
+<url>
+<loc>http://192.168.1.253/ramasamy/rentals/order/imageresizewithspace/</loc>
+<lastmod>2014/05/09 05:48:35</lastmod>
+<changefreq>weekly</changefreq>
+<priority>1.0 </priority>
+</url>
+<url>
+<loc>http://192.168.1.253/ramasamy/rentals/order/imageresizewithspaceold/</loc>
+<lastmod>2014/05/09 05:48:35</lastmod>
+<changefreq>weekly</changefreq>
+<priority>1.0 </priority>
+</url>
+<url>
+<loc>http://192.168.1.253/ramasamy/rentals/order/imageresizewithspacecity/</loc>
+<lastmod>2014/05/09 05:48:35</lastmod>
+<changefreq>weekly</changefreq>
+<priority>1.0 </priority>
+</url>
+<url>
+<loc>http://192.168.1.253/ramasamy/rentals/product/onboarding/</loc>
+<lastmod>2014/05/09 05:48:35</lastmod>
+<changefreq>weekly</changefreq>
+<priority>1.0 </priority>
+</url>
+<url>
+<loc>http://192.168.1.253/ramasamy/rentals/product/onboarding_get_products_categories/</loc>
+<lastmod>2014/05/09 05:48:35</lastmod>
+<changefreq>weekly</changefreq>
+<priority>1.0 </priority>
+</url>
+<url>
+<loc>http://192.168.1.253/ramasamy/rentals/product/onboarding_get_users_follow/</loc>
+<lastmod>2014/05/09 05:48:35</lastmod>
+<changefreq>weekly</changefreq>
+<priority>1.0 </priority>
+</url>
+<url>
+<loc>http://192.168.1.253/ramasamy/rentals/product/inserteditproduct/</loc>
+<lastmod>2014/05/09 05:48:35</lastmod>
+<changefreq>weekly</changefreq>
+<priority>1.0 </priority>
+</url>
+<url>
+<loc>http://192.168.1.253/ramasamy/rentals/product/display_product_shuffle/</loc>
+<lastmod>2014/05/09 05:48:35</lastmod>
+<changefreq>weekly</changefreq>
+<priority>1.0 </priority>
+</url>
+<url>
+<loc>http://192.168.1.253/ramasamy/rentals/product/display_product_detail/</loc>
+<lastmod>2014/05/09 05:48:35</lastmod>
+<changefreq>weekly</changefreq>
+<priority>1.0 </priority>
+</url>
+<url>
+<loc>http://192.168.1.253/ramasamy/rentals/product/delete_featured_find/</loc>
+<lastmod>2014/05/09 05:48:35</lastmod>
+<changefreq>weekly</changefreq>
+<priority>1.0 </priority>
+</url>
+<url>
+<loc>http://192.168.1.253/ramasamy/rentals/product/ajaxproductdetailattributeupdate/</loc>
+<lastmod>2014/05/09 05:48:35</lastmod>
+<changefreq>weekly</changefreq>
+<priority>1.0 </priority>
+</url>
+<url>
+<loc>http://192.168.1.253/ramasamy/rentals/product/add_featured_find/</loc>
+<lastmod>2014/05/09 05:48:35</lastmod>
+<changefreq>weekly</changefreq>
+<priority>1.0 </priority>
+</url>
+<url>
+<loc>http://192.168.1.253/ramasamy/rentals/product/share_with_someone/</loc>
+<lastmod>2014/05/09 05:48:35</lastmod>
+<changefreq>weekly</changefreq>
+<priority>1.0 </priority>
+</url>
+<url>
+<loc>http://192.168.1.253/ramasamy/rentals/product/send_thing_share_mail/</loc>
+<lastmod>2014/05/09 05:48:35</lastmod>
+<changefreq>weekly</changefreq>
+<priority>1.0 </priority>
+</url>
+<url>
+<loc>http://192.168.1.253/ramasamy/rentals/product/add_have_tag/</loc>
+<lastmod>2014/05/09 05:48:35</lastmod>
+<changefreq>weekly</changefreq>
+<priority>1.0 </priority>
+</url>
+<url>
+<loc>http://192.168.1.253/ramasamy/rentals/product/delete_have_tag/</loc>
+<lastmod>2014/05/09 05:48:35</lastmod>
+<changefreq>weekly</changefreq>
+<priority>1.0 </priority>
+</url>
+<url>
+<loc>http://192.168.1.253/ramasamy/rentals/product/upload_product_image/</loc>
+<lastmod>2014/05/09 05:48:35</lastmod>
+<changefreq>weekly</changefreq>
+<priority>1.0 </priority>
+</url>
+<url>
+<loc>http://192.168.1.253/ramasamy/rentals/product/add_new_thing/</loc>
+<lastmod>2014/05/09 05:48:35</lastmod>
+<changefreq>weekly</changefreq>
+<priority>1.0 </priority>
+</url>
+<url>
+<loc>http://192.168.1.253/ramasamy/rentals/product/display_user_thing/</loc>
+<lastmod>2014/05/09 05:48:35</lastmod>
+<changefreq>weekly</changefreq>
+<priority>1.0 </priority>
+</url>
+<url>
+<loc>http://192.168.1.253/ramasamy/rentals/product/sales_create/</loc>
+<lastmod>2014/05/09 05:48:35</lastmod>
+<changefreq>weekly</changefreq>
+<priority>1.0 </priority>
+</url>
+<url>
+<loc>http://192.168.1.253/ramasamy/rentals/product/editpictureproducts/</loc>
+<lastmod>2014/05/09 05:48:35</lastmod>
+<changefreq>weekly</changefreq>
+<priority>1.0 </priority>
+</url>
+<url>
+<loc>http://192.168.1.253/ramasamy/rentals/product/edit_product_detail/</loc>
+<lastmod>2014/05/09 05:48:35</lastmod>
+<changefreq>weekly</changefreq>
+<priority>1.0 </priority>
+</url>
+<url>
+<loc>http://192.168.1.253/ramasamy/rentals/product/edit_user_product_process/</loc>
+<lastmod>2014/05/09 05:48:35</lastmod>
+<changefreq>weekly</changefreq>
+<priority>1.0 </priority>
+</url>
+<url>
+<loc>http://192.168.1.253/ramasamy/rentals/product/sell_it/</loc>
+<lastmod>2014/05/09 05:48:35</lastmod>
+<changefreq>weekly</changefreq>
+<priority>1.0 </priority>
+</url>
+<url>
+<loc>http://192.168.1.253/ramasamy/rentals/product/delete_product/</loc>
+<lastmod>2014/05/09 05:48:35</lastmod>
+<changefreq>weekly</changefreq>
+<priority>1.0 </priority>
+</url>
+<url>
+<loc>http://192.168.1.253/ramasamy/rentals/product/add_reaction_tag/</loc>
+<lastmod>2014/05/09 05:48:35</lastmod>
+<changefreq>weekly</changefreq>
+<priority>1.0 </priority>
+</url>
+<url>
+<loc>http://192.168.1.253/ramasamy/rentals/product/delete_reaction_tag/</loc>
+<lastmod>2014/05/09 05:48:35</lastmod>
+<changefreq>weekly</changefreq>
+<priority>1.0 </priority>
+</url>
+<url>
+<loc>http://192.168.1.253/ramasamy/rentals/product/loadlistvalues/</loc>
+<lastmod>2014/05/09 05:48:35</lastmod>
+<changefreq>weekly</changefreq>
+<priority>1.0 </priority>
+</url>
+<url>
+<loc>http://192.168.1.253/ramasamy/rentals/product/approve_comment/</loc>
+<lastmod>2014/05/09 05:48:35</lastmod>
+<changefreq>weekly</changefreq>
+<priority>1.0 </priority>
+</url>
+<url>
+<loc>http://192.168.1.253/ramasamy/rentals/product/delete_comment/</loc>
+<lastmod>2014/05/09 05:48:35</lastmod>
+<changefreq>weekly</changefreq>
+<priority>1.0 </priority>
+</url>
+<url>
+<loc>http://192.168.1.253/ramasamy/rentals/product/send_feature_noty_mail/</loc>
+<lastmod>2014/05/09 05:48:35</lastmod>
+<changefreq>weekly</changefreq>
+<priority>1.0 </priority>
+</url>
+<url>
+<loc>http://192.168.1.253/ramasamy/rentals/product/add_space/</loc>
+<lastmod>2014/05/09 05:48:35</lastmod>
+<changefreq>weekly</changefreq>
+<priority>1.0 </priority>
+</url>
+<url>
+<loc>http://192.168.1.253/ramasamy/rentals/product/space_listing/</loc>
+<lastmod>2014/05/09 05:48:35</lastmod>
+<changefreq>weekly</changefreq>
+<priority>1.0 </priority>
+</url>
+<url>
+<loc>http://192.168.1.253/ramasamy/rentals/product/list_space/</loc>
+<lastmod>2014/05/09 05:48:35</lastmod>
+<changefreq>weekly</changefreq>
+<priority>1.0 </priority>
+</url>
+<url>
+<loc>http://192.168.1.253/ramasamy/rentals/product/manage_listing/</loc>
+<lastmod>2014/05/09 05:48:35</lastmod>
+<changefreq>weekly</changefreq>
+<priority>1.0 </priority>
+</url>
+<url>
+<loc>http://192.168.1.253/ramasamy/rentals/product/price_listing/</loc>
+<lastmod>2014/05/09 05:48:35</lastmod>
+<changefreq>weekly</changefreq>
+<priority>1.0 </priority>
+</url>
+<url>
+<loc>http://192.168.1.253/ramasamy/rentals/product/overview_listing/</loc>
+<lastmod>2014/05/09 05:48:35</lastmod>
+<changefreq>weekly</changefreq>
+<priority>1.0 </priority>
+</url>
+<url>
+<loc>http://192.168.1.253/ramasamy/rentals/product/photos_listing/</loc>
+<lastmod>2014/05/09 05:48:35</lastmod>
+<changefreq>weekly</changefreq>
+<priority>1.0 </priority>
+</url>
+<url>
+<loc>http://192.168.1.253/ramasamy/rentals/product/changeimagetitle/</loc>
+<lastmod>2014/05/09 05:48:35</lastmod>
+<changefreq>weekly</changefreq>
+<priority>1.0 </priority>
+</url>
+<url>
+<loc>http://192.168.1.253/ramasamy/rentals/product/amenities_listing/</loc>
+<lastmod>2014/05/09 05:48:35</lastmod>
+<changefreq>weekly</changefreq>
+<priority>1.0 </priority>
+</url>
+<url>
+<loc>http://192.168.1.253/ramasamy/rentals/product/address_listing/</loc>
+<lastmod>2014/05/09 05:48:35</lastmod>
+<changefreq>weekly</changefreq>
+<priority>1.0 </priority>
+</url>
+<url>
+<loc>http://192.168.1.253/ramasamy/rentals/product/insert_calendar/</loc>
+<lastmod>2014/05/09 05:48:35</lastmod>
+<changefreq>weekly</changefreq>
+<priority>1.0 </priority>
+</url>
+<url>
+<loc>http://192.168.1.253/ramasamy/rentals/product/insert_home_type/</loc>
+<lastmod>2014/05/09 05:48:35</lastmod>
+<changefreq>weekly</changefreq>
+<priority>1.0 </priority>
+</url>
+<url>
+<loc>http://192.168.1.253/ramasamy/rentals/product/insert_room_type/</loc>
+<lastmod>2014/05/09 05:48:35</lastmod>
+<changefreq>weekly</changefreq>
+<priority>1.0 </priority>
+</url>
+<url>
+<loc>http://192.168.1.253/ramasamy/rentals/product/insert_accommodates/</loc>
+<lastmod>2014/05/09 05:48:35</lastmod>
+<changefreq>weekly</changefreq>
+<priority>1.0 </priority>
+</url>
+<url>
+<loc>http://192.168.1.253/ramasamy/rentals/product/insert_bedrooms/</loc>
+<lastmod>2014/05/09 05:48:35</lastmod>
+<changefreq>weekly</changefreq>
+<priority>1.0 </priority>
+</url>
+<url>
+<loc>http://192.168.1.253/ramasamy/rentals/product/insert_beds/</loc>
+<lastmod>2014/05/09 05:48:35</lastmod>
+<changefreq>weekly</changefreq>
+<priority>1.0 </priority>
+</url>
+<url>
+<loc>http://192.168.1.253/ramasamy/rentals/product/insert_bed_type/</loc>
+<lastmod>2014/05/09 05:48:35</lastmod>
+<changefreq>weekly</changefreq>
+<priority>1.0 </priority>
+</url>
+<url>
+<loc>http://192.168.1.253/ramasamy/rentals/product/insert_bathrooms/</loc>
+<lastmod>2014/05/09 05:48:35</lastmod>
+<changefreq>weekly</changefreq>
+<priority>1.0 </priority>
+</url>
+<url>
+<loc>http://192.168.1.253/ramasamy/rentals/product/ch_price/</loc>
+<lastmod>2014/05/09 05:48:35</lastmod>
+<changefreq>weekly</changefreq>
+<priority>1.0 </priority>
+</url>
+<url>
+<loc>http://192.168.1.253/ramasamy/rentals/product/ch_currency/</loc>
+<lastmod>2014/05/09 05:48:35</lastmod>
+<changefreq>weekly</changefreq>
+<priority>1.0 </priority>
+</url>
+<url>
+<loc>http://192.168.1.253/ramasamy/rentals/product/ch_title/</loc>
+<lastmod>2014/05/09 05:48:35</lastmod>
+<changefreq>weekly</changefreq>
+<priority>1.0 </priority>
+</url>
+<url>
+<loc>http://192.168.1.253/ramasamy/rentals/product/ch_description/</loc>
+<lastmod>2014/05/09 05:48:35</lastmod>
+<changefreq>weekly</changefreq>
+<priority>1.0 </priority>
+</url>
+<url>
+<loc>http://192.168.1.253/ramasamy/rentals/product/ul_photo/</loc>
+<lastmod>2014/05/09 05:48:35</lastmod>
+<changefreq>weekly</changefreq>
+<priority>1.0 </priority>
+</url>
+<url>
+<loc>http://192.168.1.253/ramasamy/rentals/product/insert_address/</loc>
+<lastmod>2014/05/09 05:48:35</lastmod>
+<changefreq>weekly</changefreq>
+<priority>1.0 </priority>
+</url>
+<url>
+<loc>http://192.168.1.253/ramasamy/rentals/product/city_autocomplete/</loc>
+<lastmod>2014/05/09 05:48:35</lastmod>
+<changefreq>weekly</changefreq>
+<priority>1.0 </priority>
+</url>
+<url>
+<loc>http://192.168.1.253/ramasamy/rentals/product/search_text/</loc>
+<lastmod>2014/05/09 05:48:35</lastmod>
+<changefreq>weekly</changefreq>
+<priority>1.0 </priority>
+</url>
+<url>
+<loc>http://192.168.1.253/ramasamy/rentals/product/update_old_list_values/</loc>
+<lastmod>2014/05/09 05:48:35</lastmod>
+<changefreq>weekly</changefreq>
+<priority>1.0 </priority>
+</url>
+<url>
+<loc>http://192.168.1.253/ramasamy/rentals/product/send_comment_noty_mail/</loc>
+<lastmod>2014/05/09 05:48:35</lastmod>
+<changefreq>weekly</changefreq>
+<priority>1.0 </priority>
+</url>
+<url>
+<loc>http://192.168.1.253/ramasamy/rentals/product/language_change/</loc>
+<lastmod>2014/05/09 05:48:35</lastmod>
+<changefreq>weekly</changefreq>
+<priority>1.0 </priority>
+</url>
+<url>
+<loc>http://192.168.1.253/ramasamy/rentals/product/checklogin/</loc>
+<lastmod>2014/05/09 05:48:35</lastmod>
+<changefreq>weekly</changefreq>
+<priority>1.0 </priority>
+</url>
+<url>
+<loc>http://192.168.1.253/ramasamy/rentals/product/seterrormessage/</loc>
+<lastmod>2014/05/09 05:48:35</lastmod>
+<changefreq>weekly</changefreq>
+<priority>1.0 </priority>
+</url>
+<url>
+<loc>http://192.168.1.253/ramasamy/rentals/product/checkprivileges/</loc>
+<lastmod>2014/05/09 05:48:35</lastmod>
+<changefreq>weekly</changefreq>
+<priority>1.0 </priority>
+</url>
+</urlset>

@@ -1,0 +1,15 @@
+/**
+ * @site			Marque / Projet
+ * @media			Médias pour lesquels la feuille de styles est appliquée
+ * @version			Numéro de version du fichier
+ * @lastmodified	Date de dernière mise à jour
+ */
+
+ /** --- = IMPORT --- */
+ @import "1-normalize"; // Uniformisation des styles navigateurs
+ @import "2-typography"; // Elaboration de la charte typographique 
+ @import "3-layout"; // Mise en place de la grille verticale et de la structure globale
+ @import "4-element"; // Définition des éléments récurrents et spécifiques
+ @import "5-js"; // Ajout des styles relatifs aux comportements JavaScript
+ @import "6-ie"; // Correction des problèmes sur les anciennes versions d'Internet Explorer
+ @import "7-responsive"; // Adaptation de l'affichage grâce aux media queries

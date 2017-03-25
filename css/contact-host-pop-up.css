@@ -1,0 +1,129 @@
+/*---------Popup------------*/
+#myModal-host .modal-dialog {
+    margin: 0px auto 15px;
+}
+#myModal-host-success .modal-dialog {
+    margin: 0px auto 15px;
+}
+#myModal-host .modal-dialog {
+    width: 100% !important;
+}
+#myModal-host-success .modal-dialog {
+    width: 100% !important;
+}
+
+/*----header----*/
+#myModal-host .modal-header {
+    width: 100%;
+    float: left;
+    background: #EDEFED none repeat scroll 0% 0%;
+    padding: 20px;
+}
+#myModal-host-success .modal-header {
+    width: 100%;
+    float: left;
+    background: #EDEFED none repeat scroll 0% 0%;
+    padding: 20px;
+}
+.msg-header-left {
+    width: 70%;
+    float: left;
+}
+.msg-header-right {
+    width: 30%;
+    float: left;
+    text-align: right;
+}
+.close-btn {
+    float: right;
+}
+
+/*-----body--------*/
+#myModal-host.modal-content {
+    box-shadow: none;
+    border: 0px none;
+}
+#myModal-host-success.modal-content {
+    box-shadow: none;
+    border: 0px none;
+}
+#myModal-host .modal-body {
+    overflow: visible !important;
+    float: left;
+}
+#myModal-host-success .modal-body {
+    overflow: visible !important;
+    float: left;
+}
+#myModal-host .modal-body {
+    max-height: 500px;
+}
+#myModal-host-success .modal-body {
+    max-height: 500px;
+}
+.msg-host-form {
+    margin: 0px 10px;
+}
+.msg-host-level-1 {
+    width: 100%;
+    float: left;
+    margin: 20px 0px 0px;
+}
+.msg-host-level-2 {
+    width: 37%;
+    float: left;
+    padding-right: 5%;
+}
+.msg-host-form label {
+    color: #333;
+    font-family: "Conv_DaxBold";
+    font-size: 16px;
+    padding-left: 10%;
+}
+.msg-host-level-2 input.calender {
+    width: 100%;
+    height: 30px;
+    border-radius: 0px;
+    background: transparent url("../images/form-arrow.png") no-repeat scroll 92% center;
+    padding-right: 10px;
+    margin-top: 5px;
+}
+.msg-host-level-2 {
+    width: 37%;
+    float: left;
+    padding-right: 5%;
+}
+.msg-host-level-3 {
+    width: 20%;
+    float: right;
+}
+.msg-host-level-2 select, .msg-host-level-3 select {
+    width: 100%;
+    background: transparent url("../images/form-arrow.png") no-repeat scroll 92% center;
+    margin: 5px 0px;
+    border-radius: 0px;
+    padding: 0px;
+}
+#myModal-host textarea {
+    width: 100%;
+}
+#myModal-host-success textarea {
+    width: 100%;
+}
+#myModal-host a.request-trip {
+    float: right;
+}
+#myModal-host-success a.request-trip {
+    float: right;
+}
+a.request-trip {
+    background: #38A86A none repeat scroll 0px 0px;
+    border-radius: 5px;
+    color: #FFF !important;
+    font-family: "Conv_DaxLight";
+    font-size: 16px;
+    font-weight: normal;
+    margin: 3px 0px 0px 24px;
+    padding: 8px 12px;
+    float: left;
+}

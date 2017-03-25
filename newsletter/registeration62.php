@@ -1,0 +1,1 @@
+<?php $message .= '<p>rentals ending stage</p>';  ?>

@@ -1,0 +1,1 @@
+<?php $message .= '<p>luxury rooms for rents</p>';  ?>

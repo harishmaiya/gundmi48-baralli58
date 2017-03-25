@@ -1,0 +1,239 @@
+#pre_approve_accept .service-copmity ul li {
+    border: 1px solid #ccc;
+    float: left;
+    margin: 5px 0 5px 13px !important;
+    padding: 0;
+    width: 90% !important;
+}
+#myModal-host .chekin-list #offer_message_contact1 {
+    width: 434px;
+	margin-left: 0 !important;
+}
+#myModal-host .booking-btn {
+    cursor: pointer;
+    float: left;
+    margin: 0 0 0 14px;
+    width: 90%;
+}
+.profilepage .panel-footer{
+	display: inline-block;
+    padding: 20px 15px;
+    width: 100%;
+}
+.profilepage .panel-footer a{
+	background: none repeat scroll 0 0 #ff5a5f;
+    border: medium none;
+    color: #fff;
+    margin: 0;
+    text-shadow: none;
+	padding:11px 15px;
+}
+.reviwprofile .listd-right a.bedrom-flat{
+	color: #fff;
+}
+.searching-section input.where {
+	width: 34%;
+}
+.show_view #transition-timer-carousel .carousel-inner .item{
+	height: 100px !important;
+    overflow: hidden;
+}
+/*#content_text ul{
+	padding-left: 15px !important;
+}
+#content_text li{
+	list-style-type: disc !important;
+    list-style-position: outside !important;
+    list-style-image: none !important;
+}*/
+#content_text h1{
+	margin-bottom: 15px;
+}
+
+
+/*--------------------datepicker----------------------*/
+
+.datepicker.datepicker-dropdown.dropdown-menu {
+    border-radius: 0;
+    min-height: 305px;
+    overflow: hidden !important;
+    padding: 4px 0 0 8px;
+    width: 289px !important;
+}
+div.datepicker.datepicker-dropdown.dropdown-menu {
+    padding: 18px 0 0 15px;
+}
+.datepicker-days {
+    height: 100% !important;
+    overflow: visible !important;
+    width: 256px;
+}
+table.table-condensed {
+    background-color: transparent;
+    float: left;
+    max-width: 100%;
+    width: 95%;
+}
+
+.datepicker.datepicker-dropdown.dropdown-menu{
+        min-height: 310px !important;
+}
+.table-condensed > thead > tr > th, .table-condensed > tbody > tr > th, .table-condensed > tfoot > tr > th, .table-condensed > thead > tr > td, .table-condensed > tbody > tr > td, .table-condensed > tfoot > tr > td{
+    padding: 5px 5px !important;
+height: auto !important;
+}
+.home_type_field_btn span {
+    float: left;
+}
+.home_type_field_btn select.other-opt{
+padding: 22px 6px;
+line-height: 60px;
+}
+.btn.footer-toggle{
+    padding: 2px 5px;
+}
+.btn.footer-toggle span{
+    font-size: 9px;
+}
+tr.msg_unread td a {
+    font-weight: normal;
+}
+/*.new-open{
+    overflow: hidden;
+}*/
+/*----------------Ka--------------*/
+
+
+.intro-filter.clearfix .control-group input[type="text"]:focus {
+    background: none !important;
+}
+/*#productListTable thead tr{
+	/* border: 1px solid #ececec; 
+	    background: #eee;
+}*/
+
+.phone-number-input-widget .pniw-number-container .pniw-number-prefix{
+	border:none !important;
+	line-height: 22px !important;
+}
+.pniw-number-container{
+	border: 1px solid #ddd;
+    border-radius: 3px;
+}
+.profile-edit #account input#phone_number{
+	border:none;
+	border-left:1px solid #ddd;
+}
+
+#content_text li {
+    list-style: inherit !important;
+}
+
+/*-------------------21-09-2016-----------------*/
+
+.manage-center-detail{
+	overflow: hidden;
+}
+.listing-menu-left {
+    float: right;
+    margin-right: 40px;
+    overflow: hidden;
+    width: 72%;
+}
+.dashboard #myModal {
+    height: 470px;
+}
+
+.heart-exist{
+	right: inherit;
+	right: 10px;
+}
+
+
+
+/*----------------06-10-2016---------------*/
+
+.listing-menu-left{
+	padding-left: 15px;
+}
+.listing-menu-right{
+	width: 18%;
+}
+header {
+    min-height: 58px;
+}
+/*#inbox{
+	height:250px !important;
+}*/
+#password_strength{
+	font-size: 13px;
+    padding-bottom: 10px;
+	display: inline-block;
+    text-align: left;
+    width: 100%;
+}
+.control-group #guests{
+	height: 37px;
+}
+#trips .notification_area p{
+	padding-top: 25px;
+    text-align: center;
+}
+body .ui-datepicker .ui-datepicker-title select{
+	padding: 0;
+}
+.dashboard #myModal .panel-body{
+	height: 70%;
+}
+.phone-number-input-widget .pniw-number-container input.pniw-number{
+	  border-bottom:none !important;
+    border-right:none !important;
+    border-top:none !important;
+}
+a.gray.newbts2{
+	border:1px solid #565a5c ;
+}
+.table-condensed .next {
+	background-position:5px 11px;
+}
+
+#productListTable p{
+	padding-top: 0 !important;
+}
+.payment_right > select#cardType {
+    height: auto;
+    width: 100%;
+}
+.payment_right > select#CCExpDay {
+    height: auto;
+}
+.payment_right > select#CCExpMnth {
+    height: auto;
+}
+input[type=text]::-ms-clear { display: none; }
+
+.img-bottom .headlined {
+	line-height: 18px;
+	text-align: left;
+}
+.describ{
+	text-align: left;
+}
+
+
+/*-------------------12-10-2016--------------*/
+
+
+#tab_default_2 #productListTable td.paddgns.newtees {
+    padding: 0;
+}
+
+#tab_default_2 #productListTable td.paddgns.newtees, #tab_default_2 #productListTable td.paddgns.newtees a{
+	text-align: center;
+}
+.wish-areas .matte-media-box{
+	width: 60px;
+}
+
+
+
