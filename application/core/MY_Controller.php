@@ -192,7 +192,7 @@ class MY_Controller extends CI_Controller {
 		
 
 		if($this->session->userdata('currency_type') == ''){
-			$GeoCurrencyType='NULL';   
+			$GeoCurrencyType = currencyCode();
 			$currencyArr = $this->product_model->get_all_details(CURRENCY,array('status'=>'Active','currency_type'=>$GeoCurrencyType));
 			if(count($currencyArr->result()) > 0){
 				$currency_values = $currencyArr;

@@ -14,7 +14,7 @@ class Product extends MY_Controller {
 		$this->load->library(array('encrypt','form_validation','image_lib','upload','session','resizeimage'));
 		$this->load->model('product_model');
 		$this->load->model('contact_model');		
-		$_POST = array_map("strip_tags", $_POST);
+		
 		$this->load->model(array('product_model','user_model','review_model','cms_model'));
 		if($_SESSION['sMainCategories'] == ''){
 			$sortArr1 = array('field'=>'cat_position','type'=>'asc');
@@ -1688,7 +1688,7 @@ class Product extends MY_Controller {
 			if ($this->checkLogin('U') != '')
 				{
 					//echo '<pre>';print_r($_POST);die;
-					$_POST = array_map("strip_tags", $_POST);
+					
 					$prd_id = $this->input->post('product_id');
 					$product_id = array('productId'=>$prd_id);
 					$newAddress = '';

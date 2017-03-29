@@ -15,7 +15,7 @@ class Attribute extends MY_Controller {
 		$this->load->helper(array('cookie','date','form'));
 		$this->load->library(array('encrypt','form_validation'));		
 		$this->load->model('attribute_model');
-		$_POST = array_map("strip_tags", $_POST);
+		
 		if ($this->checkPrivileges('List',$this->privStatus) == FALSE){
 			redirect('admin');
 		}

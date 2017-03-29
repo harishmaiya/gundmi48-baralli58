@@ -8,7 +8,7 @@ foreach ($listValues->result() as $result){
 	$values = $result->listing_values;
 }
 ?>
-<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&libraries=places&signed_in=true"></script>
+<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&libraries=places&signed_in=true&key=<?php echo $this->config->item ( 'google_map_api' );?>"></script>
 <?php 
 if(!empty($product_details)){ 
 	$address = trim(stripslashes($product_details->row()->address));
@@ -121,8 +121,6 @@ function load_NewMap()
 	google.maps.event.addListener(marker, 'dragend', function() { 
 		var newLatitude = this.position.lat();
 		var newLongitude = this.position.lng();
-		console.log(newLatitude);
-		console.log(newLongitude);
 		var pos=marker.getPosition();		
 		geocoder = new google.maps.Geocoder();
 		geocoder.geocode({
@@ -131,36 +129,8 @@ function load_NewMap()
 		function(results, status) {
 			if (status == google.maps.GeocoderStatus.OK) {	
 				var address=results[0].formatted_address;
-				var pdt_id = $('#prdiii').val();
-				$.ajax({
-				type:'POST',
-				url:'<?php echo base_url()?>site/product/save_lat_long',
-				data: {"address":address,"product_id":pdt_id},
-				dataType:'json',
-				success: function(json){
-				$('#country').val(json.country);
-				$('#state').val(json.state);
-				$('#city').val(json.city);
-				$('#autocomplete-admin').val(json.street);
-				$('#apt').val(json.street);
-				$('#post_code').val(json.zip);
-				$('#latitude').val(json.lat);
-				$('#longitude').val(json.lang);
-				var newLatitude=json.lat;
-				var longitude=json.lang;
-				var area=json.street;
-				var street=json.street;
-				var location=json.street;
-				var address=json.street;
-				var state=json.state;
-				var country=json.country;
-				},
-				error: function (request, status, error) {
-				//alert(request.responseText);
-				}
-				});				
-			} else {
-				console.log('Cannot determine address at this location.');
+				$('#autocomplete-admin').val(address);
+				getAddressDetails_only();
 			}
 		});
 	});
@@ -458,7 +428,7 @@ function onlyLetter(input){
               <li><a href="#tab1" class="active_tab">Property General Information</a></li>
               <li><a href="#tab2">Images</a></li>
               <li><a href="#tab3">Amenities</a></li>
-              <li><a id="yes4" href="#tab4" onclick="getAddressDetails();">Address & Availability Information</a></li>
+              <li><a id="yes4" href="#tab4">Address & Availability Information</a></li>
               <li><a href="#tab5">Listing</a></li>
               <li><a href="#tab6">Detailed description</a></li>
               <li><a href="#tab7">SEO</a></li>
@@ -1173,6 +1143,26 @@ success:function(msg)
 		// [END region_geolocation]
 
 	
+	function getAddressDetails_only(){
+		var address = $('#autocomplete-admin').val();
+			
+		$.ajax({
+			type: 'POST',
+			url: baseURL+'site/product/get_location',
+			data: {"address":address},
+			dataType:'json',
+			success: function(json){
+				$('#country').val(json.country);
+				$('#state').val(json.state);
+				$('#city').val(json.city);
+				$('#post_code').val(json.zip);
+				$('#apt').val(json.area);
+				$('#latitude').val(json.lat);
+				$('#longitude').val(json.lang);
+			}
+		});
+	}
+	
 	function getAddressDetails()
 		{
 			var address = $('#autocomplete-admin').val();
@@ -1191,16 +1181,36 @@ success:function(msg)
 					$('#latitude').val(json.lat);
 					$('#longitude').val(json.lang);
 					
-					myLatlng = new google.maps.LatLng(json.lat,json.lang);
-					
-					citymap['chicago'] = {
+					var mapOptions = {
+						zoom: 15,
 						center: myLatlng,
-						population: 200
-						};
-						$("#map-image").hide();
-						//$("#map-new").show();
-						$("#map").show();
-					initializeMapCircle();
+						draggable:true,
+						mapTypeId: google.maps.MapTypeId.ROADMAP
+					};
+
+					var map = new google.maps.Map(document.getElementById('map'),
+						mapOptions);
+						var marker = new google.maps.Marker({
+							position: myLatlng,
+							draggable:true,
+							map: map
+						});
+					google.maps.event.addListener(marker, 'dragend', function() { 
+						var newLatitude = this.position.lat();
+						var newLongitude = this.position.lng();
+						var pos=marker.getPosition();		
+						geocoder = new google.maps.Geocoder();
+						geocoder.geocode({
+							latLng: pos
+						},
+						function(results, status) {
+							if (status == google.maps.GeocoderStatus.OK) {	
+								var address=results[0].formatted_address;
+								$('#autocomplete-admin').val(address);
+								getAddressDetails_only();
+							}
+						});
+					});
 
 				}
 			});

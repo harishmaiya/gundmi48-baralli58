@@ -4,7 +4,6 @@ class Apns
 {
 	public function send_push_message($deviceId,$messages){
 		date_default_timezone_set('Asia/Kolkata');
-		error_reporting(-1);
 		require_once(APPPATH.'/third_party/ApnsPHP/Autoload.php');
 		$push = new ApnsPHP_Push(
 			ApnsPHP_Abstract::ENVIRONMENT_PRODUCTION,
@@ -17,8 +16,6 @@ class Apns
 		$message = new ApnsPHP_Message($deviceId);
 
 		$message->setCustomIdentifier("Message-Badge-3");
-
-		$message->setBadge(3);
 
 		$message->setText($messages['message']);
 

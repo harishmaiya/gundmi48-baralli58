@@ -124,26 +124,32 @@ function CreateWishListCat(){
 				$CountProduct1=count($productsNotEmy);
 				
 				if($CountProduct1 > 0){
-				$CountProduct = $this->shop->get_all_details(PRODUCT,array('id'=>end($productsNotEmy)))->num_rows(); 
+					$CountProduct = 0;
+					foreach($productsNotEmy as $prdID){
+						if($this->shop->get_all_details(PRODUCT,array('id'=>$prdID))->num_rows() >0){
+							$CountProduct = $CountProduct+1;
+							$finalprdID = $prdID;
+						}
+					}
 				}
-				 ?>
+				?>
 			  	<li  class="wishlists-list-item has-photo-pile">
 				<div class="photo-heart-container">
 				  
 					<div class="photo-pile">
 					  <div class="matte-media-box">
 					  <a class="media-close-btn" href="<?php echo base_url();?>user/<?php echo $loginCheck;?>/wishlistdelete/<?php echo $wlist->id;?>">Close</a>
-					   <?php if($CountProduct1 > 0) {?>
+					   <?php if($CountProduct > 0) {?>
 					  <a  href="user/<?php echo $loginCheck;?>/wishlists/<?php echo $wlist->id;?>">
 					 <?php } else { ?>
 					 <a  href="javascript:void(0);">
 					 <?php } ?>
-					  <img class="wish-main-img" alt="Vacation Places" src="<?php if($CountProduct > 0){ $ProductsImg = $this->shop->get_all_details(PRODUCT_PHOTOS,array('product_id'=>end($productsNotEmy))); if($ProductsImg->row()->product_image!=''){ echo base_url().PRODUCTPATH.$ProductsImg->row()->product_image;}else{echo 'images/product/dummyProductImage.jpg';}}else{echo 'images/site/empty-wishlist.jpg';} ?>">
+					  <img class="wish-main-img" alt="Vacation Places" src="<?php if($CountProduct > 0){ $ProductsImg = $this->shop->get_all_details(PRODUCT_PHOTOS,array('product_id'=>$finalprdID)); if($ProductsImg->row()->product_image!=''){ echo base_url().PRODUCTPATH.'thumbnail/'.$ProductsImg->row()->product_image;}else{echo 'images/product/dummyProductImage.jpg';}}else{echo 'images/site/empty-wishlist.jpg';} ?>">
                       <div class="wishlist-label-outer-container">
 						<div class="wishlist-label-inner-container">
 						  <div class="wishlist-label panel-background-dark-trans inner-glow panel-border">
 							<h4 class="color-white weight-normal"><?php echo $wlist->name; ?></h4>
-							<span class="color-gray font-tiny listings-count"><?php echo $CountProduct1; ?>&nbsp;<?php if($this->lang->line('Listings') != '') { echo stripslashes($this->lang->line('Listings')); } else echo "Listings"; ?></span>
+							<span class="color-gray font-tiny listings-count"><?php echo $CountProduct; ?>&nbsp;<?php if($this->lang->line('Listings') != '') { echo stripslashes($this->lang->line('Listings')); } else echo "Listings"; ?></span>
 							
 						  </div>
 						</div>

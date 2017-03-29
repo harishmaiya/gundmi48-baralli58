@@ -141,7 +141,7 @@ class CI_Input {
 	* @param	bool
 	* @return	string
 	*/
-	function get($index = NULL, $xss_clean = FALSE)
+	function get($index = NULL, $xss_clean = TRUE)
 	{
 		// Check if a field has been provided
 		if ($index === NULL AND ! empty($_GET))
@@ -169,7 +169,7 @@ class CI_Input {
 	* @param	bool
 	* @return	string
 	*/
-	function post($index = NULL, $xss_clean = FALSE)
+	function post($index = NULL, $xss_clean = TRUE)
 	{
 		// Check if a field has been provided
 		if ($index === NULL AND ! empty($_POST))
@@ -198,7 +198,7 @@ class CI_Input {
 	* @param	bool	XSS cleaning
 	* @return	string
 	*/
-	function get_post($index = '', $xss_clean = FALSE)
+	function get_post($index = '', $xss_clean = TRUE)
 	{
 		if ( ! isset($_POST[$index]) )
 		{
@@ -220,7 +220,7 @@ class CI_Input {
 	* @param	bool
 	* @return	string
 	*/
-	function cookie($index = '', $xss_clean = FALSE)
+	function cookie($index = '', $xss_clean = TRUE)
 	{
 		return $this->_fetch_from_array($_COOKIE, $index, $xss_clean);
 	}
@@ -296,7 +296,7 @@ class CI_Input {
 	* @param	bool
 	* @return	string
 	*/
-	function server($index = '', $xss_clean = FALSE)
+	function server($index = '', $xss_clean = TRUE)
 	{
 		return $this->_fetch_from_array($_SERVER, $index, $xss_clean);
 	}
@@ -752,7 +752,7 @@ class CI_Input {
 	 *
 	 * @return array
 	 */
-	public function request_headers($xss_clean = FALSE)
+	public function request_headers($xss_clean = TRUE)
 	{
 		// Look at Apache go!
 		if (function_exists('apache_request_headers'))
@@ -795,7 +795,7 @@ class CI_Input {
 	 * @param	boolean		XSS Clean or not
 	 * @return 	mixed		FALSE on failure, string on success
 	 */
-	public function get_request_header($index, $xss_clean = FALSE)
+	public function get_request_header($index, $xss_clean = TRUE)
 	{
 		if (empty($this->headers))
 		{

@@ -1,0 +1,4 @@
+Guide for Update:
+----------------------------
+1.	Unzip the zip package in root directory(Overwrite with existing file).
+2.	Run the follow URL in browser <site_url>/site/images

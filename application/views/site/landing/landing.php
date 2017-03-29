@@ -314,17 +314,17 @@ $.getScript("<?php echo base_url();?>js/site/bootstrap-datepicker.js", function(
 				$i = 1;
 				foreach($CityDetails->result() as $CityRows){
 				$Cityname=str_replace(' ','+',$CityRows->name);?>
-				<li class="col-md-<?php if ($i%10 == 1 || $i%10 == 7)echo "8"; else echo "4"; $i++;?>">
+				<li class="col-md-<?php if ($i%10 == 1 || $i%10 == 7)echo "8"; else echo "4"; ?>">
 					<a href="property?city=<?php echo $Cityname; ?>">
 						<div class="image-container">
-							<img src="images/city/<?php echo trim(stripslashes($CityRows->citythumb)); ?>">
+							<img src="images/city/<?php if ($i%10 == 1 || $i%10 == 7)echo 'thumb/';?><?php echo trim(stripslashes($CityRows->citythumb)); ?>">
 						</div>
 						<div class="overlay-text">
 							<span><?php echo trim(ucfirst(stripslashes($CityRows->name))); ?></span>
 						</div>
 					</a>
 				</li>
-			<?php } }?>
+			<?php $i++; } }?>
 			</ul>
 		</div>
 	</div>
@@ -375,7 +375,7 @@ $.getScript("<?php echo base_url();?>js/site/bootstrap-datepicker.js", function(
 		}
 	});
 </script>
-<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&libraries=places&signed_in=true"></script>
+<!--<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&libraries=places&signed_in=true"></script>-->
 <!--<script type="text/javascript" src="js/markerwithlabel.js"></script>
 <script type="text/javascript" src="js/markerwithlabel_packed.js"></script>-->
 <script>

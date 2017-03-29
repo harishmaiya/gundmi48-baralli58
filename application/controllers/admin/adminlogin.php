@@ -501,9 +501,14 @@ class Adminlogin extends MY_Controller {
 				$this->setErrorMessage('success','Admin details updated successfully');
 				redirect('admin/adminlogin/admin_global_settings_form');
 			}else {
-				$dataArr = array();
+				$meta_description = $this->input->post('meta_description', FALSE);
+				$google_verification_code = $this->input->post('google_verification_code', FALSE);
+				$google_verification = $this->input->post('google_verification', FALSE);
+				$dataArr = array('meta_description' => $meta_description,
+					'google_verification_code' => $google_verification_code,
+					'google_verification' => $google_verification);
 				$condition = array('id'=>'1');
-				$excludeArr = array('form_mode');
+				$excludeArr = array('form_mode','google_verification_code','meta_description','google_verification');
 				$this->admin_model->commonInsertUpdate(ADMIN_SETTINGS,'update',$excludeArr,$dataArr,$condition);
 				$this->admin_model->saveAdminSettings();
 				$this->setErrorMessage('success','Admin details updated successfully');

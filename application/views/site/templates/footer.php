@@ -120,6 +120,6 @@ $(function(){
 });
 
 </script>
-<?php if($this->config->item('google_verification_code')){ echo stripslashes($this->config->item('google_verification_code')); } ?>
+<?php if($this->config->item('google_verification_code') != ''){ echo html_entity_decode(stripslashes($this->config->item('google_verification_code'))); } ?>
 </body>
 </html>

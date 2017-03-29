@@ -15,7 +15,7 @@ class Listattribute extends MY_Controller {
 		$this->load->helper(array('cookie','date','form'));
 		$this->load->library(array('encrypt','form_validation'));		
 		$this->load->model('attribute_model');
-		$_POST = array_map("strip_tags", $_POST);
+		
 		if ($this->checkPrivileges('ListSpace',$this->privStatus) == FALSE){
 			redirect('admin');
 		}
@@ -485,6 +485,16 @@ class Listattribute extends MY_Controller {
 		}
 	}
 	
+	public function change_list_space_value_status_global(){
+	
+		if(count($this->input->post('checkbox_id')) > 0 &&  $this->input->post('statusMode') != ''){
+			$this->attribute_model->activeInactiveCommon(LISTSPACE_VALUES,'id');
+			if (strtolower($this->input->post('statusMode')) == 'delete'){
+				$this->setErrorMessage('success','List values deleted successfully');
+			}
+			redirect('admin/listattribute/display_listspace_values');
+		}
+	}
 	/**
 	 * 
 	 * This function loads the add new attribute form

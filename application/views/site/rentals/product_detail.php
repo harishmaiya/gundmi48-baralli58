@@ -801,60 +801,59 @@ function displydesc7(elem) {
 					if($listItems->num_rows()>0) {
 					$sub_list=explode(',',$product->list_name);
 					foreach($listItems->result() as $list){
-					if($productlist->list_name!=""){ ?>
-					<article class="descri-section new-line">
-						<label class="ful-lent">
-						<span class="left-space"><?php echo $list->attribute_name; ?></span>
-							<ul class="right-space amenities-type">
-								<?php
-								$list_name = $listDetail->row()->list_name;
-								$facility = (explode(",", $list_name));
-								$listValues = $this->product_model->get_all_details(LIST_VALUES,array('list_id'=>$list->id));
-								if($listValues->num_rows()>0){
-								$mcount = 0;
-								foreach($listValues->result() as $details){
+					if($productlist->list_name!=""){ 
+						$list_name = $listDetail->row()->list_name;
+						$facility = (explode(",", $list_name));
+						$listValues = $this->product_model->get_all_details(LIST_VALUES,array('list_id'=>$list->id));
+						if($listValues->num_rows()>0){
+							$mcount = 0;
+							foreach($listValues->result() as $details){
 								$key=$details->id;
 								if(in_array($key,$sub_list)){
-								$arrayAvailable[] = $details;
+									$arrayAvailable[] = $details;
 								} else {
-								$arrayNotAvailable[] = $details;
+									$arrayNotAvailable[] = $details;
 								}
-								}
-								if($arrayNotAvailable!=''){
+							}
+							if($arrayNotAvailable!=''){
 								$newAmenities = array_merge($arrayAvailable, $arrayNotAvailable);
-								}
-								else{
+							}
+							else{
 								$newAmenities =$arrayAvailable;
-								}
-								foreach($newAmenities as $details){
-								$key=$details->id;
-								?>
-								<li <?php if($mcount>4){ echo 'class="amore'.$list->id.'" style="display:none"'; }?>>
-								<?php if($details->image != '') { ?>
-								<img src="images/attribute/<?php echo $details->image;?>" style="height:25px;width:25px;float:left;"/>
-								<?php } else {?>
-								<img src="images/attribute/default1.png" style="height:25px;width:25px;float:left;"/>
-								<?php }  ?>
-								<label <?php if(!in_array($key,$sub_list)){ echo 'style="text-decoration:line-through"';} ?>><?php echo $details->list_value;?></label></li>
-								<?php
-								$mcount++;
-								}
-								$newAmenities = array();
-								$arrayAvailable = array();
-								$arrayNotAvailable = array();
-								}
-								?>
-								<?php if($listValues->num_rows > 5){ ?>
-								<a class="moretag" href="javascript:void(0);" onclick="displydesc11<?php echo $list->id;?> (this)" style="float:right;">+ <?php if($this->lang->line('more') != '') { echo stripslashes($this->lang->line('more')); } else echo "more";?></a>
-								<?php } ?>
-							</ul>
-						</label>
-					</article>
-				<?php
-				}
-				}
-				}
-				?>
+							}
+							if(!empty($newAmenities)){
+							?>
+							<article class="descri-section new-line">
+								<label class="ful-lent">
+								<span class="left-space"><?php echo $list->attribute_name; ?></span>
+									<ul class="right-space amenities-type">
+										<?php foreach($newAmenities as $details){
+										$key=$details->id;
+										?>
+										<li <?php if($mcount>4){ echo 'class="amore'.$list->id.'" style="display:none"'; }?>>
+										<?php if($details->image != '') { ?>
+										<img src="images/attribute/<?php echo $details->image;?>" style="height:25px;width:25px;float:left;"/>
+										<?php } else {?>
+										<img src="images/attribute/default1.png" style="height:25px;width:25px;float:left;"/>
+										<?php }  ?>
+										<label <?php if(!in_array($key,$sub_list)){ echo 'style="text-decoration:line-through"';} ?>><?php echo $details->list_value;?></label></li>
+										<?php
+										$mcount++;
+										}
+										
+										?>
+										<?php if($listValues->num_rows > 5){ ?>
+										<a class="moretag" href="javascript:void(0);" onclick="displydesc11<?php echo $list->id;?> (this)" style="float:right;">+ <?php if($this->lang->line('more') != '') { echo stripslashes($this->lang->line('more')); } else echo "more";?></a>
+										<?php } 
+										
+										$newAmenities = array();
+										$arrayAvailable = array();
+										$arrayNotAvailable = array();
+										?>
+									</ul>
+								</label>
+							</article>
+						<?php } } } } } ?>
 				<?php  if($product->price_perweek=='0.00') {
 				$chkval=0;
 				}

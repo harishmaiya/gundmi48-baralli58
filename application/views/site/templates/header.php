@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<?php if($this->config->item('google_verification')){ echo stripslashes($this->config->item('google_verification')); }if ($heading == ''){?>
+<?php if($this->config->item('google_verification')){ echo html_entity_decode(stripslashes($this->config->item('google_verification'))); }if ($heading == ''){?>
 <title><?php echo $title;?></title>
 <?php }else {?>
 <title><?php echo $heading;?></title>
@@ -752,7 +752,7 @@ $(function(){
 });
 </script>
 
-<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&libraries=places&signed_in=true"></script>
+<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&libraries=places&signed_in=true&key=<?php echo $this->config->item('google_map_api');?>"></script>
 
 <script>
 // This example displays an address form, using the autocomplete feature

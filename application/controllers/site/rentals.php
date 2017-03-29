@@ -128,26 +128,6 @@ class Rentals extends MY_Controller {
 		$whereLat = '(pa.lat BETWEEN "'.$minLat.'" AND "'.$maxLat.'" ) AND (pa.lang BETWEEN "'.$minLong.'" AND "'.$maxLong.'" )';
 		$search = $search.' AND '.$whereLat;
 		
-		$get_address = $_POST['city'];
-		if($get_address!=''){
-		$googleAddress = $this->data ['gogole_address'] = $get_address;
-		$googleAddress = str_replace(" ", "+", $googleAddress);
-		$google_map_api=$this->config->item ( 'google_map_api' );
-		$json = file_get_contents("https://maps.google.com/maps/api/geocode/json?address=$googleAddress&sensor=false&key=$google_map_api");
-		$json = json_decode($json);
-		$newAddress = $json->{'results'}[0]->{'address_components'};		
-		foreach($newAddress as $nA)
-		{
-			if($nA->{'types'}[0] == 'locality')$location = $nA->{'long_name'};
-			if($nA->{'types'}[0] == 'administrative_area_level_2')$city = $nA->{'long_name'};
-			if($nA->{'types'}[0] == 'country')$country = $nA->{'long_name'};
-		}
-		if($country!='')
-		{
-			$search .= ' and pa.country ="'.$country.'"';
-		}
-		}
-		
 		if(($datefrom != '') && ($dateto != '')){
 			$searchDetails = array('searchFrom' => $datefrom,'searchTo' => $dateto, 'searchGuest' => $guests);
 			$this->session->set_userdata($searchDetails);
@@ -339,7 +319,7 @@ class Rentals extends MY_Controller {
 		$listvalue = $_POST['listvalue'];
 		$keywords = $_POST['keywords'];
 		$get_address = $_GET['city'];
-		if(preg_match('/[\'\/~`\!@#\$%\^&\*\(\)_\-\+=\{\}\[\]\|;:"\<\>,\.\?\\\]/', $get_address)){
+		if(preg_match('/[\'\/~`\!@#\$%\^&\*\(\)_\-\+=\{\}\[\]\|;:"\<\>\.\?\\\]/', $get_address)){
 			$this->load->view ( 'site/landing/404', $this->data );die;
 		}
 		$get_address = strip_tags($_GET['city']);

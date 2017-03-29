@@ -122,6 +122,7 @@ class Order extends MY_Controller {
 			$dateString = $newDateArrQuery->row()->data;
 			$dateJ = json_decode($dateString);
 			$newdateArr = json_decode($dateArrVAl);
+			$newArr = array();
 			foreach($dateJ as $key=>$dates)
 			{
 				if(!in_array($key, $availableDates))
@@ -396,6 +397,13 @@ class Order extends MY_Controller {
 		$proImages=base_url().PRODUCTPATH.$RentalPhoto->row()->product_image;
 		$chkIn = date('d-M-Y',strtotime($Contact_details->row()->checkin));
 		$chkOut = date('d-M-Y',strtotime($Contact_details->row()->checkout));
+		if($Contact_details->row()->discount_amount != 0.00){
+			$discount_amount = CurrencyValue($Rental_details->row()->id,$Contact_details->row()->totalAmt-$Contact_details->row()->discount_amount);
+			$netAmount = $Contact_details->row()->discount_amount;
+		} else {
+			$discount_amount = CurrencyValue($Rental_details->row()->id,$Contact_details->row()->discount_amount);
+			$netAmount = CurrencyValue($Rental_details->row()->id,$Contact_details->row()->totalAmt);
+		}
 		$adminnewstemplateArr=array(
 			'email_title'=>$this->config->item('email_title'),
 			'logo'=>$this->data['logo'],
@@ -411,7 +419,7 @@ class Order extends MY_Controller {
 			'checkout'=>$chkOut,
 			'price'=>CurrencyValue($Rental_details->row()->id,$Renter_details->row()->price),
 			'amount'=>CurrencyValue($Rental_details->row()->id,$total),
-			'netamount'=>CurrencyValue($Rental_details->row()->id,$Contact_details->row()->totalAmt-$Contact_details->row()->discount_amount),
+			'netamount'=>$netAmount,
 			'noofnights'=>$Contact_details->row()->numofdates,
 			'serviceFee'=>$get_servicefee,
 			'renter_id'=>$PaymentSuccess->row()->sell_id,
@@ -424,7 +432,7 @@ class Order extends MY_Controller {
 			'rental_image'=>$proImages,
 			'image'=>$hostImage,
 			'symbol'=>$this->session->userdata('currency_type'),
-			'discount_amount'=>$Contact_details->row()->discount_amount,
+			'discount_amount'=>$discount_amount,
 			'bookingNo'=>$Contact_details->row()->Bookingno
 		);
 		
@@ -470,6 +478,13 @@ class Order extends MY_Controller {
 		$proImages=base_url().PRODUCTPATH.$RentalPhoto->row()->product_image;
 		$chkIn = date('d-m-y',strtotime($Contact_details->row()->checkin));
 		$chkOut = date('d-m-y',strtotime($Contact_details->row()->checkout));
+		if($Contact_details->row()->discount_amount != 0.00){
+			$discount_amount = CurrencyValue($Rental_details->row()->id,$Contact_details->row()->totalAmt-$Contact_details->row()->discount_amount);
+			$netAmount = $Contact_details->row()->discount_amount;
+		} else {
+			$discount_amount = CurrencyValue($Rental_details->row()->id,$Contact_details->row()->discount_amount);
+			$netAmount = CurrencyValue($Rental_details->row()->id,$Contact_details->row()->totalAmt);
+		}
 		$adminnewstemplateArr=array(
 			'email_title'=>$this->config->item('email_title'),
 			'logo'=>$this->data['logo'],
@@ -485,7 +500,7 @@ class Order extends MY_Controller {
 			'checkout'=>$chkOut,
 			'price'=>CurrencyValue($Rental_details->row()->id,$Renter_details->row()->price),
 			'amount'=>CurrencyValue($Rental_details->row()->id,$total),
-			'netamount'=>CurrencyValue($Rental_details->row()->id,$Contact_details->row()->totalAmt-$Contact_details->row()->discount_amount),
+			'netamount'=>$netAmount,
 			'noofnights'=>$Contact_details->row()->numofdates,
 			'serviceFee'=>$get_servicefee,
 			'renter_id'=>$PaymentSuccess->row()->sell_id,
@@ -497,7 +512,7 @@ class Order extends MY_Controller {
 			'rental_name'=>$Rental_details->row()->product_title,
 			'rental_image'=>$proImages,
 			'symbol'=>$this->session->userdata('currency_type'),
-			'discount_amount'=>$Contact_details->row()->discount_amount,
+			'discount_amount'=>$discount_amount,
 			'bookingNo'=>$Contact_details->row()->Bookingno
 		);
 		extract($adminnewstemplateArr);
@@ -558,6 +573,13 @@ class Order extends MY_Controller {
 		$hostImages=base_url().PRODUCTPATH.$Rental_details->row()->image;
 		$chkIn = date('d-M-Y',strtotime($Contact_details->row()->checkin));
 		$chkOut = date('d-M-Y',strtotime($Contact_details->row()->checkout));
+		if($Contact_details->row()->discount_amount != 0.00){
+			$discount_amount = CurrencyValue($Rental_details->row()->id,$Contact_details->row()->totalAmt-$Contact_details->row()->discount_amount);
+			$netAmount = $Contact_details->row()->discount_amount;
+		} else {
+			$discount_amount = CurrencyValue($Rental_details->row()->id,$Contact_details->row()->discount_amount);
+			$netAmount = CurrencyValue($Rental_details->row()->id,$Contact_details->row()->totalAmt);
+		}
 		$adminnewstemplateArr=array(
 			'email_title'=>$this->config->item('email_title'),
 			'logo'=>$this->data['logo'],
@@ -573,7 +595,7 @@ class Order extends MY_Controller {
 			'checkout'=>$chkOut,
 			'price'=>CurrencyValue($Rental_details->row()->id,$Renter_details->row()->price),
 			'amount'=>CurrencyValue($Rental_details->row()->id,$total),
-			'netamount'=>CurrencyValue($Rental_details->row()->id,$Contact_details->row()->totalAmt-$Contact_details->row()->discount_amount),
+			'netamount'=>$netAmount,
 			'noofnights'=>$Contact_details->row()->numofdates,
 			'serviceFee'=>CurrencyValue($Rental_details->row()->id,$Contact_details->row()->serviceFee),
 			'renter_id'=>$PaymentSuccess->row()->sell_id,
@@ -586,7 +608,7 @@ class Order extends MY_Controller {
 			'rental_image'=>$proImages,
 			'image'=>$hostImages,
 			'symbol'=>$this->session->userdata('currency_type'),
-			'discount_amount'=>$Contact_details->row()->discount_amount,
+			'discount_amount'=>$discount_amount,
 			'pro_discount_amount' => AdminCurrencyValue($PaymentSuccess->row()->product_id,$Contact_details->row()->discount_amount),
 			'bookingNo'=>$Contact_details->row()->Bookingno
 		);

@@ -6,7 +6,7 @@ extract($privileges);
 		<div class="grid_container">
 			<?php 
 				$attributes = array('id' => 'display_form');
-				echo form_open('admin/listattribute/change_list_value_status_global',$attributes) 
+				echo form_open('admin/listattribute/change_list_space_value_status_global',$attributes) 
 			?>
 			<div class="grid_12">
 				<div class="widget_wrap">

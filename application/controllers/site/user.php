@@ -3931,7 +3931,7 @@ class User extends MY_Controller {
 		</tr>
 		<tr style="pointer-events:none;">
 		<td align="center" valign="top" style="color:#000; font-weight: 700; font-family:Open Sans, Arial, Helvetica, sans-serif; font-size:13px;" data-size="body-text" data-min="10" data-max="25" data-color="footer-text">
-		<img id="map-image" border="0" alt="'.$productaddress->row()->address.'" src="https://maps.googleapis.com/maps/api/staticmap?center='.$productaddress->row()->address.'&zoom=13&size=600x300&maptype=roadmap&sensor=false&format=png&visual_refresh=true&markers=size:mid%7Ccolor:red%7C'. $productaddress->row()->address.'">
+		<img id="map-image" border="0" alt="'.$productaddress->row()->address.'" src="https://maps.googleapis.com/maps/api/staticmap?center='.$productaddress->row()->address.'&zoom=13&size=600x300&maptype=roadmap&key='.$this->config->item ( 'google_map_api' ).'&sensor=false&format=png&visual_refresh=true&markers=size:mid%7Ccolor:red%7C'. $productaddress->row()->address.'">
 		</td>
 		</tr>
 		<tr>

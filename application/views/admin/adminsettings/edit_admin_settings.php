@@ -508,7 +508,7 @@ $this->load->view('admin/templates/header.php');
                   <div class="form_grid_12">
                     <label class="field_title" for="meta_description">Meta Description</label>
                     <div class="form_input">
-                      <textarea name="meta_description" class="" cols="70" rows="5" tabindex="3"><?php echo $admin_settings->row()->meta_description;?></textarea>
+                      <textarea name="meta_description" class="input_grow tipTop mceNoEditor" cols="70" rows="5" tabindex="3"><?php echo $admin_settings->row()->meta_description;?></textarea>
                     </div>
                   </div>
                 </li>
@@ -519,7 +519,7 @@ $this->load->view('admin/templates/header.php');
                   <div class="form_grid_12">
                     <label class="field_title" for="google_verification_code">Google Analytics Code</label>
                     <div class="form_input">
-                      <textarea name="google_verification_code" class="input_grow tipTop" title="Copy google analytics code and paste here" cols="70" rows="5" tabindex="4"><?php echo $admin_settings->row()->google_verification_code;?></textarea>
+                      <textarea name="google_verification_code" class="input_grow tipTop mceNoEditor" title="Copy google analytics code and paste here" cols="70" rows="5" tabindex="4"><?php echo $admin_settings->row()->google_verification_code;?></textarea>
                       <br />
                       <span>For Examples:
                       <pre><?php echo htmlspecialchars('<script type="text/javascript"

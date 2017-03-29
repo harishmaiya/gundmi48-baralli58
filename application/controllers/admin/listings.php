@@ -14,7 +14,7 @@ class Listings extends MY_Controller {
 		$this->load->helper(array('cookie','date','form'));
 		$this->load->library(array('encrypt','form_validation'));		
 		$this->load->model('listings_model');
-		$_POST = array_map("strip_tags", $_POST);
+		
 		if ($this->checkPrivileges('Listing',$this->privStatus) == FALSE){
 			redirect('admin');
 		}

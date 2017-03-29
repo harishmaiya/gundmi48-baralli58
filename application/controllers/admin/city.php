@@ -14,7 +14,7 @@ class City extends MY_Controller {
 		$this->load->helper(array('cookie','date','form'));
 		$this->load->library(array('encrypt','form_validation','resizeimage'));		
 		$this->load->model('city_model');
-		$_POST = array_map("strip_tags", $_POST);
+		
 		if ($this->checkPrivileges('City',$this->privStatus) == FALSE){
 			redirect('admin');
 		}
@@ -130,56 +130,31 @@ class City extends MY_Controller {
 			$inputArr['status']= $city_status;
 		
 			$inputArr['featured']= $featured;
-			$uploaddir = "images/city/";
 			$config['overwrite'] = FALSE;
-		    	$config['allowed_types'] = 'jpg|jpeg|gif|png';
-			    $config['max_size'] = 2000;
-			    $config['upload_path'] = './images/city';
-			    $this->load->library('upload', $config);
-				if ( $this->upload->do_upload('citylogo')){
-			    	$logoDetails = $this->upload->data();
-					$logoDetails['file_name'];
-					
-					$this->imageResizeWithSpaceCity(1300, 700, $logoDetails['file_name'], './images/city/');
-					
-			    	$inputArr['citylogo'] = $logoDetails['file_name'];
-			    	
-				}
-				if ( $this->upload->do_upload('citythumb')){
-					$feviconDetails = $this->upload->data();
-			    	$inputArr['citythumb'] = $feviconDetails['file_name'];
-					$filename = $feviconDetails['file_name'];
-					$image_name=$filename;
-					
-					
-					$timeImg=time();
-					@copy($filename, './images/city/mobile/'.$timeImg.'-'.$filename);
-					$target_file=$uploaddir.$image_name;
-					$imageName=$timeImg.'-'.$filename; 
-					$option=$this->getImageShape(800,800,$target_file);
-					
-					$resizeObj = new Resizeimage($target_file);	
-					$resizeObj -> resizeImage(800, 800, $option);
-					$resizeObj -> saveImage($uploaddir.'mobile/'.$imageName, 100);
-					$this->ImageCompress($uploaddir.'mobile/'.$imageName);
-					@copy($uploaddir.'mobile/'.$imageName, $uploaddir.'mobile/'.$imageName);
-					$inputArr['citylogo'] = $imageName;
-				}
+			$config['allowed_types'] = 'jpg|jpeg|gif|png';
+			$config['max_size'] = 10000;
+			$config['upload_path'] = './images/city';
+			$uploaddir = "images/city/";
+			$uploaddirMobile = "images/city/mobile/";	//a directory inside
+			$uploaddirResize = "images/city/thumb/";	//a directory inside
+			$this->load->library('upload', $config);
+			if ( $this->upload->do_upload('citythumb')){
+				$imgDetails = $this->upload->data();
+				@copy($uploaddir.$imgDetails['file_name'], $uploaddirResize.$imgDetails['file_name']);
+				@copy($uploaddir.$imgDetails['file_name'], $uploaddirMobile.$imgDetails['file_name']);
+				$this->ImageResizeWithCrop(690, 300, $imgDetails['file_name'], $uploaddirResize);
+				$this->ImageResizeWithCrop(350, 300, $imgDetails['file_name'], $uploaddirMobile);
+				$this->ImageResizeWithCrop(350, 300, $imgDetails['file_name'], $uploaddir);
+		    	$inputArr['citythumb'] = $imgDetails['file_name'];
+		    	$inputArr['citylogo'] = $imgDetails['file_name'];
+			}
 			$dataArr = array_merge($inputArr,$city_data);
-		   $condition = array('id' => $city_id);
-				if ($city_id == ''){
-			 
+			$condition = array('id' => $city_id);
+			if ($city_id == ''){
 				$this->city_model->commonInsertUpdate(CITY_NEW,'insert',$excludeArr,$dataArr,$condition);
-				
-			
-				
 				$this->setErrorMessage('success','City added successfully');
 			}else {
 				$this->city_model->commonInsertUpdate(CITY_NEW,'update',$excludeArr,$dataArr,$condition);
-				
-				
-				
-				
 				$this->setErrorMessage('success','City updated successfully');
 			}
 			redirect('admin/city/display_city_list');
