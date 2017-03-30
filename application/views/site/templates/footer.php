@@ -82,7 +82,7 @@
 				<?php } ?>
 			</ul>
 			<!--<p><?php echo stripslashes($this->config->item('footer_content'));?></p>-->
-			<p><?php if($this->lang->line('copy_right')!=''){ echo stripslashes($this->lang->line('copy_right')); }else echo 'Copyright 2016. Renters. All rights reserved';?></p>
+			<p><?php if($this->lang->line('copy_right')!=''){ echo stripslashes($this->lang->line('copy_right')); }else echo 'Copyright 2016. Beetrut. All rights reserved';?></p>
 		</div>
 	</div>
 </div>
