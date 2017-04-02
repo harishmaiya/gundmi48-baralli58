@@ -208,12 +208,12 @@ $.getScript("<?php echo base_url();?>js/site/bootstrap-datepicker.js", function(
 							<h1><?php if($adminList->home_title_1 != ''){
 								echo $adminList->home_title_1;
 							}else{
-								if($this->lang->line('WELCOMEHOME') != '') { echo stripslashes($this->lang->line('WELCOMEHOME')); } else echo "WELCOME HOME";
+								if($this->lang->line('WELCOMEHOME') != '') { echo stripslashes($this->lang->line('WELCOMEHOME')); } else echo "Host your next party";
 							} ?></h1>
 							<h3><?php if($adminList->home_title_2 != ''){
 								echo $adminList->home_title_2;
 							}else{
-								if($this->lang->line('Rentuniqueplacestostay') != '') { echo stripslashes($this->lang->line('Rentuniqueplacestostay')); } else echo "Rent unique places to stay"; 
+								if($this->lang->line('Rentuniqueplacestostay') != '') { echo stripslashes($this->lang->line('Rentuniqueplacestostay')); } else echo "Find a perfect venue. Get artist entertainers";
 							} ?></h3>
 						</div>
 					</div>
@@ -232,7 +232,7 @@ $.getScript("<?php echo base_url();?>js/site/bootstrap-datepicker.js", function(
 				<!-- WILL DISPLAY ONLY ON MODILE FOE RESPONSIVE STATIC START-->
 				<div class="searct-sechs mobile-display ">
 					<a class="mobile-selecbox" href="#success" data-toggle="modal">
-						<input class="search-text" placeholder="Where do you want to go..." type="text">
+						<input class="search-text" placeholder="Where..." type="text">
 						<input class="sbt-btn" value="Submit" type="submit">
 					</a>
 					<!-- Modal -->
@@ -244,9 +244,8 @@ $.getScript("<?php echo base_url();?>js/site/bootstrap-datepicker.js", function(
 								</div>
 								<div class="modal-body">
 									<form  class="mobilform" method="get" action="property" id="property_search_form_mobile" >
-										<input name="city" id="autocompleteNewMoblie" class="where" placeholder="<?php if($this->lang->line('search_where') != '') { echo stripslashes($this->lang->line('search_where')); } else echo "Where do you want to go?"; ?>"  type="text"  >
-										<input  name="datefrom" class="chek from_date" placeholder="<?php if($this->lang->line('check_in') != '') { echo stripslashes($this->lang->line('check_in')); } else echo "Check in"; ?>" type="text" contenteditable="false">
-										<input  name="dateto" class="chek-in to_date" placeholder="<?php if($this->lang->line('check_out') != '') { echo stripslashes($this->lang->line('check_out')); } else echo "Check out"; ?>" type="text" contenteditable="false">
+										<input name="city" id="autocompleteNewMoblie" class="where" placeholder="<?php if($this->lang->line('search_where') != '') { echo stripslashes($this->lang->line('search_where')); } else echo "Where"; ?>"  type="text"  >
+										<input  name="datefrom" class="chek from_date" placeholder="<?php if($this->lang->line('check_in') != '') { echo stripslashes($this->lang->line('check_in')); } else echo "When"; ?>" type="text" contenteditable="false">
 										<?php if($accommodates !='' && count($accommodates)){ ?>
 										<select name="guests" class="home_select" id="guest">
 											<!--<option value=""><?php if($this->lang->line('guest') != '') { echo stripslashes($this->lang->line('guest')); } else echo "Guest";?></option>-->
@@ -259,19 +258,18 @@ $.getScript("<?php echo base_url();?>js/site/bootstrap-datepicker.js", function(
 												<?php } }?>
 										</select>
 										<?php } ?>
-										<input class="fom-subm" id="fom-subm" value="<?php if($this->lang->line('Submit') != '') { echo stripslashes($this->lang->line('Submit')); } else echo "Submit"; ?>" type="submit" >
+										<input class="fom-subm" id="fom-subm" value="<?php if($this->lang->line('Submit') != '') { echo stripslashes($this->lang->line('Submit')); } else echo "Search"; ?>" type="submit" >
 									</form>
 								</div>
 							</div><!-- /.modal-content -->
 						</div><!-- /.modal-dialog -->
 					</div><!-- /.modal -->
 				</div>
-				<!-- WILL DISPLAY ONLY ON MODILE FOE RESPONSIVE END-->
+				<!-- WILL DISPLAY ONLY ON MOBILE FOR RESPONSIVE END-->
 				<!--This is for mobile view  END -->
 				<form  class="webform" method="get" action="property" id= "property_search_form">
-					<input name="city" id="autocompleteNew1" class="where" placeholder="<?php if($this->lang->line('search_where') != '') { echo stripslashes($this->lang->line('search_where')); } else echo "Where do you want to go?"; ?>"  type="text"  >
-					<input  name="datefrom" class="chek from_date" placeholder="<?php if($this->lang->line('check_in') != '') { echo stripslashes($this->lang->line('check_in')); } else echo "Check in"; ?>" id="check_in"type="text" contenteditable="false">
-					<input  name="dateto" class="chek-in to_date" placeholder="<?php if($this->lang->line('check_out') != '') { echo stripslashes($this->lang->line('check_out')); } else echo "Check out"; ?>" type="text" contenteditable="false" id="check_out">
+					<input name="city" id="autocompleteNew1" class="where" placeholder="<?php if($this->lang->line('search_where') != '') { echo stripslashes($this->lang->line('search_where')); } else echo "Where"; ?>"  type="text"  >
+					<input  name="datefrom" class="chek from_date" placeholder="<?php if($this->lang->line('check_in') != '') { echo stripslashes($this->lang->line('check_in')); } else echo "When"; ?>" id="check_in"type="text" contenteditable="false">
 					<?php if($accommodates !='' && count($accommodates)){ ?>
 					<select name="guests" class="home_select" id="guest">
 						<!--<option value=""><?php if($this->lang->line('guest') != '') { echo stripslashes($this->lang->line('guest')); } else echo "Guest";?></option>-->
@@ -300,13 +298,13 @@ $.getScript("<?php echo base_url();?>js/site/bootstrap-datepicker.js", function(
 				<?php if($adminList->home_title_3 != ''){
 					echo $adminList->home_title_3;
 				}else{
-					if($this->lang->line('ExploretheWorld') != '') { echo stripslashes($this->lang->line('ExploretheWorld')); } else echo "Explore the World"; } ?>
+					if($this->lang->line('ExploretheWorld') != '') { echo stripslashes($this->lang->line('ExploretheWorld')); } else echo ""; } ?>
 				</h2>
 				<span class="discover-place">
 				<?php if($adminList->home_title_4 != ''){
 					echo $adminList->home_title_4;
 				}else{
-					if($this->lang->line('Seewherepeoplearetraveling') != '') { echo stripslashes($this->lang->line('Seewherepeoplearetraveling')); } else echo "See where people are traveling, all around the world."; } ?>
+					if($this->lang->line('Seewherepeoplearetraveling') != '') { echo stripslashes($this->lang->line('Seewherepeoplearetraveling')); } else echo "Venue checked. Balloons tied"; } ?>
 				</span>
 			</div>
 			<ul class="hme-container">

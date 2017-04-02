@@ -503,7 +503,7 @@ $( "#txtToDate" ).datepicker( "option", "minDate", selectedDate1 );
 				<input type="hidden" name="maxLong"  value="<?php echo $maxLong; ?>" id="maxLong" />
 				<input type="hidden" name="cLat" value="<?php if($zoom != '')echo $cLat;else echo $lat;?>" id="cLat" />
 				<input type="hidden" name="cLong"  value="<?php if($zoom != '')echo $cLong;else echo $long; ?>" id="cLong" />
-				<input type="text" placeholder="<?php if($this->lang->line('check_in') != '') { echo stripslashes($this->lang->line('check_in')); } else echo "Check in";?>" value="<?php if($_GET['datefrom']!='')echo $_GET['datefrom'];else if($_POST['checkin'])echo $_POST['checkin']; ?>" id="txtFromDate" name="checkin">
+				<input type="text" placeholder="<?php if($this->lang->line('check_in') != '') { echo stripslashes($this->lang->line('check_in')); } else echo "When";?>" value="<?php if($_GET['datefrom']!='')echo $_GET['datefrom'];else if($_POST['checkin'])echo $_POST['checkin']; ?>" id="txtFromDate" name="checkin">
 				<input type="text" placeholder="<?php if($this->lang->line('check_out') != '') { echo stripslashes($this->lang->line('check_out')); } else echo "Check out";?>"  id="txtToDate" value="<?php if($_GET['dateto']!='')echo $_GET['dateto'];else if($_POST['checkout'])echo $_POST['checkout']; ?>" name="checkout" onchange="doAjax()">
 				<select data-prefill="" class="guest-select input-medium" name="guests" id="guests" onchange = "doAjax()">
 				<?php foreach($accommodates as $accommodate) { if($accommodate==1){?>

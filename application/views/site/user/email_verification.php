@@ -182,7 +182,7 @@ $google_secert = $this->config->item('google_client_secret');
 			</div>
 			<label for="phone_number"><?php if($this->lang->line('') != 'Addaphonenumber') { echo stripslashes($this->lang->line('Addaphonenumber')); } else echo "Add a phone number";?>:</label>
 			<div class="pniw-number-container clearfix">
-			<div class="pniw-number-prefix" style="border-right: 1px solid #ccc;">+91</div>
+			<div class="pniw-number-prefix" style="border-right: 1px solid #ccc;">+1</div>
 			<input id="phone_number" onkeypress="return blockSpecialChar(event);" class="pniw-number" type="text" maxlength="10" value="<?php if(!empty($user_id_exist)) echo $user_id_exist->row()->phone_no; ?>">
 			</div>
 			</div>

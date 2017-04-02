@@ -686,7 +686,7 @@ $('#datepicker1').datepicker({
 
 
           <div class="control-group">
-            <input type="text" placeholder="<?php if($this->lang->line('check_in') != '') { echo stripslashes($this->lang->line('check_in')); } else echo "Check in";?>" value="<?php echo $_POST['checkin']; ?>" id="datepicker" name="checkin">
+            <input type="text" placeholder="<?php if($this->lang->line('check_in') != '') { echo stripslashes($this->lang->line('check_in')); } else echo "When";?>" value="<?php echo $_POST['checkin']; ?>" id="datepicker" name="checkin">
 			
              <input type="hidden" name="pricemin"  value="<?php echo $pricemin; ?>" id="minPrice" /><input  name="pricemax" type="hidden" value="<?php echo $pricemax; ?>" id="maxPrice" />
 

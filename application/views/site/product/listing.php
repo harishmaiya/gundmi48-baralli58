@@ -15,7 +15,7 @@ $this->load->view('site/templates/header');
         <?php echo form_open(base_url('city/search'),array('class'=>'custom show-search-options position-left search-area','method'=>'get','style'=>'position:static; margin:0','id'=>'search_form')); ?>
             <span style="float:left; text-shadow:none; font-weight:bold; margin:10px 10px 0 100px">Search for</span>
             <div class="input-wrapper">
-              <input type="text" placeholder="Where do you want to go?" value="<?php if($_GET['city']!='')  echo $_GET['city']; ?>"  name="city" id="location" autocomplete="off" class="location">
+              <input type="text" placeholder="Where" value="<?php if($_GET['city']!='')  echo $_GET['city']; ?>"  name="city" id="location" autocomplete="off" class="location">
               <div class="for_auto_search"></div>
             </div>
           <!--  <div class="input-wrapper">
