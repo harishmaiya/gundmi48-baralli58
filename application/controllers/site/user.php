@@ -4,7 +4,7 @@
  *
  * User related functions
  *
- * @author Teamtweaks
+ * @author dev Beetrut
  *
  */
 class User extends MY_Controller {

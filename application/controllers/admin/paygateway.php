@@ -3,7 +3,7 @@
 /**
  * 
  * This controller contains the functions related to payment gateway management
- * @author Teamtweaks
+ * @author dev Beetrut
  *
  */
 

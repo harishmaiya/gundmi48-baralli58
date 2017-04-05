@@ -3,7 +3,7 @@
 /**
  * 
  * This model contains all db functions related to couponcards management
- * @author Teamtweaks
+ * @author dev Beetrut
  *
  */
 class Couponcards_model extends My_Model

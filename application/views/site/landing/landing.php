@@ -229,7 +229,7 @@ $.getScript("<?php echo base_url();?>js/site/bootstrap-datepicker.js", function(
 		<div class="searching-section">
 			<div class="container">
 				<!--This is for mobile view  doesnot disply in normal view only for mobil -->
-				<!-- WILL DISPLAY ONLY ON MODILE FOE RESPONSIVE STATIC START-->
+				<!-- WILL DISPLAY ONLY ON MOBILE FOR RESPONSIVE STATIC START-->
 				<div class="searct-sechs mobile-display ">
 					<a class="mobile-selecbox" href="#success" data-toggle="modal">
 						<input class="search-text" placeholder="Where..." type="text">

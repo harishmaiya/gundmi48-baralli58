@@ -2,7 +2,7 @@
 /**
  * 
  * This controller contains the common functions
- * @author Teamtweaks 
+ * @author dev Beetrut
  *
  */ 
 

@@ -3,7 +3,7 @@
 /**
  * 
  * Shop related functions
- * @author Teamtweaks
+ * @author dev Beetrut
  *
  */
 

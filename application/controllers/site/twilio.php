@@ -3,7 +3,7 @@
 /**
  * 
  * Landing page functions
- * @author Teamtweaks
+ * @author dev Beetrut
  *
  */
 

@@ -3,7 +3,7 @@
 /**
  * 
  * This model contains all db functions related to attribute management
- * @author Teamtweaks
+ * @author dev Beetrut
  *
  */
 class Attribute_model extends My_Model

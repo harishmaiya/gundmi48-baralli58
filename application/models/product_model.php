@@ -3,7 +3,7 @@
 /**
  * 
  * This model contains all db functions related to product management
- * @author Teamtweaks
+ * @author dev Beetrut
  *
  */
 class Product_model extends My_Model
