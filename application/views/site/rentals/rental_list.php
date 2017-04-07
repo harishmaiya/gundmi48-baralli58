@@ -579,34 +579,7 @@ $( "#txtToDate" ).datepicker( "option", "minDate", selectedDate1 );
 		    $propertyTypes = $this->product_model->get_all_details(LISTSPACE_VALUES,array('listspace_id'=>$carTypeListSpace), array(array('field'=>'other', 'type'=>'asc'))); 
 			
 	?>
-		<li title="" data-tooltip-position="left" rel="tooltip" class="clearfix showlist5 showlist6" >
-				<h6 class="span2 filter-label  left-widt">
-				<?php echo $carListSpace->row()->attribute_name;?></h6>
-				<div class="right-arel onclk-hide">
-				<?php
-				$i=0;
-				//echo "<pre>"; print_r($_POST['property_type']);
-				foreach($propertyTypes->result() as $tmp)
-				{
-				if($i < 3 ){?>
-					<label>
-						<input type="checkbox" name="property_type[]" class='property_type'  onchange="doAjax()" value="<?php echo trim($tmp->list_value);?>" <?php foreach($_POST['property_type'] as $property_type) { if(trim($property_type) == trim($tmp->list_value)){ ?> checked="checked" <?php } } ?>/>
-						<span><?php echo $tmp->list_value;?></span>
-					</label>
-				<?php if($i == 2){?>
-				</div><?php }?>
-				<?php } else {?>
-				<?php if($i == 3){?><div class="drop4btn"><i class="caret"></i></div>
-				<div class="right-arel"><?php }?>
-					<label>
-						<input type="checkbox" name="property_type[]" class='property_type' value="<?php echo trim($tmp->list_value);?>" <?php foreach($_POST['property_type'] as $property_type) { if(trim($property_type) == trim($tmp->list_value)){ ?> checked="checked" <?php } } ?>/>
-						<span><?php echo $tmp->list_value;?></span>
-					</label>
-			<?php } $i++;} ?>
-			<?php if($i > 3){ ?>
-			</div>
-			<?php }?>
-	</li>
+
 			<?php } 
 		$list_value_loop=1;
 		foreach($main_cat as $category) {
@@ -655,6 +628,36 @@ $( "#txtToDate" ).datepicker( "option", "minDate", selectedDate1 );
 		}
 		
 		?> 
+
+		<li title="" data-tooltip-position="left" rel="tooltip" class="clearfix showlist5 showlist6" >
+				<h6 class="span2 filter-label  left-widt">
+				<?php echo $carListSpace->row()->attribute_name;?></h6>
+				<div class="right-arel onclk-hide">
+				<?php
+				$i=0;
+				//echo "<pre>"; print_r($_POST['property_type']);
+				foreach($propertyTypes->result() as $tmp)
+				{
+				if($i < 3 ){?>
+					<label>
+						<input type="checkbox" name="property_type[]" class='property_type'  onchange="doAjax()" value="<?php echo trim($tmp->list_value);?>" <?php foreach($_POST['property_type'] as $property_type) { if(trim($property_type) == trim($tmp->list_value)){ ?> checked="checked" <?php } } ?>/>
+						<span><?php echo $tmp->list_value;?></span>
+					</label>
+				<?php if($i == 2){?>
+				</div><?php }?>
+				<?php } else {?>
+				<?php if($i == 3){?><div class="drop4btn"><i class="caret"></i></div>
+				<div class="right-arel"><?php }?>
+					<label>
+						<input type="checkbox" name="property_type[]" class='property_type' value="<?php echo trim($tmp->list_value);?>" <?php foreach($_POST['property_type'] as $property_type) { if(trim($property_type) == trim($tmp->list_value)){ ?> checked="checked" <?php } } ?>/>
+						<span><?php echo $tmp->list_value;?></span>
+					</label>
+			<?php } $i++;} ?>
+			<?php if($i > 3){ ?>
+			</div>
+			<?php }?>
+	</li>
+
 
       <div class="showlisting clearfix showlist5 showlist6">
         <a class="show-btn23"><input class="" style="width: 100%; background: none repeat scroll 0 0 rgba(0, 0, 0, 0); border: medium none; box-shadow: none; color: #fff; font-family: opensanssemibold; font-size: 17px; padding: 0;" type="button" onclick = "doAjax();javascript:showView('6');" value="<?php if($this->lang->line('show_listing') != '') { echo stripslashes($this->lang->line('show_listing')); } else echo "Show Listing";?>" /></a>
