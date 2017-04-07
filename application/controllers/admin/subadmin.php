@@ -3,7 +3,7 @@
 /**
  * 
  * This controller contains the functions related to sub-admin management 
- * @author Teamtweaks
+ * @author dev Beetrut
  *
  */
 

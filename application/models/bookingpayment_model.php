@@ -3,7 +3,7 @@
 /**
  * 
  * This model contains all db functions related to Cart Page
- * @author Teamtweaks
+ * @author dev Beetrut
  *
  */
 class Bookingpayment_model extends My_Model

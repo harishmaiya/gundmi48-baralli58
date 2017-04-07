@@ -601,7 +601,7 @@ redirect ($reUrl);
 					<i class="fa fa-map-marker new_header_marker" aria-hidden="true"></i>
 					<!--<input type="text" style="width: 85%;" class="auto-tet" placeholder="<?php if($this->lang->line('Where_are') != '') { echo stripslashes($this->lang->line('Where_are')); } else echo "Where are you going?";?>" id="autocomplete">-->
 
-					<input class="auto-tet" name="city" id="autocompleteNew" placeholder="<?php if($this->lang->line('search_where') != '') { echo stripslashes($this->lang->line('search_where')); } else echo "Where do you want to go?"; ?>" onFocus="geolocate()" type="text" onkeyup="findLocation(event);" value="<?php echo $gogole_address;?>">
+					<input class="auto-tet" name="city" id="autocompleteNew" placeholder="<?php if($this->lang->line('search_where') != '') { echo stripslashes($this->lang->line('search_where')); } else echo "Where"; ?>" onFocus="geolocate()" type="text" onkeyup="findLocation(event);" value="<?php echo $gogole_address;?>">
 					<div id="autoCompImg" style="float: right; margin: 15px; display:none;"><img src="images/ajax-loader/ajax-loader.gif" alt="Loading..."></div>
 					</div><?php } ?>
 					<div class="brows-loop"> <label class="browse"><?php if($this->lang->line('browse') != '') { echo stripslashes($this->lang->line('browse')); } else echo "Browse"; ?><i class="caret"></i>
@@ -645,7 +645,6 @@ redirect ($reUrl);
 									</div>
 								</li>
 								<li><a href="pages/help" ><?php if($this->lang->line('footer_follow_help') != '') { echo stripslashes($this->lang->line('footer_follow_help')); } else echo "Help"; ?></a></li>
-								<li><a href="<?php echo base_url();?>contact-us" ><?php if($this->lang->line('footer_contact') != '') { echo stripslashes($this->lang->line('footer_contact')); } else echo "Contact Us"; ?></a></li>
 								<?php
 								if ($cmsList->num_rows() > 0){
 								foreach ($cmsList->result() as $row){

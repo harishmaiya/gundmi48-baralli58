@@ -3,7 +3,7 @@
 /**
  * 
  * This controller contains the functions related to couponcards management 
- * @author Teamtweaks
+ * @author dev Beetrut
  *
  */
 

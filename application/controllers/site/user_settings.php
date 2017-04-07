@@ -3,7 +3,7 @@
 /**
  * 
  * User Settings related functions
- * @author Teamtweaks
+ * @author dev Beetrut
  *
  */
 

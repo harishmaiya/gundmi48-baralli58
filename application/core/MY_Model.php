@@ -3,7 +3,7 @@
 /**
  * 
  * This model contains all common db related functions
- * @author Teamtweaks
+ * @author dev Beetrut
  *
  */
 class My_Model extends CI_Model { 

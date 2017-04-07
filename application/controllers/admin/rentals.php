@@ -4,7 +4,7 @@
 /**
  * 
  * This controller contains the functions related to Product management 
- * @author Teamtweaks
+ * @author dev Beetrut
  *
  */ 
 

@@ -3,7 +3,7 @@
 /**
  * 
  * This model contains all db functions related to cms management
- * @author Teamtweaks
+ * @author dev Beetrut
  *
  */
 class Cms_model extends My_Model

@@ -1642,7 +1642,7 @@ INSERT INTO `fc_languages` (`id`, `name`, `lang_code`, `status`, `default_lang`)
 (35, 'French', 'FR', 'Inactive', ''),
 (36, 'o0lp', '99', 'Inactive', ''),
 (37, 'korean', 'kr', 'Active', ''),
-(38, 'spanish', 'es', 'Inactive', '');
+(38, 'Spanish', 'es', 'Inactive', '');
 
 -- --------------------------------------------------------
 

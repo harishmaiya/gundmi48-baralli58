@@ -75,10 +75,10 @@ $('.to_date')
                       <h1>Business Travel</h1>
                     <div class="searching-section">
                  <form method="get" action="property" id="property_search_form">
-                        <input name="city" id="city_landing" class="where" placeholder="Where do you want to go?" type="text">
+                        <input name="city" id="city_landing" class="where" placeholder="Where?" type="text">
 						
 
-                        <input  name="datefrom" class="chek from_date" placeholder="Check in" type="text" contenteditable="false">
+                        <input  name="datefrom" class="chek from_date" placeholder="When" type="text" contenteditable="false">
 
                         <input  name="dateto" class="chek-in to_date" placeholder="Check out" type="text" contenteditable="false">
 

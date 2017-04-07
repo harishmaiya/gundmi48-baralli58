@@ -6,7 +6,7 @@ if (! defined ( 'BASEPATH' ))
  *
  * CMS related functions
  *
- * @author Teamtweaks
+ * @author dev Beetrut
  *        
  */
 class Help extends MY_Controller {

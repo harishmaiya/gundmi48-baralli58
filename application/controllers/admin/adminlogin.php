@@ -3,7 +3,7 @@
 /**
  * 
  * This controller contains the functions related to admin management and login, forgot password
- * @author Teamtweaks
+ * @author dev Beetrut
  *
  */
 

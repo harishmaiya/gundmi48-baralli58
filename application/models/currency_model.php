@@ -3,7 +3,7 @@
 /**
  * 
  * This model contains all db functions related to user management
- * @author Teamtweaks
+ * @author dev Beetrut
  *
  */
 class Currency_model extends My_Model{

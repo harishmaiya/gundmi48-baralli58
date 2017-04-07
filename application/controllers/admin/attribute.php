@@ -4,7 +4,7 @@
  * 
  * This controller contains the functions related to Attribute management 
  * Attribute mentioned as 'List'
- * @author Teamtweaks
+ * @author dev Beetrut
  *
  */ 
 

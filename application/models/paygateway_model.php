@@ -3,7 +3,7 @@
 /**
  * 
  * This model contains all db functions related to gateway management
- * @author Teamtweaks
+ * @author dev Beetrut
  *
  */
 class Paygateway_model extends My_Model

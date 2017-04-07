@@ -3,7 +3,7 @@
 /**
  * 
  * This model contains all db functions related to admin management
- * @author Teamtweaks
+ * @author dev Beetrut
  *
  */
 class Admin_model extends My_Model

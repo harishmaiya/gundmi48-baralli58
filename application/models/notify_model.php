@@ -3,7 +3,7 @@
 /**
  * 
  * This model contains all db functions related to notifications
- * @author Teamtweaks
+ * @author dev Beetrut
  *
  */
 class Notify_model extends My_Model

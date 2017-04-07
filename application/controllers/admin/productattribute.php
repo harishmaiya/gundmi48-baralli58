@@ -4,7 +4,7 @@
  * 
  * This controller contains the functions related to Product Neighborhood Category management 
  * Neighborhood Category mentioned as 'Product Neighborhood Category'
- * @author Teamtweaks
+ * @author dev Beetrut
  *
  */ 
 

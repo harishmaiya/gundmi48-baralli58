@@ -3,7 +3,7 @@
 /**
  * 
  * This model contains all db functions related to listings management
- * @author Teamtweaks
+ * @author dev Beetrut
  *
  */
 class Listings_model extends My_Model{

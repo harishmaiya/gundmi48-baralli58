@@ -74,7 +74,7 @@ $(document).ready(function () {
 
                     <ul class="checkin-details-left cheks-status">
                         <li>
-                            <label>Check in:</label>
+                            <label>When:</label>
                             <span><?php echo date('Y-m-d',strtotime($product->checkin)); ?></span>
                         </li>
 

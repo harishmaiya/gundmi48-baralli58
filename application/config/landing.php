@@ -1,5 +1,5 @@
 <?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
-/** *  * Landing page functions * @author Teamtweaks * */
+/** *  * Landing page functions * @author dev Beetrut * */
 
 class Landing extends MY_Controller 
 {	

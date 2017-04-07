@@ -3,7 +3,7 @@
 /**
  * 
  * This model contains all db functions related to seller requests
- * @author Teamtweaks
+ * @author dev Beetrut
  *
  */
 class Seller_model extends My_Model

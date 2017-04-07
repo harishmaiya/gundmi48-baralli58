@@ -3,7 +3,7 @@
 /**
  * 
  * This model contains all db functions related to sub-admin management
- * @author Teamtweaks
+ * @author dev Beetrut
  *
  */
 class Subadmin_model extends My_Model
