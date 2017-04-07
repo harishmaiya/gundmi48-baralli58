@@ -342,7 +342,7 @@ CREATE TABLE IF NOT EXISTS `fc_admin_settings` (
 --
 
 INSERT INTO `fc_admin_settings` (`id`, `dropbox_email`, `dropbox_password`, `site_contact_mail`, `site_contact_number`, `email_title`, `google_verification`, `google_verification_code`, `google_redirect_url_db`, `facebook_link`, `twitter_link`, `tumblr_link`, `instagram_link`, `snapchat_link`, `pinterest`, `googleplus_link`, `linkedin_link`, `rss_link`, `youtube_link`, `footer_content`, `logo_image`, `home_logo_image`, `background_image`, `under_construction_image`, `videoUrl`, `currency_type`, `slider`, `meta_title`, `meta_keyword`, `meta_description`, `fevicon_image`, `watermark`, `facebook_api`, `facebook_secret_key`, `paypal_api_name`, `paypal_api_pw`, `paypal_api_key`, `authorize_net_key`, `paypal_id`, `paypal_live`, `smtp_port`, `smtp_uname`, `smtp_password`, `consumer_key`, `consumer_secret`, `google_client_secret`, `google_client_id`, `google_redirect_url`, `google_redirect_url_connect`, `google_developer_key`, `linkedin_app_id`, `linkedin_app_id1`, `linkedin_app_key1`, `linkedin_app_key`, `facebook_app_id`, `facebook_app_secret`, `like_text`, `unlike_text`, `liked_text`, `banner_text`, `site_pagination_per_page`, `twilio_account_sid`, `twilio_account_token`, `twilio_phone_number`, `google_map_api`, `home_title_1`, `home_title_2`, `home_title_3`, `home_title_4`, `s3_bucket_name`, `s3_access_key`, `s3_secret_key`, `instagram`) VALUES
-(1, '', '', 'muthukrishnan@teamtweaks.com', '', 'Renters', '', '', '', 'https://fb.com', 'https://twitter.com', '', '', '', 'https://in.pinterest.com/', 'https://google.com', '', '', 'https://youtube.com', 'Copyright 2016. Renters. All rights reserved.', 'admin_logo.png', 'renters-landing-logo.png', 'bg.jpg', 'coming-soon.jpg', 'https://www.youtube.com/embed/TmDKbUrSYxQ', 'USD', 'on', 'Renters', 'Renters', 'Renters', 'favicon.png', 'favicon.png', '', '', '', '', '', '', '', '', 0, '', '', '', '', 'Vs3K8gdo_KwCoVVhkT4j38cv', '664360393494-62f9726trsh73ggkdfgbbrkdmlb1516u.apps.googleusercontent.com', '', '', 'AIzaSyCgA3-jFEYPX8S1WAK_ASubjxrq8lEEMws', '', '', '', '', '', '', 'Like', 'Unlike', 'Like''d', '', 20, '', '', '', 'AIzaSyCgA3-jFEYPX8S1WAK_ASubjxrq8lEEMws', '', '', '', '', '', '', '', '');
+(1, '', '', 'muthukrishnan@gmail.com', '', 'Beetrut', '', '', '', 'https://fb.com', 'https://twitter.com', '', '', '', 'https://in.pinterest.com/', 'https://google.com', '', '', 'https://youtube.com', 'Copyright 2016. Beetrut. All rights reserved.', 'admin_logo.png', 'renters-landing-logo.png', 'bg.jpg', 'coming-soon.jpg', 'https://www.youtube.com/embed/TmDKbUrSYxQ', 'USD', 'on', 'Beetrut', 'Beetrut', 'Beetrut', 'favicon.png', 'favicon.png', '', '', '', '', '', '', '', '', 0, '', '', '', '', 'Vs3K8gdo_KwCoVVhkT4j38cv', '664360393494-62f9726trsh73ggkdfgbbrkdmlb1516u.apps.googleusercontent.com', '', '', 'AIzaSyCgA3-jFEYPX8S1WAK_ASubjxrq8lEEMws', '', '', '', '', '', '', 'Like', 'Unlike', 'Like''d', '', 20, '', '', '', 'AIzaSyCgA3-jFEYPX8S1WAK_ASubjxrq8lEEMws', '', '', '', '', '', '', '', '');
 
 -- --------------------------------------------------------
 
@@ -1776,8 +1776,8 @@ CREATE TABLE IF NOT EXISTS `fc_listspace` (
 --
 
 INSERT INTO `fc_listspace` (`id`, `attribute_name`, `attribute_description`, `status`, `dateAdded`, `attribute_seourl`) VALUES
-(9, 'Property Type', '', 'Active', '2016-09-16 03:31:34', 'propertytype'),
-(10, 'Room Type', '', 'Active', '2015-07-07 06:51:40', 'roomtype');
+(9, 'Ambiance', '', 'Active', '2016-09-16 03:31:34', 'propertytype'),
+(10, 'Venue Type', '', 'Active', '2015-07-07 06:51:40', 'roomtype');
 
 -- --------------------------------------------------------
 

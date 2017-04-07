@@ -6,7 +6,7 @@
  *
  */ 
 
-date_default_timezone_set('Asia/Kolkata'); 
+date_default_timezone_set('America/Los_Angeles');
 class MY_Controller extends CI_Controller {  
 	public $privStatus;	
 	public $data = array();
@@ -166,7 +166,7 @@ class MY_Controller extends CI_Controller {
     	$this->data['giftcard_status'] = $this->config->item('giftcard_status');
 		$this->data['sidebar_id'] = $this->session->userdata('session_sidebar_id');
 		$this->data['loginCheck'] = $this->checkLogin('U');
-		/****** Stay signed in process added by siva(23-10-2015)****/
+		/****** Stay signed in process added by ****/
 		if($this->checkLogin('U')==''){
 			$UserCookieData = $this->input->cookie("renters_newuser");
 			if($UserCookieData != ''){
