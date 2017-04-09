@@ -51,7 +51,8 @@ else
      $response = $pageContent;
 	 //echo "<pre>";print_r($response);//die;
      $params = null;
-     parse_str($response, $params);
+     /*parse_str($response, $params);*/
+	 $params = (array)json_decode($response);
 
      $_SESSION['access_token'] = $params['access_token'];
 

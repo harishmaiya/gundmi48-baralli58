@@ -39,7 +39,7 @@
 <tr>
 <td style=\"padding: 0px 20px; color: #444444; font-family: Open Sans, Arial, Helvetica, sans-serif; font-size: 13px;\" align=\"left\" valign=\"middle\">
 <p>Thanks!</p>
-<p><span style=\"color: #000000;\"><strong> Renters Team</strong></span></p>
+<p><span style=\"color: #000000;\"><strong> Beetrut Team</strong></span></p>
 </td>
 </tr>
 <tr>

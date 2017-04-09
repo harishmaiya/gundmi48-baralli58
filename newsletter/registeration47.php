@@ -55,7 +55,7 @@
 <tr>
 <td align=\"left\" valign=\"middle\">
 <p>Thanks!</p>
-<p>The Renters Team</p>
+<p>Beetrut Team</p>
 </td>
 </tr>
 <tr>

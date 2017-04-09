@@ -42,7 +42,7 @@
 <tr>
 <td style=\"padding: 0px 20px; color: #444444; font-family: Open Sans, Arial, Helvetica, sans-serif; font-size: 13px;\" align=\"left\" valign=\"middle\">
 <p>Thanks!</p>
-<p>The Renters Team</p>
+<p>Beetrut Team</p>
 </td>
 </tr>
 <tr>
