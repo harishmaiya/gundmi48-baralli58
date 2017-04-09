@@ -198,7 +198,6 @@ class My_Model extends CI_Model {
 		}
 		$file = 'fc_admin_action_settings.php';
 		file_put_contents($file, $config);
-		vinu@teamtweaks.com
 		*/
 		
 		
