@@ -500,19 +500,19 @@ $dataArr[$field_name] = $values_list;
                       <div id="tab6">
             <ul>
                       <h4>Listing Info:</h4>
+	      <li>
+                <div class="form_grid_12">
+                  <label class="field_title" for="confirm_email">Room Type</label>
+                  <div class="form_input">
+                  <?php echo ucfirst($product_details->row()->room_type); ?>
+                  </div>
+                </div>
+              </li>
               <li>
                 <div class="form_grid_12">
                   <label class="field_title" for="confirm_email">Property Type</label>
                   <div class="form_input">
                   <?php echo ucfirst($product_details->row()->home_type); ?>
-                  </div>
-                </div>
-              </li>
-			  <li>
-                <div class="form_grid_12">
-                  <label class="field_title" for="confirm_email">Room Type</label>
-                  <div class="form_input">
-                  <?php echo ucfirst($product_details->row()->room_type); ?>
                   </div>
                 </div>
               </li>

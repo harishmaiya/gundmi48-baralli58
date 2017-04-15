@@ -757,18 +757,7 @@ function displydesc7(elem) {
 								<span><?php if($this->lang->line('bed_type') != '') { echo stripslashes($this->lang->line('bed_type')); } else echo "Bed type";?>: </span>
 								<label><?php echo stripslashes(ucfirst($product->bed_type)); ?></label>
 							</li> <?php } ?>
-							<?php if($product->home_type !=''){?>
-							<li>
-								<span><?php if($this->lang->line('property_type') != '') { echo stripslashes($this->lang->line('property_type')); } else echo "Property type";?>:</span>
-								<?php if($product->home_type > 0 ){?>
-								<?php $condition=array('id'=>$product->home_type);
-								$listspace_values = $this->product_model->get_all_details(LISTSPACE_VALUES, $condition);?>
-								<label><?php echo $listspace_values->row()->list_value;?></label>
-								<?php } else { ?>
-								<label><?php echo stripslashes(ucfirst($product->home_type)); ?></label>
-								<?php } ?>
-							</li>
-							<?php } if(trim($product->room_type)!= ''){ ?>
+							<?php if(trim($product->room_type)!= ''){ ?>
 							<li>
 								<span><?php if($this->lang->line('room_type') != '') { echo stripslashes($this->lang->line('room_type')); } else echo "Room type";?>:</span>
 								<?php if($product->room_type > 0 ){?>
@@ -777,6 +766,17 @@ function displydesc7(elem) {
 								<label><?php echo $listspace_values->row()->list_value;?></label>
 								<?php } else { ?>
 								<label><?php echo stripslashes(ucfirst($product->room_type)); ?></label>
+								<?php } ?>
+							</li>
+							<?php } if($product->home_type !=''){?>
+							<li>
+								<span><?php if($this->lang->line('property_type') != '') { echo stripslashes($this->lang->line('property_type')); } else echo "Property type";?>:</span>
+								<?php if($product->home_type > 0 ){?>
+								<?php $condition=array('id'=>$product->home_type);
+								$listspace_values = $this->product_model->get_all_details(LISTSPACE_VALUES, $condition);?>
+								<label><?php echo $listspace_values->row()->list_value;?></label>
+								<?php } else { ?>
+								<label><?php echo stripslashes(ucfirst($product->home_type)); ?></label>
 								<?php } ?>
 							</li>
 							<?php } if($product->noofbathrooms !=''){?>
