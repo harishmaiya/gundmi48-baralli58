@@ -589,8 +589,8 @@ $( "#txtToDate" ).datepicker( "option", "minDate", selectedDate1 );
 			<li title="<?php echo $category->attribute_name;?>" data-tooltip-position="left" rel="tooltip" class="clearfix showlist5 showlist6">
 				<h6 class="span2 filter-label  left-widt"><?php echo $category->attribute_name;?></h6>
 				<?php
-				for($i=0;$i<3;$i++){
-					if($i==0){
+				for($i=0;$i<6;$i++){
+					if($i==0 or $i==3){
 					echo '<div class="right-arel onclk-hide">';
 					}
 				if($sec_category[$category->id][$i]['list_value'] != '') {
@@ -605,8 +605,8 @@ $( "#txtToDate" ).datepicker( "option", "minDate", selectedDate1 );
 						echo '</div><div class="drop4btn"><i class="caret"></i></div>';
 					}
 				}
-				for($j=3;$j<$sec_categ_loop_count;$j++){
-					if($j==3){
+				for($j=6;$j<$sec_categ_loop_count;$j++){
+					if($j==6){
 						echo '<div class="right-arel">';
 					}
 				?>

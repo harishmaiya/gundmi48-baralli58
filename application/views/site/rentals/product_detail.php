@@ -759,7 +759,7 @@ function displydesc7(elem) {
 							</li> <?php } ?>
 							<?php if(trim($product->room_type)!= ''){ ?>
 							<li>
-								<span><?php if($this->lang->line('room_type') != '') { echo stripslashes($this->lang->line('room_type')); } else echo "Room type";?>:</span>
+								<span><?php if($this->lang->line('room_type') != '') { echo stripslashes($this->lang->line('room_type')); } else echo "Venue type";?>:</span>
 								<?php if($product->room_type > 0 ){?>
 								<?php $condition=array('id'=>$product->room_type);
 								$listspace_values = $this->product_model->get_all_details(LISTSPACE_VALUES, $condition);?>
@@ -987,7 +987,7 @@ function displydesc7(elem) {
 					<span class="left-space"><?php if($this->lang->line('availability') != '') { echo stripslashes($this->lang->line('availability')); } else echo "Availability";?></span>
 					<div class="right-space space-descri-area">
 					<?php if($product->minimum_stay !=0 ){?>
-					<ul><li class="minstwy"><span><?php if($this->lang->line('min_stay') != '') { echo stripslashes($this->lang->line('min_stay')); } else echo "Minimum Stay";?>:</span> <label> <?php echo $product->minimum_stay; 	if($product->minimum_stay==1){echo "	night";}else {echo " nights";}?></label></li></ul>
+					<ul><li class="minstwy"><span><?php if($this->lang->line('min_stay') != '') { echo stripslashes($this->lang->line('min_stay')); } else echo "Minimum Duration";?>:</span> <label> <?php echo $product->minimum_stay; 	if($product->minimum_stay==1){echo "	hour";}else {echo " hours";}?></label></li></ul>
 					<?php }?><li>
 					<a class="viwe-text" href="javascript:void(0);" id="datepicker_view"><?php if($this->lang->line('view_calendar') != '') { echo stripslashes($this->lang->line('view_calendar')); } else echo "View Calendar";?></a>
 					</li>
@@ -1042,7 +1042,7 @@ if($user_reviewData !=''){
 <?php  if($total_review == 0){?>
 <div class="reviw-not-show">
 <h4 class="row-revw-yet"><?php if($this->lang->line('no_review_msg') != '') { echo stripslashes($this->lang->line('no_review_msg')); } else echo "No Reviews Yet";?>  </h4>
-<p> <?php if($this->lang->line('review_msg_to_review') != '') { echo stripslashes($this->lang->line('review_msg_to_review')); } else echo "Stay here and you could give this host their first review! ";?></p>
+<p> <?php if($this->lang->line('review_msg_to_review') != '') { echo stripslashes($this->lang->line('review_msg_to_review')); } else echo "Book here and you could give this host their first review! ";?></p>
 </div>
 <?php }else {?>
 
@@ -2394,7 +2394,7 @@ data:{'dateval':between.join(','),'pid':$("#prd_id").val(),'price':price,'check_
 
 success:function(response){
 if(response == 'booking'){
-$("#booking_details").html('<p>Dates already booked in between days</p>');
+$("#booking_details").html('<p>Dates already booked in between hours</p>');
 }else{
 $("#booking_details").hide();
 $('#price_div').html(response);
@@ -2438,7 +2438,7 @@ return false;
 
 {
 
-sweetAlert("Oops...", "Minimum Stay Shoud be "+<?php echo $productDetails->row()->minimum_stay;?>+" Days", "error");
+sweetAlert("Oops...", "Minimum duration Shoud be "+<?php echo $productDetails->row()->minimum_stay;?>+" Hours", "error");
 $('#contactMsg').hide();
 return false;
 
@@ -2536,7 +2536,7 @@ else if('<?php echo $productDetails->row()->minimum_stay;?>'> diffDays)
 
 {
 
-sweetAlert("Oops...", "Minimum Stay Shoud be "+<?php echo $productDetails->row()->minimum_stay;?>+" Days", "error");
+sweetAlert("Oops...", "Minimum duration should be "+<?php echo $productDetails->row()->minimum_stay;?>+" Hours", "error");
 
 return false;
 

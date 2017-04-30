@@ -213,7 +213,7 @@ class Product extends MY_Controller {
 		}
 		//echo "<pre>"; print_r($logoDetails); die;
 		foreach($logoDetails as $fileVal){
-			if($fileVal['image_width']>=1000 && $fileVal['image_height']>=700 ){
+			if($fileVal['image_width']>=500 && $fileVal['image_height']>=350 ){
 				$image_name=$fileVal['file_name'];
 				$sliderUploadedData = array($this->upload->data());
 				$this->ImageResizeWithCrop(1280, 960, $image_name, $uploaddir);
@@ -256,7 +256,7 @@ class Product extends MY_Controller {
 		}
 		//print_r($files); die;
 		if(!empty($files)){
-			$this->session->set_userdata(array('sweet_alert' => 'Upload Image size should be greater than 1000px X 700px'));	
+			$this->session->set_userdata(array('sweet_alert' => 'Upload Image size should be greater than 500px X 350px'));	
 		}
 		
 		if(!empty($error)){
